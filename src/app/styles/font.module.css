@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+/*Roboto*/
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*Sora*/
+
+.sora-light {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.sora-regular {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.sora-medium {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sora-bold {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.sora-black {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*krona-one*/
+
+
+
+.krona-one-light {
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+.krona-one-medium {
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.krona-one-bold {
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.krona-one-black {
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*Cores de fonte*/
+
+
+.font-white{
+  color: var(--white);
+}
+
+.font-black {
+  color: var(--black);
+}
+
+/*Tamanho de fonte*/
+
+.sc-fz-16 {
+  font-size: 16px;
+}
+
+.sc-fz-18 {
+  font-size: 18px;
+}
+
+.sc-fz-36 {
+  font-size: 36px;
+}
+
+
+.sc-fz-48 {
+  font-size: 48px;
+}
