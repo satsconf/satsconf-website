@@ -1,0 +1,46 @@
+.grid-container-ImagesConvidadosDestaque {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(322px, 1fr)); /* Grid com 5 imagens por linha */
+    gap: 14px; /* Espaçamento entre as imagens */
+    justify-items: center; /* Centraliza as imagens horizontalmente */
+    padding: 0 14px; /* Margem para centralizar o grid */
+}
+
+.containerImagesConvidadosDestaque img {
+    position: relative;
+    width: 368px;
+    height: 420px;
+  
+   
+}
+
+.containerImagesBoxDestaque {
+    position: relative;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 197px;
+    height: 100px;
+    margin-bottom: 65px;
+    text-align: center;
+    background-color: white; /* Fundo branco */
+    border-top: 5px solid; /* Adicione sua cor ou estilo de borda aqui */
+    border-image: linear-gradient(90deg, #B32FE0 -363.21%, #FFB126 115.16%); /* Gradiente linear como borda */
+    border-image-slice: 1; /* Certifique-se de ajustar a largura da borda conforme necessário */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    cursor: pointer;
+    
+}
+
+.containerImagesBoxDestaque h3{
+    margin-top: 25px;
+    
+}
+
+/* Estilos específicos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .grid-container-ImagesConvidadosDestaque  {
+    grid-template-columns: repeat(1fr); /* Duas imagens por linha */
+    padding: 0 14px; /* Margem para centralizar o grid */
+  }
+}
