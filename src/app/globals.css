@@ -15,10 +15,12 @@
     --color-primary: rgba(64, 33, 89, 1);
     --background: #14081e;
     --background-secondary: rgba(29, 13, 43, 1);
+    --background-tertiary: rgb(58, 28, 83);
     --font-krona-one-regular: "Krona One", sans-serif;
     --font-sora: "Sora", sans-serif;
-
-
+    --color-orange: #ffb126;
+    --color-roxo: #b32fe0;
+   
 }
 
 
