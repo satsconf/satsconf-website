@@ -1,14 +1,22 @@
 .bgContainerCronograma {
   width: 100%;
-  height: 140rem;
+  height: 90rem;
   padding-top: 16px;
-  text-align: center ;
   color: var(--white);
 
 }
 
 .bgContainerCronograma h3 {
   margin-bottom: 88px;
+  text-align: center;
+}
+
+.bgContainerCronograma h4{
+  text-align: center;
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .boxCronograma {
@@ -24,33 +32,75 @@
     height: 506px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */ 
-    text-align: center;
     padding: 16px;
     border-radius: 50px;  
     padding: 45px;
+    box-sizing: border-box;
+
     
   }
+
+  .boxCronograma p {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
+
+.imageCronograma {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin: 48px 0;
+}
+
+.boxCronograma h4 {
+  display: block;
+  width: 236px;
+  height: 46px;
+  text-align: center;
+  align-content: center;
+  text-transform: unset ;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 23px;
+
+}
+
+.boxItemCronograma span{
+  display: block;
+  width: 236px;
+  height: 46px;
+  text-align: center;
+  align-content: center;
+  text-transform: unset ;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 23px;
+  margin-top: 58px;
+}
+
+
 
 .boxItemCronograma:active {
   border: 1px solid var(--color-orange);
 }
 
-.backgroundBottom {
-  position: relative; /* Garante que o position absolute do pseudo-elemento seja relativo a este container */
+.imageSatsParty {
+  width: 178.74px;
+  height: 89.8px;
+
+
 }
 
-.backgroundBottom::before {
-  content: '';
-  position: absolute;
-  bottom: -88px;
-  left: -4%; /* Posiciona o elemento no meio do container */
-  transform: translateY(10%) rotate(-3deg); /* Rotaciona o elemento em -45 graus */
-  width: 120%; /* Aumenta a largura para cobrir toda a largura do container */
-  height: 480px; /* Altura da borda */
-  background-color: var(--background-tertiary);
-}
+@media screen and (max-width: 768px) {
+  .bgContainerCronograma {
+    height: 140rem; /* Ajuste este valor conforme necessário */
+  }
 
+  .btnCronograma {
+    font-size: 16px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -88,7 +138,7 @@
   @media screen and (min-width: 1025px) and (max-width: 1199px) {
   
   .bgContainerGarante {
-    height: 110rem;
+    height: 80rem;
   }
   }
 
@@ -96,6 +146,8 @@
   @media screen and (min-width: 1225px) and (max-width: 2199px) {
   
     .bgContainerGarante {
-      height: 100rem;
+      height: 80rem;
     }
     }
+
+  
