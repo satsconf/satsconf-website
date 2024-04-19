@@ -1,0 +1,38 @@
+.bgContainerBlog {
+width: 100%;
+height: 40rem;
+}
+
+
+.bgContainerBlog h2 {
+  text-align: center;
+  margin: 28px 0;
+}
+
+.boxBlog{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define uma largura mínima para as colunas */
+    grid-auto-flow: column; /* Faz com que os itens da grade sejam colocados em colunas em vez de linhas */
+    grid-column-gap: 16px;
+    overflow-x: auto; /* Habilita a rolagem horizontal se os itens da grade excederem a largura da caixa */
+
+}
+
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 4; }
+.div3 { grid-area: 1 / 4 / 2 / 5; }
+
+.div1, .div2, .div3 {
+    height: 450px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .boxBlog {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Ajusta o tamanho mínimo da coluna para telas menores */
+    }
+  }

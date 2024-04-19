@@ -1,0 +1,57 @@
+
+.bgContainerConvidadosDestaque {
+  width: 100%;
+  height: 54rem;
+  margin: 0 auto;
+}
+
+.boxprincipalConvidadoDestaque {
+  width: 974px;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 248px;
+
+}
+.sc-mgem-16 {
+  width: 100%;
+  margin: 38px 16px;
+
+}
+
+/* Estilos específicos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  .bgContainerConvidadosDestaque {
+    width: 349px;
+    height: 80rem;
+
+  }
+
+  .bgContainerConvidadosDestaque .boxprincipalConvidadoDestaque h2 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  
+  .boxprincipalConvidadoDestaque {
+    width: 100%; /* Define a largura para automática */
+    height: auto; /* Define a altura para automática */
+    padding-top: 200px; /* Ajusta o espaçamento superior conforme necessário */
+  }
+
+  .boxprincipalConvidadoDestaque span {
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+  }
+
+  .boxprincipalConvidadoDestaque h2 {
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bgContainerConvidadosDestaque {
+    width: 100%;
+    height: 80rem;
+
+  }
+}

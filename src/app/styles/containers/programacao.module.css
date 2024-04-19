@@ -1,0 +1,72 @@
+
+/* styles.module.css */
+.gridProgramacao {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Define as colunas */
+    gap: 10px; /* Espaçamento entre os eventos */
+}
+.bgContainerProgramação {
+  height: 80rem;
+  width: 558px;
+  margin: 0 auto;
+  padding: 180px 0;
+
+}
+
+.boxPalco {
+  padding-top: 94px;
+}
+
+.containerPalcoTitle {
+  display: flex;
+  justify-content: space-around;  
+  color:  #fff;
+    
+}
+.cronograma {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .boxPalco {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+
+    margin-bottom: 10px;
+  }
+  
+  .boxPalco h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+   
+  }
+  
+  .evento {
+    width: 249px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.22);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .evento h3 {
+    margin: 0;
+  }
+  
+  .evento p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  .intervalo {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+  }

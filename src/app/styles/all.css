@@ -1,13 +1,3 @@
-@import "@/app/styles/navbar.module.css";
-@import "@/app/styles/imagesconvidados.module.css";
-@import "@/app/styles/footer.module.css";
 @import "@/app/styles/font.module.css";
-@import "@/app/styles/convidadodestaque.module.css";
-@import "@/app/styles/button.module.css";
-@import "@/app/styles/boxsobre.module.css";
-@import "@/app/styles/boxprincipal.module.css";
-@import "@/app/styles/boxpatrocinadores.module.css";
-@import "@/app/styles/boxparceiros.module.css";
-@import "@/app/styles/boxcronograma.module.css";
-@import "@/app/styles/boxbeneficios.module.css";
-@import "@/app/styles/boxgarante.module.css";
+@import "@/app/styles/containers/all.css";
+@import "@/app/styles/ui/all.css";

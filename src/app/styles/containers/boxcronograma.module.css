@@ -1,0 +1,153 @@
+.bgContainerCronograma {
+  width: 100%;
+  height: 90rem;
+  padding-top: 16px;
+  color: var(--white);
+
+}
+
+.bgContainerCronograma h3 {
+  margin-bottom: 88px;
+  text-align: center;
+}
+
+.bgContainerCronograma h4{
+  text-align: center;
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boxCronograma {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 28px;
+  padding: 0; /* Remove o padding padrão da lista */
+
+  & .boxItemCronograma {
+    width: 324px;
+    height: 506px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */ 
+    padding: 16px;
+    border-radius: 50px;  
+    padding: 45px;
+    box-sizing: border-box;
+
+    
+  }
+
+  .boxCronograma p {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.imageCronograma {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin: 48px 0;
+}
+
+.boxCronograma h4 {
+  display: block;
+  width: 236px;
+  height: 46px;
+  text-align: center;
+  align-content: center;
+  text-transform: unset ;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 23px;
+
+}
+
+.boxItemCronograma span{
+  display: block;
+  width: 236px;
+  height: 46px;
+  text-align: center;
+  align-content: center;
+  text-transform: unset ;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 23px;
+  margin-top: 58px;
+}
+
+
+
+.boxItemCronograma:hover {
+  border: 1px solid var(--color-orange);
+}
+
+.imageSatsParty {
+  width: 178.74px;
+  height: 89.8px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .bgContainerCronograma {
+    height: 140rem; /* Ajuste este valor conforme necessário */
+  }
+
+  .btnCronograma {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .bgContainerGarante {
+    height: 100rem;
+  }
+    }
+  
+  @media screen and (min-width: 320px) and (max-width: 568px) {
+    /* Estilos específicos para dispositivos com largura de tela de 320x568 */
+  
+  
+  .bgContainerGarante {
+    height: 140rem;
+  }
+  }
+  
+  
+  @media screen and (min-width: 375px) and (max-width: 812px) {
+    
+  
+  .bgContainerGarante {
+    height: 150rem;
+  }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  .bgContainerGarante {
+    height: 150rem;
+  }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1199px) {
+  
+  .bgContainerGarante {
+    height: 140rem;
+  }
+  }
+
+
+  @media screen and (min-width: 1225px) and (max-width: 2199px) {
+  
+    .bgContainerGarante {
+      height: 140rem;
+    }
+    }
+
+  

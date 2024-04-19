@@ -1,0 +1,140 @@
+/* Container styles Box Principal - Home */
+
+.bgContainerPrincipal {
+    width: 100%;
+    height: 55rem;
+    margin: 0 16px 0 16px;
+}
+
+.boxprincipal {
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 200px;
+
+}
+
+.sc-bg-container {
+    width:380px;
+}
+
+.boxprincipal span,
+.boxprincipal h1 {
+  color: var(--white);
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.btningresso-img {
+    padding: 36px;
+}
+@media screen and (max-width: 767px) {
+    /* Estilos específicos para dispositivos móveis */
+    .bgContainer {
+        height: 50rem; /* Reduzindo a altura do contêiner */
+    }
+    
+    .boxprincipal {
+        padding-top: 200px; /* Reduzindo o espaço superior */
+    }
+  
+    .sc-bg-container {
+        width: 330px; /* Usando a largura total para dispositivos móveis */
+        text-align: center; /* Centralizando o texto */
+        margin-bottom: 20px; /* Adicionando espaço entre o texto e os botões */
+    }
+  
+    .btningresso-img {
+        display: none;
+        padding: 20px; /* Reduzindo o padding da imagem */
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Altere para telas maiores */
+      
+    .boxprincipal {
+       width:  974px;
+      justify-content: space-between;
+      margin-top: -80px;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    /* Estilos específicos para dispositivos com largura de tela de 320x568 */
+    .boxprincipal {
+        padding: 247px 0px; /* Reduzindo o espaço superior */
+    }
+  
+    .sc-bg-container {
+        width: 300px; /* Usando a largura total */
+        margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
+    }
+  
+    .btningresso-img {
+        padding: 10px; /* Reduzindo o padding da imagem */
+    }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    /* Estilos específicos para dispositivos com largura de tela de 375x812 */
+    .boxprincipal {
+        padding-top: 200px; /* Reduzindo o espaço superior */
+    }
+  
+    .sc-bg-container {
+        max-width: 100%; /* Usando a largura total */
+        margin-bottom: 15px; /* Adicionando espaço entre o texto e os botões */
+    }
+  
+    .btningresso-img {
+        padding: 15px; /* Reduzindo o padding da imagem */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos específicos para tablets */
+    
+
+.boxprincipal span,
+.boxprincipal h1 {
+  color: var(--white);
+  font-size: 48px;
+}
+
+    .boxprincipal {
+        height: auto;
+        margin: 88px 0;
+    }
+  
+    .sc-bg-container {
+        width: 700px; /* Reduzindo o tamanho do contêiner para tablets */
+    }
+  
+    .btningresso-img {
+        display: none;
+        margin-right: 180px ;
+        padding: 20px; /* Reduzindo o padding da imagem para tablets */
+    }
+
+    
+    .boxprincipal span {
+      font-size: 20px;
+
+    }
+  }
+
+  

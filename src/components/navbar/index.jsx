@@ -1,8 +1,8 @@
 import Link from "next/link";
 import "@/app/globals.css";
 
-import MeuComponenteLogo from "@/components/images/MeuComponenteLogo/index";
-import BtnIngresso from "@/components/ui/button/BtnIngresso/index";
+import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo/index";
+import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index";
 
 const Navbar = () => {
   return (

@@ -1,0 +1,76 @@
+/* GridContainer.css */
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center; /* Centraliza o grid horizontalmente */
+    grid-template-columns: 1fr;
+    /* Um bloco por linha em dispositivos móveis */
+    gap: 25px;
+    /* Espaçamento entre os blocos */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px 50px 20px;
+}
+
+.block {
+    padding: 104px 16px;
+    border-radius: 8px;
+}
+
+.block h2, .block h3 {
+  font-family: var(--font-krona-one-regular);
+  font-weight: 400;
+  margin-bottom: 16px;
+
+}
+
+
+.block .content {
+    width: 100%;
+    font-family: var(--font-sora);
+    font-weight: 300;
+
+
+}
+.title {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+
+.item {
+    height: auto;
+    margin: 48px 0px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 32px;
+
+    
+}
+
+.icon {
+    font-size: 24px; /* Defina o tamanho desejado para os ícones */
+}
+
+.containerVideo {
+    display: block;
+    padding-bottom: 350px;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* Altere para dois blocos lado a lado em telas maiores */
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .block {
+        padding: 153px 95px;
+        border-radius: 8px;
+
+    }
+}
