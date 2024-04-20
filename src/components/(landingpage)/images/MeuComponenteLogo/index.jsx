@@ -1,8 +1,9 @@
 const MeuComponenteLogo = () => {
   return (
-    <svg width="214" height="42">
-      <image href="/satsconf-logo.svg" width="214px" height="42px" alt="" />
-    </svg>
+    <div className="logoContainer">
+      <img src="/satsconf-logo.svg" alt="Satsconf 2024" />
+    </div>
+  
   );
 };
 

@@ -5,26 +5,26 @@ const ImagesConvidadosDestaque = () => {
          <div className="ContainerImagemConvidadosDestaque">
         {/* imagem um */}
         <div className="containerConvidadosDestaque ">
-        <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+        <img src="/palestrante-destaque-satsconf.jpg" alt="" className="imageConvidados" />
         <div className="containerImagesBoxDestaque">
-            <h3>Chili Mili</h3>
-            <span>CEO & Founder</span>
+        <h3>Em breve!</h3>
+            <span>...</span>
         </div>
       </div>
        {/* imagem dois */}
        <div className="containerConvidadosDestaque">
-        <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+        <img src="/palestrantes-sats-conf-destaque-dia.jpg" alt="" className="imageConvidados" />
         <div className="containerImagesBoxDestaque">
-            <h3>Chili Mili</h3>
-            <span>CEO & Founder</span>
+        <h3>Em breve!</h3>
+            <span>...</span>
         </div>
       </div>
        {/* imagem tres */}
        <div className="containerConvidadosDestaque">
-        <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+        <img src="/satsconf-convidado-destaque-ano.jpg" alt="" className="imageConvidados" />
         <div className="containerImagesBoxDestaque">
-            <h3>Chili Mili</h3>
-            <span>CEO & Founder</span>
+            <h3>Em breve!</h3>
+            <span>...</span>
         </div>
       </div>  
    

@@ -5,98 +5,98 @@ const BoxConvidadosGlobais =  () => {
         <div className="containerConvidadosDestaque containerConvidadosDestaqueGlobais  bgContainerPalestrantes" id="convidado">
       {/* imagem um */}
       <div className="containerImagesConvidadosGerais ">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados"/>
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados"/>
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+          <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem dois */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque" id="convidado">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem tres */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
        {/* imagem quadro */}
        <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
        {/* imagem cinco */}
        <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem cinco */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem cinco */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem cinco */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem cinco */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
      {/* imagem cinco */}
      <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
       {/* imagem cinco */}
       <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
       {/* imagem cinco */}
       <div className="containerImagesConvidadosGerais">
-      <img src="/palestrante.jpg" alt="" className="imageConvidados" />
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
       <div className="containerImagesBoxDestaque">
-          <h3>Chili Mili</h3>
-          <span>CEO & Founder</span>
+      <h3>Em breve!</h3>
+          <span>...</span>
       </div>
     </div>
     </div>
