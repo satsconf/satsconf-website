@@ -1,3 +1,31 @@
+
+.hamburgerBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 24px;
+    margin: 5px; /* Adicione um espaçamento à direita para separar o botão do logo */
+  }
+
+  /* Menu visível apenas em dispositivos móveis */
+  .navMenu.showMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px; /* Ajuste conforme necessário */
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 10px; /* Adicione espaçamento interno */
+    border-radius:  10px; /* Adicione borda arredondada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra */
+  }
+  
+  .navMenu.showMenu li {
+    margin: 10px 0; /* Espaçamento entre os itens do menu */
+  }
+  
 .navContainer {
     display: flex;
     justify-content: space-around;
@@ -35,6 +63,10 @@
     color: var(--white);
     font-size: 12px;
     line-height: 15.12px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     
 }
 
@@ -48,20 +80,60 @@
     justify-content: center;
     align-items: center;
 }
-
+/* 
 /* Ajuste para dispositivos menores */
 @media screen and (max-width: 768px) {
+
+  .navLogo{
+    margin: 0 5px 0 0;
+  }
+   
+.nav {
+    width: 100%;
+    justify-content: normal;
+}
+.navContainer ul {
+    display: none;
+}
     .navBorder {
-      width: 90%; /* Reduz a largura do contêiner */
+      width: 370px; /* Reduz a largura do contêiner */
       padding: 10px; /* Adiciona um espaçamento interno menor */
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
   
     .navContainer {
-      flex-direction: column; /* Altera para layout de coluna em dispositivos menores */
-      align-items: flex-start; /* Alinha os itens à esquerda */
+      flex-direction: row; /* Altera para layout de coluna em dispositivos menores */
+      align-items: center; /* Alinha os itens à esquerda */
+    } 
+
+  }
+
+  
+  /* Ajuste para dispositivos menores */
+  @media screen and (min-width: 768px){
+
+
+
+    .hamburgerBtn {
+      display: none; /* Oculta o botão hamburguer em telas maiores */
     }
   
+    .navMenu.showMenu {
+      display: none; /* Oculta o menu em telas maiores */
+    }
+    
+  }
 
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .nav {
+        width: 45%; 
+
+    
+    }
   }
