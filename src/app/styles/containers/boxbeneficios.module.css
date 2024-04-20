@@ -1,23 +1,26 @@
-.bgContainerBeneficios {
-    width: 100%;
-    height: 230px;
-    background-color: var(--background-secondary);
-    display: block;
+.containerCentralizadoBeneficios {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* Evita o estouro horizontal */
 }
 
+.bgContainerBeneficios {
+  width: 100%;
+  height: 230px;
+  background-color: var(--background-secondary);
+  display: block;
+}
 
 .btnBeneficios {
-    height: 63px;
-    padding: 20px 35px 20px 35px;
-    border-radius: 80px;
-    margin: 33px 0 0 0;
-    background-color: var(--color-primary);
-    display: flex;
-  }
-
-
+  height: 63px;
+  padding: 20px 85px 20px 85px;
+  border-radius: 80px;
+  margin: 33px 0 0 0;
+  background-color: var(--color-primary);
+  display: flex;
+}
 
 .containerBotoes {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
