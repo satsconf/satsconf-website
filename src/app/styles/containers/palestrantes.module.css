@@ -45,9 +45,12 @@
 
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
+
+
+    
   .bgContainerPalestrantes  {
     grid-template-columns: repeat(1fr); /* Duas imagens por linha */
-    padding: 130px 14px; /* Margem para centralizar o grid */
+    padding: 640px 14px; /* Margem para centralizar o grid */
   }
 }
 

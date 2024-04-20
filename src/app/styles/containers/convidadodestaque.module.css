@@ -22,13 +22,13 @@
 @media screen and (max-width: 768px) {
   .bgContainerConvidadosDestaque {
     width: 349px;
-    height: 80rem;
+    height: 65rem;
 
   }
 
   .bgContainerConvidadosDestaque .boxprincipalConvidadoDestaque h2 {
     width: 100%;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.5;
   }
   

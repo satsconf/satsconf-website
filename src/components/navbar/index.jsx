@@ -1,16 +1,15 @@
-"use client"
+"use client";
 
 import Link from "next/link";
-import  { useState }  from "react";
-import { FaBars } from "react-icons/fa";
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "@/app/globals.css";
 
 import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo/index";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index";
 
 const Navbar = () => {
-
-    // Estado para controlar a exibição do menu hamburguer
+  // Estado para controlar a exibição do menu hamburguer
   const [showMenu, setShowMenu] = useState(false);
 
   // Função para alternar a visibilidade do menu hamburguer
@@ -22,17 +21,15 @@ const Navbar = () => {
     <nav className="nav">
       <div className="navBorder">
         <div className="navContainer">
-
-       
           {/* link para pagina inicial da landingpage*/}
           <div className="navLogo">
-          <Link href="/">
-            <div className="logo">
-              <MeuComponenteLogo />
-            </div>
-          </Link>
+            <Link href="/">
+              <div className="logo">
+                <MeuComponenteLogo />
+              </div>
+            </Link>
           </div>
-    
+
           <ul className={`navMenu ${showMenu ? "showMenu" : ""}`}>
             <li>
               <Link href="/">HOME</Link>
@@ -51,16 +48,17 @@ const Navbar = () => {
             </li>
           </ul>
           <div>
-          <BtnIngresso url="https://www.example.com">Comprar Ingresso </BtnIngresso>
+            <BtnIngresso url="https://www.example.com">
+              Comprar Ingresso{" "}
+            </BtnIngresso>
           </div>
-         <div>
-         <button className="hamburgerBtn" onClick={toggleMenu}>
-            <FaBars />
-          </button>
-         </div>
-       
+          <div>
+            <button className="hamburgerBtn" onClick={toggleMenu}>
+              {showMenu ? <FaTimes /> : <FaBars />}
+            </button>
+          </div>
         </div>
-      </div> 
+      </div>
     </nav>
   );
 };

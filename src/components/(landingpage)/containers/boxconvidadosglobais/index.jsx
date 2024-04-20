@@ -99,6 +99,30 @@ const BoxConvidadosGlobais =  () => {
           <span>...</span>
       </div>
     </div>
+        {/* imagem cinco */}
+        <div className="containerImagesConvidadosGerais">
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
+      <div className="containerImagesBoxDestaque">
+      <h3>Em breve!</h3>
+          <span>...</span>
+      </div>
+    </div>
+        {/* imagem cinco */}
+        <div className="containerImagesConvidadosGerais">
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
+      <div className="containerImagesBoxDestaque">
+      <h3>Em breve!</h3>
+          <span>...</span>
+      </div>
+    </div>
+        {/* imagem cinco */}
+        <div className="containerImagesConvidadosGerais">
+      <img src="/palestrantes-satsconf.png" alt="" className="imageConvidados" />
+      <div className="containerImagesBoxDestaque">
+      <h3>Em breve!</h3>
+          <span>...</span>
+      </div>
+    </div>
     </div>
       <div>
      
