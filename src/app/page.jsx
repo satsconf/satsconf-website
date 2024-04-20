@@ -1,4 +1,4 @@
-import BlogContainer from "@/components/(landingpage)/containers/blog";
+
 import BoxBeneficios from "@/components/(landingpage)/containers/boxbeneficios";
 
 import BoxCronograma from "@/components/(landingpage)/containers/boxcronograma";
@@ -19,7 +19,6 @@ const Home = () => {
             <BoxGarante />
             <BoxCronograma />
             <BoxPatrocinadores />
-            <BlogContainer />
             <BoxParceiros />
         </div>
     )
