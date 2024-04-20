@@ -1,7 +1,7 @@
 .bgContainerCronograma {
   width: 100%;
   height: 90rem;
-  padding-top: 16px;
+  padding-top: 72px;
   color: var(--white);
 
 }
@@ -17,6 +17,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+
 }
 
 .boxCronograma {
@@ -26,26 +27,30 @@
   flex-wrap: wrap;
   gap: 28px;
   padding: 0; /* Remove o padding padrão da lista */
+  margin: 16px 0;
 
-  & .boxItemCronograma {
-    width: 324px;
-    height: 506px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */ 
-    padding: 16px;
-    border-radius: 50px;  
-    padding: 45px;
-    box-sizing: border-box;
+}
 
-    
-  }
+.boxItemCronograma {
 
-  .boxCronograma p {
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  width: 324px;
+  height: 506px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */ 
+  padding: 16px;
+  border-radius: 50px;  
+  padding: 45px;
+  box-sizing: border-box;
+
+  
+}
+
+
+.boxCronograma p {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .imageCronograma {
@@ -55,28 +60,35 @@
   margin: 48px 0;
 }
 
-.boxCronograma h4 {
-  display: block;
+
+
+.boxCronograma .boxItemCronograma h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 236px;
   height: 46px;
-  text-align: center;
-  align-content: center;
   text-transform: unset ;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
+
 
 }
 
 .boxItemCronograma span{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   width: 236px;
   height: 46px;
-  text-align: center;
-  align-content: center;
+
   text-transform: unset ;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
-  margin-top: 58px;
+  margin-top: 38px;
 }
 
 

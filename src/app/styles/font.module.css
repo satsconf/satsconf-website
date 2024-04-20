@@ -56,6 +56,13 @@
 
 }
 
+--sora-regular  {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
 .sora-medium {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
@@ -140,6 +147,10 @@
 
 .sc-fz-18 {
   font-size: 18px;
+}
+
+.sc-fz-24 {
+  font-size: 24px;
 }
 
 .sc-fz-36 {

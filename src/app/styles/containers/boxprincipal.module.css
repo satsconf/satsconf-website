@@ -79,7 +79,7 @@
     }
   
     .sc-bg-container {
-        width: 300px; /* Usando a largura total */
+        width: 330px; /* Usando a largura total */
         margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
     }
   
@@ -92,7 +92,7 @@
 @media screen and (min-width: 375px) and (max-width: 812px) {
     /* Estilos específicos para dispositivos com largura de tela de 375x812 */
     .boxprincipal {
-        padding-top: 200px; /* Reduzindo o espaço superior */
+        padding-top: 250px; /* Reduzindo o espaço superior */
     }
   
     .sc-bg-container {
