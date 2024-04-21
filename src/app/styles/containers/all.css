@@ -3,6 +3,7 @@
 @import "@/app/styles/containers/boxsobre.module.css";
 @import "@/app/styles/containers/boxgarante.module.css";
 @import "@/app/styles/containers/convidadosglobais.module.css";
+@import "@/app/styles/containers/faq.module.css";
 @import "@/app/styles/containers/footer.module.css";
 @import "@/app/styles/containers/boxparceiros.module.css";
 @import "@/app/styles/containers/boxpatrocinadores.module.css";
