@@ -1,3 +1,11 @@
+.bgContainerImgPalestrantes {
+    width: 100%;
+    background-image: url('/sats-conf-bg-palestrante.png'); /* Caminho para a sua imagem PNG */
+    background-size: cover; /* Cobertura total da área do elemento */
+    background-position: center; /* Posicionamento central da imagem */
+    margin-bottom: 150px;
+}
+
 .containerTitlePalestrantes {
     width: 100%;
     height: 54px;
@@ -18,6 +26,9 @@
 
 @media screen and (max-width: 768px) {
 
+   .bgContainerImgPalestrantes {
+    background-image:none;
+   }
 
     .bgConvidadosPaginaPrincipal {
         height: 220rem;

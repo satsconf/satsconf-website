@@ -1,9 +1,19 @@
 /* Container styles Box Principal - Home */
+.bgContainerImg {
+width: 100%;
+height: 100%;
+background-image: url('/sats-conf-bg.png'); /* Caminho para a sua imagem PNG */
+background-size: cover; /* Cobertura total da área do elemento */
+background-position: center; /* Posicionamento central da imagem */
+}
+
+
 
 .bgContainerPrincipal {
     width: 100%;
     height: 55rem;
     margin: 0 16px 0 16px;
+
 }
 
 .boxprincipal {
@@ -15,7 +25,6 @@
     flex-wrap: wrap;
     margin: auto;
     padding-top: 200px;
-
 }
 
 .sc-bg-container {
