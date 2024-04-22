@@ -7,22 +7,25 @@ import BoxParceiros from "@/components/(landingpage)/containers/boxparceiros";
 import BoxPatrocinadores from "@/components/(landingpage)/containers/boxpatrocinadores";
 import BoxPrincipal from "@/components/(landingpage)/containers/boxprincial";
 import BoxSobre from "@/components/(landingpage)/containers/boxsobre";
+import ConvidadosPaginaPrincipal from "@/components/(landingpage)/containers/convidadospaginaprincipal";
 import FAQComponent from "@/components/(landingpage)/containers/faq";
 
 
 const Home = () => {
-    return (
-        <div>
-            <BoxPrincipal />
-            <BoxBeneficios />
-            <BoxSobre />
-            <BoxGarante />
-            <BoxCronograma />
-            <BoxPatrocinadores />
-            <BoxParceiros />
-            <FAQComponent />
-        </div>
-    )
-}
+  return (
+    <div>
+      <BoxPrincipal />
+      <BoxBeneficios />
+      <BoxSobre />
+      <ConvidadosPaginaPrincipal />
+      <BoxGarante />
+      <BoxCronograma />
+      <BoxPatrocinadores />
+      <BoxParceiros />
+      <FAQComponent />
+   
+    </div>
+  );
+};
 
 export default Home;
