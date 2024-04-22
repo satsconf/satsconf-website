@@ -1,10 +1,12 @@
-.containerConvidadosDestaqueGlobais {
-    margin: -333px 0 80px 0;
-
+.bgContainerImagemConvidadoGlobal {
+    margin: 0 16px;
+ 
 }
 
 @media screen and (max-width: 768px) {
-    .containerConvidadosDestaqueGlobais {
-        margin-top: -14px;
+    .bgContainerImagemConvidadoGlobal {
+        margin-top: -47px;
+      
     }
+    
 }
