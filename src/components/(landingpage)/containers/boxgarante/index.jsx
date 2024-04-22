@@ -9,7 +9,7 @@ import BtnCronograma from "@/components/(landingpage)/ui/button/BtnCronograma";
 
 const BoxGarante = () => {
   return (
-    <div className="backgroundTop">
+    <div className="backgroundTop" id="programacao">
       <div className="bgContainerGarante font-white">
 
         <h2 className="krona-one-regular sc-fz-36">Garante seu ingresso agora mesmo!</h2>
