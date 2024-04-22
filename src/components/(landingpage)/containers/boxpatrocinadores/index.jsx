@@ -36,7 +36,7 @@ const BoxPatrocinadores = () => {
               </ul>
             </div>
             <div className="boxPatrocinadores">
-              <h3>Cota Platina</h3>
+              <h3>Cota Ouro</h3>
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
@@ -65,7 +65,36 @@ const BoxPatrocinadores = () => {
               </ul>
             </div>
             <div className="boxPatrocinadores">
-              <h3>Cota Platina</h3>
+              <h3>Cota Prata</h3>
+              <ul className="boxListPatrocinadores">
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+                <li>
+                  {" "}
+                  <img src="empresa-x.png" alt="empresa x" />
+                </li>
+              </ul>
+            </div>
+            <div className="boxPatrocinadores">
+              <h3>Cota Bronze</h3>
               <ul className="boxListPatrocinadores">
                 <li>
                   {" "}
