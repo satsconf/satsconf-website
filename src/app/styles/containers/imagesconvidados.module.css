@@ -48,8 +48,20 @@
   }
   
   .containerImagesBoxDestaque h3 {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     margin-top: 25px;
   
+  }
+
+  .ContainerImagemConvidadosDestaque span {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 25px;
   }
   
   /* Estilos específicos para dispositivos móveis */
