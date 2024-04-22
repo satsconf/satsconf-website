@@ -1,7 +1,19 @@
 #Palestrantes {
   width: 100%;
   height: 230rem;
+
 }
+
+.bgContainerImageConvidadosPage {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background-image: url('/sats-conf-bg.png'); /* Caminho para a sua imagem PNG */
+  background-size: cover; /* Cobertura total da área do elemento */
+  background-position: center; /* Posicionamento central da imagem */
+  z-index: 1;
+}
+
 .bgContainerConvidadosDestaque {
   width: 100%;
   margin: 0 auto;
