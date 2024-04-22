@@ -22,20 +22,16 @@ const BoxGarante = () => {
 
             <ul className="boxListGarante">
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso ao Palco Nakamoto
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso ao Palco Hal Finney
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso às salas de Workshop
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso à Área de Exposição
               </li>
 
             </ul>
@@ -50,47 +46,37 @@ const BoxGarante = () => {
 
             <ul className="boxListGarante">
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X ssssssssssssssssssssssssssssss
+                <FiCheckCircle size={20} color="white" /> Acesso ao Palco Nakamoto
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso ao Palco Hal Finney
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso às salas de Workshop
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" />Acesso à Área de Exposição
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Entrada especial no evento
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Assentos VIP na plateia de todas as palestras*
               </li>  <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Bitcoffe Break com café e snacks**
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Espaço VIP com benefícios e surpresas
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso privilegiado aos palestrantes
               </li>
               <li>
-                <FiCheckCircle size={20} color="white" /> Acesso a palestras do
-                Palco X
+                <FiCheckCircle size={20} color="white" /> Acesso a SATSPARTY open bar e open food
               </li>
             </ul>
             <div className="boxListGaranteInfo">
-              <p>*Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>*Números de assentos VIP limitados e sujeito a alteração.</p>
 
             </div>
             <BtnCronograma url=""> COMPRAR INGRESSO AGORA</BtnCronograma>
