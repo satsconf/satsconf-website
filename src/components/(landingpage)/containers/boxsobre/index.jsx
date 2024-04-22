@@ -21,7 +21,7 @@ const BoxSobre = () => {
 
 
     return (
-        <div className="bg ">
+        <div className="bgContainerSobre ">
             <div className="grid-container font-white ">
                 <div className="block">
                 <h2 className="sc-fz-18">SOBRE A SATS CONF</h2>
@@ -42,7 +42,7 @@ const BoxSobre = () => {
                 </div>
                 <div className="containerVideo">
                
-                <p>teste</p>
+                <p>Video</p>
 
                 
                 </div>
