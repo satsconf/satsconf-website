@@ -1,12 +1,12 @@
 
 .bgContainerFooter {
     width: 100%;
-    height: 386px;;
-  
+    height: 386px;
+
   }
   
   .footer {
-      position: relative;
+    position: absolute;
       width: 100%;
       background-color: rgb(27, 27, 27); /* Fundo branco */
       border-top: 16px solid; /* Adicione sua cor ou estilo de borda aqui */
@@ -33,7 +33,6 @@
       align-items: normal;
   
   }
-  
   
   /* Adicionando regras de estilo responsivas */
   

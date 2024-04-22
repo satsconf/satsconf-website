@@ -96,7 +96,7 @@
     display: none;
 }
     .navBorder {
-      width: 370px; /* Reduz a largura do contêiner */
+      width: 99%; /* Reduz a largura do contêiner */
       padding: 10px; /* Adiciona um espaçamento interno menor */
       display: flex;
       flex-wrap: wrap;

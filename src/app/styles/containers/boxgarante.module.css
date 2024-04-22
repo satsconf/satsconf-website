@@ -6,7 +6,7 @@
     content: '';
     position: absolute;
     top: -110px;
-    left: -4%; /* Posiciona o elemento no meio do container */
+    left: -3%; /* Posiciona o elemento no meio do container */
     transform: translateY(-10%) rotate(-3deg); /* Rotaciona o elemento em -45 graus */
     width: 105%; /* Aumenta a largura para cobrir toda a largura do container */
     height: 280px; /* Altura da borda */

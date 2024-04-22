@@ -23,12 +23,24 @@
   display: flex;
   flex-direction: row;
   margin: 16px 16px;
+  text-align: center;
   }
   
   .content {
     display: none;
   }
-  
+  .container-btn-palestrantes {
+    width: 100%;
+    
+  }
+
+  .container-btn-palestrantes .btnNovidades {
+    width: 344px;
+    height: 64px;
+    margin: 0 auto;
+    
+
+  }
   
   .btnNovidades {
     width: 168px;

@@ -1,5 +1,11 @@
 /* GridContainer.css */
 
+.bgContainerSobre {
+  width: 100%;
+  height: 55rem;
+
+}
+
 .grid-container {
   display: grid;
 
@@ -58,6 +64,8 @@
 
 @media screen and (min-width: 768px) {
   /* Altere para dois blocos lado a lado em telas maiores */
+ 
+ 
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }

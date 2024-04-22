@@ -20,6 +20,16 @@
     --font-sora: "Sora", sans-serif;
     --color-orange: #ffb126;
     --color-roxo: #b32fe0;
+
+    --numDays: 5;
+    --numHours: 10;
+    --timeHeight: 60px;
+    --calBgColor: transparent;
+    --eventBorderColor: #f2d3d8;
+    --eventColor1: #ffd6d1;
+    --eventColor2: #fafaa3;
+    --eventColor3: #e2f8ff;
+    --eventColor4: #d1ffe6;
    
 }
 
@@ -51,12 +61,7 @@ img {
   .container {
     width: 100%;
   }
-  
-  .bg {
-    width: 100%;
-    height: 55rem;
-  
-  }
+
   
   .container-404 {
     width: 100%;
@@ -104,6 +109,7 @@ img {
   /* Adicionando media queries para responsividade */
   
   @media screen and (max-width: 768px) {
+   
     .container-center {
       width: 100%;
       padding: 100px 0;
