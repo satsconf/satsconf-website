@@ -56,17 +56,17 @@ const data = [
     {
         question:'O que é a Satsconf?',
             answer:
-            'Lorem ipsum dolor sit amet consectetur adipisicing psum dolor sit amet consectetur adipisicing',
+            'A Satsconf é um evento que reúne as maiores referências nacionais e internacionais do Bitcoin para compartilhar conhecimento sobre liberdade, soberania individual e a internet do dinheiro.',
     },
     {
         question:'Pra quem é?',
         answer:
-        'Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing',
+        'A Satsconf é um evento feito para todos aqueles que têm interesse em aprender mais sobre o Bitcoin, se conectar com a comunidade e explorar temas como liberdade, soberania individual e a evolução da internet do dinheiro. É uma oportunidade única de absorver conhecimento de especialistas nacionais e internacionais, além de estabelecer conexões valiosas para o seu crescimento pessoal e profissional.',
     },
     {
-        question:'Por que ir?',
+        question:'Por que ir a Satsconf?',
         answer:
-        'Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing',
+        'Ir à Satsconf é entrar em um universo vibrante do Bitcoin, com especialistas e entusiastas. Lá, você expande seu conhecimento sobre o ativo, explora as tendências mais recentes e contribui para o futuro financeiro digital. É o ponto de encontro ideal para networking, conexões valiosas e inspiração em finanças descentralizadas. Se quer atualização, networking e imersão na comunidade Bitcoin, a Satsconf é o lugar.',
     }
 ]
 
