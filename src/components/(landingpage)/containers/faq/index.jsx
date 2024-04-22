@@ -36,16 +36,16 @@ const FAQ = () => {
 
 const data = [
     {
-        question: 'O que é a Satsconf?',
-        answer: 'Lorem ipsum dolor sit amet consectetur adipisicing psum dolor sit amet consectetur adipisicing',
+        question: 'Ainda não sei quem vai usar o ingresso, posso trocar o titular depois?',
+        answer: 'Claro! Você pode comprar o ingresso agora usando o seu nome, e realizar a troca para um novo titular até 75h antes do evento acontecer.',
     },
     {
-        question: 'Pra quem é?',
-        answer: 'Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing',
+        question: 'Posso parcelar meu inglesso via cartão? Tem juros?',
+        answer: 'Pode! Em caso de parcelamento, é cobrada uma taxa de parcelamento única de 3.49% a.m para qualquer quantidade de parcelas que você escolher.',
     },
     {
-        question: 'Por que ir?',
-        answer: 'Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing',
+        question: 'Ainda não decidi que dia ir, posso trocar a data do diário depois?',
+        answer: 'A data do ingresso Diário não pode ser alterada. Sugerimos que você adquira o ingresso Passaporte e garanta o melhor preço para aproveitar os 3 dias.',
     }
 ];
 
