@@ -3,12 +3,10 @@
 .bgContainerSobre {
   width: 100%;
   height: 55rem;
-
 }
 
 .grid-container {
   display: grid;
-
   align-items: center;
   justify-content: center; /* Centraliza o grid horizontalmente */
   grid-template-columns: 1fr;
@@ -37,6 +35,7 @@
   font-family: var(--font-sora);
   font-weight: 300;
 }
+
 .title {
   color: var(--white);
   display: flex;
@@ -53,6 +52,24 @@
   padding-bottom: 32px;
 }
 
+.content {
+  max-height: 0;
+  overflow: hidden; /* Oculta o conteúdo que excede o max-height */
+  transition: max-height 0.6s ease; /* Adiciona uma transição suave */
+}
+
+/* Define o max-height para um valor maior quando o conteúdo é exibido */
+.content.open {
+  width: 100%;
+  max-height: 500px; /* Ajuste o valor conforme necessário */
+}
+
+.block .open {
+  width: 100%;
+  font-family: var(--font-sora);
+  font-weight: 300;
+}
+
 .icon {
   font-size: 24px; /* Defina o tamanho desejado para os ícones */
 }
@@ -64,8 +81,7 @@
 
 @media screen and (min-width: 768px) {
   /* Altere para dois blocos lado a lado em telas maiores */
- 
- 
+
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
