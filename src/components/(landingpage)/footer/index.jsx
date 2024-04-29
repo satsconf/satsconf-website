@@ -6,7 +6,10 @@ const Footer = () => {
     <div className="footer bgContainerFooter">
       <div className="footerContainer">
         <div className="logo">
+          <div className="containerLogoFooter">
           <MeuComponenteLogo /> {/* Use the imported component */}
+          </div>
+
           <div>
             <p>Satsconf. &copy; 2024 </p>
             <a href="">Política de Privacidade</a>
