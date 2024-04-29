@@ -109,8 +109,8 @@
     height: 140rem; /* Ajuste este valor conforme necessário */
   }
 
-  .btnCronograma {
-    font-size: 16px;
+  .btnCronograma, .btnCronogramaSecundary {
+    font-size: 18px;
   }
 }
 
