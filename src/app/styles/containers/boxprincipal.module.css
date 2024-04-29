@@ -41,11 +41,11 @@ background-position: center; /* Posicionamento central da imagem */
 }
 
 
-
-
 .btningresso-img {
     padding: 36px;
 }
+
+
 @media screen and (max-width: 767px) {
     /* Estilos específicos para dispositivos móveis */
     .bgContainer {
@@ -79,16 +79,21 @@ background-position: center; /* Posicionamento central da imagem */
     }
 
 }
-
+@media screen and (min-width: 280px) and (max-width: 653px) {
+    .sc-bg-container {
+        width: 240px; /* Usando a largura total */
+        margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
     /* Estilos específicos para dispositivos com largura de tela de 320x568 */
-    .boxprincipal {
+   .boxprincipal {
         padding: 247px 0px; /* Reduzindo o espaço superior */
     }
   
     .sc-bg-container {
-        width: 330px; /* Usando a largura total */
+        width: 310px; /* Usando a largura total */
         margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
     }
   
@@ -111,6 +116,13 @@ background-position: center; /* Posicionamento central da imagem */
   
     .btningresso-img {
         padding: 15px; /* Reduzindo o padding da imagem */
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 914px) {
+    .sc-bg-container {
+        width: 380px; /* Usando a largura total */
+        margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
     }
 }
 
