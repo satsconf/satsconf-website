@@ -4,7 +4,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 98px;
-
+    overflow: hidden;
 }
 
 .bgContainerParceiros h2 {
