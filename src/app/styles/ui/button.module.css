@@ -21,13 +21,13 @@
   .container-btn {
   display: flex;
   flex-direction: row;
-  margin: 16px 16px;
+  margin: 16px 0;
   text-align: center;
   }
   
   .container-btn-palestrantes {
     width: 100%;
-    
+    margin: 79px 0;
   }
 
   .container-btn-palestrantes .btnNovidades {
@@ -120,3 +120,23 @@
 
   }
   
+  @media screen and (min-width: 280px) and (max-width: 320px){
+    .container-btn {
+      width: 258px;
+    }
+  }
+
+
+  @media screen and (min-width: 321px) and (max-width: 780px){
+    .container-btn {
+      width: 338px;
+    }
+  }
+
+
+  @media screen and (min-width: 782px) and (max-width: 926px){
+    .container-btn {
+      width: 398px;
+    }
+  }
+
