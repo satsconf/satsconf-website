@@ -33,7 +33,7 @@ const ConvidadosPaginaPrincipal = () => {
             </div>
           </div>
           {/* imagem tres */}
-          <div className="containerConvidadosDestaque">
+          <div className="containerConvidadosDestaque ">
             <img
               src="/satsconf-convidado-destaque-ano.jpg"
               alt=""
@@ -175,7 +175,7 @@ const ConvidadosPaginaPrincipal = () => {
             </div>
             <div className=" container-btn-palestrantes">
               {/* botão do container principal */}
-              <BtnNovidades url="/">VEJA TODOS PALESTRANTES</BtnNovidades>
+              <BtnNovidades url="/palestrantes">VEJA TODOS PALESTRANTES</BtnNovidades>
             </div>
           </div>
         </div>
