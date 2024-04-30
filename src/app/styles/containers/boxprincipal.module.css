@@ -8,10 +8,16 @@
 
 }
 
+.bgContainerMargin{
+  margin: 0 16px 0 16px;
+}
 .bgContainerPrincipal {
+  width: 100%;
   height: 52rem;
   padding: 15rem 0 15rem 0;
-  margin: 0 16px 0 16px;
+  background-image: url("/sats-conf-bg.png"); /* Caminho para a sua imagem PNG */
+  background-size: cover; /* Cobertura total da área do elemento */
+  background-position: center calc(100%); /* Posicionamento central da imagem */
 }
 
 .boxprincipal {

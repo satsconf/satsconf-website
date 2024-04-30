@@ -4,8 +4,8 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/inde
 
 const BoxPrincipal = () => {
   return (
-    <div className="bgContainerImg">
- <div className="bgContainerPrincipal ">
+    <div className="bgContainerPrincipal">
+ <div className=" bgContainerMargin">
       <div className="boxprincipal">
         {/* caixa co container com fonte do titulo */}
         <div className="sc-bg-container krona-one-regular ">
