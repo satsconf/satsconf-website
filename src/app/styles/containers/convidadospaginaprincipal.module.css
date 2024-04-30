@@ -2,8 +2,8 @@
     width: 100%;
     background-image: url('/sats-conf-bg-palestrante.png'); /* Caminho para a sua imagem PNG */
     background-size: cover; /* Cobertura total da área do elemento */
-    background-position: center; /* Posicionamento central da imagem */
-    margin-bottom: 150px;
+    background-position: center calc(10% - 100px); /* Posicionamento central da imagem */
+
 }
 
 .containerTitlePalestrantes {
@@ -24,15 +24,27 @@
     height: 95rem;
 }
 
+.container-btn-palestrantes {
+position: absolute;
+z-index: 2;
+}
 @media screen and (max-width: 768px) {
 
    .bgContainerImgPalestrantes {
     background-image:none;
    }
 
-    .bgConvidadosPaginaPrincipal {
-        height: 220rem;
-    }
 
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   .ContainerImagemConvidadosDestaque {
+    max-width: 100%;
+
+   }
+   
+    
+
+   
 }
