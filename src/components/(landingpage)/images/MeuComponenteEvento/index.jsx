@@ -2,9 +2,9 @@ const MeuComponenteEvento = () => {
   return (
     <img
       src="./satsconf-evento.png"
-      width="320"
-      height="320"
-      alt="Descrição da Imagem"
+      width="374"
+      height="374"
+      alt="Imagem do Evento Satsconf de 2023"
     />
   );
 };

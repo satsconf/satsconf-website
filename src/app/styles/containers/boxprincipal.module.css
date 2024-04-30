@@ -41,7 +41,7 @@
 }
 
 .btningresso-img {
-  padding: 36px;
+  padding: 36px 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -57,7 +57,6 @@
 
   .btningresso-img {
     display: none;
-    padding: 20px; /* Reduzindo o padding da imagem */
   }
 }
 
@@ -65,7 +64,7 @@
   /* Altere para telas maiores */
 
   .boxprincipal {
-    width: 974px;
+    width: 1000px;
     justify-content: space-between;
     margin-top: -80px;
   }
