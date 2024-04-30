@@ -1,5 +1,4 @@
 
-
 .ContainerImagemConvidadosDestaque {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));
@@ -12,6 +11,7 @@
     /* padding: -1 76px; */
     /* Margem para centralizar o grid */
     margin: 0 auto;
+    width: 1132px;
   }
   
   
@@ -67,9 +67,10 @@
   /* Estilos específicos para dispositivos móveis */
   @media screen and (max-width: 768px) {
     .ContainerImagemConvidadosDestaque {
-      grid-template-columns: repeat(1fr);
+      grid-template-columns: repeat(322px 1fr);
       /* Margem para centralizar o grid */
       gap: 16px;
+      max-width: 322px;
     }
 
 
@@ -82,4 +83,14 @@
   }
 
 
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 568px) {
+    .containerConvidadosDestaque img {
+      position: relative;
+      width: 368px;
+      height: 420px;
+      border: none;
+    
+    }
   }
