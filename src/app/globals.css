@@ -103,7 +103,6 @@ img {
   .sc-gap-32 {
     gap: 32px;
   }
-  
 
   
   /* Adicionando media queries para responsividade */
@@ -122,9 +121,3 @@ img {
     }
   }
   
-  @media screen and (max-width: 480px) {
-    .bg {
-      height: 45rem;
-  
-    }
-  }

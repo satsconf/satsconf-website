@@ -18,7 +18,7 @@ const BoxSobre = () => {
 
   return (
     <div className="bgContainerSobre ">
-      <div className="grid-container font-white ">
+      <div className="font-white boxprincipalSobre">
         <div className="block">
           <h2 className="sc-fz-18">SOBRE A SATS CONF</h2>
 
