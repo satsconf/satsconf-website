@@ -101,3 +101,15 @@
     width: 300px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bgContainerSobre {
+    height: 84rem;
+  }
+
+.boxprincipalSobre {
+  display: flex;
+  flex-direction: column;
+
+}
+}
