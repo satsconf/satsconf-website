@@ -78,7 +78,7 @@
 }
 
 .containerVideo {
-  width: 100%;
+  margin: 0 auto;
   display: block;
 
 }
@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   .bgContainerSobre {
-    height: 64rem;
+    height: 84rem;
   }
   .item {
     width: 300px;

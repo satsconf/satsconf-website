@@ -43,7 +43,9 @@ const BoxSobre = () => {
           })}
         </div>
         <div className="containerVideo">
-          <p>Video</p>
+          <img src="/video.png"    width="314"
+      height="287"
+   alt="" />
         </div>
       </div>
     </div>
