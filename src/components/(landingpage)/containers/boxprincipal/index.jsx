@@ -4,7 +4,9 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/inde
 
 const BoxPrincipal = () => {
   return (
-    <div className="bgContainerPrincipal bgContainerImg">
+    <div id="BoxPrincipal">
+      <div className="bgContainerImg">
+      <div className="bgContainerPrincipal">
  <div className=" bgContainerMargin ">
       <div className="boxprincipal">
         {/* caixa co container com fonte do titulo */}
@@ -28,6 +30,9 @@ const BoxPrincipal = () => {
       </div>
     </div>
     </div>
+      </div>
+    </div>
+
    
   );
 };
