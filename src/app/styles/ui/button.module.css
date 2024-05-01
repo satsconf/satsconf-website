@@ -26,16 +26,21 @@
   }
   
   .container-btn-palestrantes {
-    width: 100%;
-    margin: 79px 0;
+    padding: 79px 0;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .boxCenterPaginaPrincipalConvidados {
+display: flex;
+flex-direction: column;
   }
 
   .container-btn-palestrantes .btnNovidades {
-    width: 344px;
+    width: 328px;
     height: 64px;
     margin: 0 auto;
-    
-
   }
   
   .btnNovidades {
@@ -105,6 +110,7 @@
   @media screen and (min-width: 768px) {
   
  
+
     /* Altere para telas maiores */
   .btnNovidades {
     width: 188px;

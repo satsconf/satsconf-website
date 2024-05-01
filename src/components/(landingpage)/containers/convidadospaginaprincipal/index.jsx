@@ -45,9 +45,10 @@ const ConvidadosPaginaPrincipal = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="boxCenterPaginaPrincipalConvidados">
           <div className="bgContainerImagemConvidadoGlobal ">
             {/* container imagens todos os convidados */}
+            <div>
             <div
               className="containerConvidadosDestaque   bgContainerPalestrantes"
               id="convidado"
@@ -172,11 +173,20 @@ const ConvidadosPaginaPrincipal = () => {
                   <span>...</span>
                 </div>
               </div>
+
+             
+
             </div>
             <div className=" container-btn-palestrantes">
-              {/* botão do container principal */}
-              <BtnNovidades url="/palestrantes">VEJA TODOS PALESTRANTES</BtnNovidades>
+                <div className="boxBtnHomePalestrantes">
+                <BtnNovidades url="/palestrantes">VEJA TODOS PALESTRANTES</BtnNovidades>           
+              {/* botão do container principal */}      
+                </div>
+              
             </div>
+            </div>
+           
+          
           </div>
         </div>
       </div>

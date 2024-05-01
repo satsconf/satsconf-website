@@ -24,10 +24,7 @@
     height: 95rem;
 }
 
-.container-btn-palestrantes {
-position: absolute;
-z-index: 2;
-}
+
 @media screen and (max-width: 768px) {
 
    .bgContainerImgPalestrantes {
