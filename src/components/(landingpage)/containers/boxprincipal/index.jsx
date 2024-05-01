@@ -4,9 +4,7 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/inde
 
 const BoxPrincipal = () => {
   return (
-    <div id="BoxPrincipal">
-  <div className="bgContainerImg">
- <div className="bgContainerPrincipal ">
+    <div className="bgContainerPrincipal bgContainerImg">
  <div className=" bgContainerMargin ">
       <div className="boxprincipal">
         {/* caixa co container com fonte do titulo */}
@@ -14,7 +12,7 @@ const BoxPrincipal = () => {
           <span>8 e 9 DE NOVEMBRO | SÃO PAULO</span>
           <h1>MAIOR EVENTO 100% BITCOIN DO BRASIL</h1>
           {/* gap de 16 com container de botão */}
-          <div className="sc-gap-8 container-btn">
+          <div className="sc-gap-16 container-btn">
             <BtnIngresso url="https://www.example.com">
               COMPRAR INGRESSO
             </BtnIngresso>
@@ -30,10 +28,6 @@ const BoxPrincipal = () => {
       </div>
     </div>
     </div>
-    </div>
-    </div>
-  
-   
    
   );
 };
