@@ -1,6 +1,5 @@
 import BoxPalestrantes from "@/components/(landingpage)/pages/boxpalestrantes";
 
-import React from "react";
 
 const Palestrantes = ({ children }) => {
   return (
