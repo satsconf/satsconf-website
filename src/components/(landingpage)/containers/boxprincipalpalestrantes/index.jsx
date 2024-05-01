@@ -13,7 +13,7 @@ const BoxPrincipalPalestrantes = () => {
               CONHEÇA OS PALESTRANTES DA EDIÇÃO 2024
             </h2>
           </div>
-          <div className="sc-gap-16 container-btn">
+          <div className="sc-gap-8 container-btn">
             <BtnIngresso url="https://www.example.com">
               COMPRAR INGRESSO
             </BtnIngresso>
