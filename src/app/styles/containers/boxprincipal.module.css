@@ -1,25 +1,30 @@
 /* Container styles Box Principal - Home */
+#BoxPrincipal {
+  width: 100%;
+}
 .bgContainerImg {
+  position: relative;
   width: 100%;
   background-image: url("/sats-conf-bg.png"); /* Caminho para a sua imagem PNG */
-  background-size: contain; /* Cobertura total da área do elemento */
-  background-position: contain; /* Posicionamento central da imagem */
+  background-size: cover; /* Cobertura total da área do elemento */
+  background-position: cover; /* Posicionamento central da imagem */
   background-repeat: no-repeat;
+  z-index: 1;
 
 }
 
 .bgContainerMargin{
   margin: 0 16px 0 16px;
 }
+
 .bgContainerPrincipal {
-  width: 100%;
+  width: 110rem 0;
   height: 52rem;
   padding: 15rem 0 15rem 0;
 
 }
 
 .boxprincipal {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +55,12 @@
 
 @media screen and (max-width: 767px) {
   /* Estilos específicos para dispositivos móveis */
+
+  #BoxPrincipal {
+    width: 700px;
+    overflow-x: hidden;
+  }
+  
   .bgContainer {
     width: 442px;
     height: 50rem; /* Reduzindo a altura do contêiner */
@@ -63,12 +74,11 @@
   .bgContainerImg {
     width: 100%;
     height: auto;
-    background-size: contain; /* Cobertura total da área do elemento */
+    background-size: cover; /* Cobertura total da área do elemento */
     background-position: center; /* Posicionamento central da imagem */
   }
   
   .btningresso-img {
-    
     display: none;
   }
 }
@@ -77,7 +87,7 @@
   /* Altere para telas maiores */
 
   .boxprincipal {
-    width: 1000px;
+    width: 980px;
     justify-content: space-between;
     margin-top: -80px;
   }
@@ -86,7 +96,7 @@
   .sc-bg-container {
     width: 260px; /* Usando a largura total */
   }
-
+ 
   .boxprincipal span {
     font-size: 10px;
   }
@@ -196,9 +206,7 @@
     max-width: 378px; /* Reduzindo o tamanho do contêiner para tablets */
   }
 
-  .boxprincipal {
-    lex-direction: column;
-  }
+  
 
   .boxprincipal span {
     font-size: 10px;
