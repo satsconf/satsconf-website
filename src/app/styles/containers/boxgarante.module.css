@@ -1,6 +1,7 @@
 /* container: informações sobre o evento, contendo dois box */
 .backgroundTop {
     position: relative; /* Garante que o position absolute do pseudo-elemento seja relativo a este container */
+    overflow-x: hidden;
 }
 
 .backgroundTop::before {
