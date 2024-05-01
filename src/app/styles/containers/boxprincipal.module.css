@@ -1,10 +1,10 @@
 /* Container styles Box Principal - Home */
 .bgContainerImg {
-  max-width: 1488px;
-  height: 100%;
+  width: 100%;
   background-image: url("/sats-conf-bg.png"); /* Caminho para a sua imagem PNG */
-  background-size: cover; /* Cobertura total da área do elemento */
-  background-position: center; /* Posicionamento central da imagem */
+  background-size: contain; /* Cobertura total da área do elemento */
+  background-position: contain; /* Posicionamento central da imagem */
+  background-repeat: no-repeat;
 
 }
 
@@ -15,9 +15,7 @@
   width: 100%;
   height: 52rem;
   padding: 15rem 0 15rem 0;
-  background-image: url("/sats-conf-bg.png"); /* Caminho para a sua imagem PNG */
-  background-size: cover; /* Cobertura total da área do elemento */
-  background-position: center calc(100%); /* Posicionamento central da imagem */
+
 }
 
 .boxprincipal {
@@ -62,7 +60,15 @@
     margin-bottom: 20px; /* Adicionando espaço entre o texto e os botões */
   }
 
+  .bgContainerImg {
+    width: 100%;
+    height: auto;
+    background-size: contain; /* Cobertura total da área do elemento */
+    background-position: center; /* Posicionamento central da imagem */
+  }
+  
   .btningresso-img {
+    
     display: none;
   }
 }
@@ -84,13 +90,14 @@
   .boxprincipal span {
     font-size: 10px;
   }
+
+ 
+  
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
-  .bgContainerImg {
-    width: 768px;
-  }
+
   .sc-bg-container {
     width: 300px; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
@@ -102,11 +109,21 @@
 }
 
 
+
+@media screen and (min-width: 360px) and (max-width: 740px){
+  
+  
+  .sc-bg-container {
+    max-width: 306px; /* Usando a largura total */
+
+  }
+    
+    }
+
 @media screen and (min-width: 375px) and (max-width: 812px) {
   /* Estilos específicos para dispositivos com largura de tela de 375x812 */
-  .bgContainerImg{
-    width: 768px;
-  }
+ 
+  
   .sc-bg-container {
     max-width: 100%; /* Usando a largura total */
     margin-bottom: 15px; /* Adicionando espaço entre o texto e os botões */
@@ -117,9 +134,20 @@
   }
 }
 
+@media screen and (min-width: 375px) and (max-width: 667px){
+  .sc-bg-container{
+    width: 308px;
+  }
+
+  .container-btn {
+    width: 248px;
+  }
+}
+
+
 @media screen and (min-width: 412px) and (max-width: 914px) {
   .sc-bg-container {
-    width: 380px; /* Usando a largura total */
+    width: 333px; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 }
@@ -157,5 +185,30 @@
     display: none;
     margin-right: 180px;
     padding: 20px; /* Reduzindo o padding da imagem para tablets */
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .sc-bg-container {
+    max-width: 378px; /* Reduzindo o tamanho do contêiner para tablets */
+  }
+
+  .boxprincipal {
+    lex-direction: column;
+  }
+
+  .boxprincipal span {
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+
+  .sc-bg-container {
+    max-width: 378px; /* Reduzindo o tamanho do contêiner para tablets */
   }
 }
