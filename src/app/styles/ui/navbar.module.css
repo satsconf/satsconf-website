@@ -89,7 +89,6 @@
   }
    
 .nav {
-    width: 374px;
     max-width: 100%;
     justify-content: normal;
 }
@@ -127,16 +126,41 @@
     }
     
   }
+  @media screen and (min-width: 375px) and (max-width: 667px){
+.nav {
+    width: 375px;
+  }
+  
+  }
 
 
+  @media screen and (min-width: 414px) and (max-width: 896px){
+    .nav {
+        width: 408px;
+      }
+      
+      }
+  
+
+  @media screen and (min-width: 360px) and (max-width: 740px){
+    .nav {
+        width: 360px;
+      }
+      
+      }
+    
   
   @media screen and (min-width: 768px) and (max-width: 1024px){
   
   .nav {
-    width: 513px;
+    width: 856px;
   }
     .sc-bg-container {
-width: 438px;
+    width: 438px;
+  }
+
+  .navContainer ul {
+    display: flex;
   }
 }
 
