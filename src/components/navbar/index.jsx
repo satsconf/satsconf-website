@@ -41,10 +41,10 @@ const Navbar = () => {
               <Link href="/#programacao">PROGRAMAÇÃO</Link>
             </li>
             <li>
-              <Link href="/#contato">CONTATO</Link>
+              <Link href="/contato">CONTATO</Link>
             </li>
             <li>
-              <Link href="/#faq">FAQ</Link>
+              <Link href="/faq">FAQ</Link>
             </li>
           </ul>
           <div>
