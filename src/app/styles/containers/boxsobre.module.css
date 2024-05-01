@@ -78,6 +78,7 @@
 }
 
 .containerVideo {
+  width: 300px;
   margin: 0 auto;
   display: block;
 
@@ -90,6 +91,9 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .containerVideo {
+    width: 300px;
+  }
 
 }
 
