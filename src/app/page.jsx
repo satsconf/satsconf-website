@@ -11,7 +11,7 @@ import FAQComponent from "@/components/(landingpage)/containers/faq";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <BoxPrincipal />
       <BoxBeneficios />
       <BoxSobre />
