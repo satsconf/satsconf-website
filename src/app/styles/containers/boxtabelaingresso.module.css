@@ -1,0 +1,64 @@
+#Ingressos {
+  width: 100%;
+  overflow-x: hidden;
+}
+.bgTabelaIngresso {
+  width: 100%;
+  height: 84rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(58, 28, 83, 1), rgba(99, 42, 145, 0));
+}
+
+.BoxTabelaIngresso {
+  width: 800px;
+  border-collapse: collapse; /* Garante que as bordas das células se fundam */
+  margin: 0 auto;
+  color: var(--white);
+}
+
+.BoxTabelaIngresso td {
+  padding: 24px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bgTabelaIngresso th {
+  padding: 24px 0;
+}
+
+.BoxTabelaIngresso img {
+  width: 89px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+.boxCenter {
+  text-align: center;
+}
+
+.BoxTabelaIngresso .bordaNone {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.BoxTabelaIngresso .bordaleft {
+  border-left: 0px;
+}
+
+.containerBtnIngresso {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .BoxTabelaIngresso {
+    width: 100%;
+  }
+}

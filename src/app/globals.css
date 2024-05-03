@@ -1,124 +1,115 @@
 @import "./styles/all.css";
 
 :root {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    --black: #000;
-    --white: #fff;
-    --color-primary: rgba(64, 33, 89, 1);
-    --background: #14081e;
-    --background-secondary: rgba(29, 13, 43, 1);
-    --background-tertiary: rgb(58, 28, 83);
-    --font-krona-one-regular: "Krona One", sans-serif;
-    --font-sora: "Sora", sans-serif;
-    --color-orange: #ffb126;
-    --color-roxo: #b32fe0;
-
-    --numDays: 5;
-    --numHours: 10;
-    --timeHeight: 60px;
-    --calBgColor: transparent;
-    --eventBorderColor: #f2d3d8;
-    --eventColor1: #ffd6d1;
-    --eventColor2: #fafaa3;
-    --eventColor3: #e2f8ff;
-    --eventColor4: #d1ffe6;
-   
+  --black: #000;
+  --white: #fff;
+  --color-primary: rgba(64, 33, 89, 1);
+  --background: #14081e;
+  --background-secondary: rgba(29, 13, 43, 1);
+  --background-tertiary: rgb(58, 28, 83);
+  --font-krona-one-regular: "Krona One", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --color-orange: #ffb126;
+  --color-roxo: #b32fe0;
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
-    background: var(--background);
+  background: var(--background);
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-
-
+.boxTitle {
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* Container para os componentes */
 .marginContainer {
-    margin: 0 16px 0 16px;
-  }
-  
-  .container {
-    width: 100%;
-    overflow-x: hidden;
-  }
+  margin: 0 16px 0 16px;
+}
 
-  
-  .container-404 {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--background);
-    text-align: center;
-  
-  }
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-404 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background);
+  text-align: center;
+}
+
+.container-center {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 500px;
+  padding: 250px 0;
+}
+.container h1,
+p {
+  color: var(--white);
+}
+
+/* Display para os componentes */
+
+.sc-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Espaçamento para os componentes */
+
+.sc-gap-8 {
+  gap: 8px;
+}
+
+.sc-gap-16 {
+  gap: 16px;
+}
+
+.sc-gap-32 {
+  gap: 32px;
+}
+
+/* Adicionando media queries para responsividade */
+
+@media screen and (max-width: 768px) {
   .container-center {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 500px;
-    padding: 250px 0;
+    width: 100%;
+    padding: 100px 0;
   }
-  .container h1,p {
-    color: var(--white);
-  
-  }
-  
-  /* Display para os componentes */
-  
-  .sc-flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Espaçamento para os componentes */
-  
-  .sc-gap-8 {
-    gap: 8px;
-  }
-  
-  .sc-gap-16 {
-    gap: 16px;
-  }
-  
-  .sc-gap-32 {
-    gap: 32px;
-  }
+}
 
-  
-  /* Adicionando media queries para responsividade */
-  
-  @media screen and (max-width: 768px) {
-   
-    .container-center {
-      width: 100%;
-      padding: 100px 0;
-    }
+@media screen and (max-width: 576px) {
+  .container-center {
+    padding: 50px 0;
   }
-  
-  @media screen and (max-width: 576px) {
-    .container-center {
-      padding: 50px 0;
-    }
-  }
-  
+}
