@@ -1,4 +1,4 @@
-import BoxPrincipalPalestrantes from "../../containers/boxprincipalpalestrantes";
+import BoxPrincipalPalestrantes from "./boxprincipalpalestrantes";
 
 
 const BoxPalestrantes = () => {

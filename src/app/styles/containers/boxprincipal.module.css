@@ -1,6 +1,7 @@
 /* Container styles Box Principal - Home */
 #BoxPrincipal {
   width: 100%;
+  overflow-x: hidden;
 }
 .bgContainerImg {
   position: relative;
@@ -12,6 +13,7 @@
   z-index: 1;
 
 }
+
 
 .bgContainerMargin{
   margin: 0 16px 0 16px;
@@ -53,6 +55,7 @@
   width: 110rem 0;
   height: 52rem;
   padding: 15rem 0 15rem 0;
+  
 
 }
 
@@ -68,10 +71,9 @@
 
 .bgContainerPrincipal {
   width: 380px;
+ 
 
 }
-
-  
   .bgContainer {
     width: 442px;
     height: 50rem; /* Reduzindo a altura do contêiner */
@@ -186,6 +188,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Estilos específicos para tablets */
+
 
   .sc-bg-container {
     width: 700px; /* Usando a largura total para tablets */
