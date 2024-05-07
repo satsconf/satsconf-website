@@ -84,6 +84,17 @@
 
 }
 
+@media screen and (min-width: 280px) and (max-width: 653px){
+  .bgContainerSobre{
+    height: 88rem;
+
+  }
+
+  .item {
+    width: 200px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* Altere para dois blocos lado a lado em telas maiores */
 
@@ -108,7 +119,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bgContainerSobre {
-    height: 84rem;
+    height: 88rem;
   }
 
 .boxprincipalSobre {

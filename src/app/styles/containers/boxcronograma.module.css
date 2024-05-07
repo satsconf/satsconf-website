@@ -67,11 +67,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content:center;
   width: 236px;
   height: 46px;
   text-transform: unset ;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
+  font-size: 16px;
 
 
 }
@@ -84,7 +86,7 @@
   text-align: center;
   width: 236px;
   height: 46px;
-
+  font-size: 16px;
   text-transform: unset ;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
@@ -102,6 +104,58 @@
   height: 89.8px;
 
 
+}
+
+@media screen and (min-width: 280px) and (max-width: 653px) {
+  .bgContainerGarante{
+    height: 158rem;
+  }
+
+  .bgContainerGarante h2 {
+    margin: 8px 8px 48px 8px;;
+    font-size: 24px;
+  }
+
+  .imagensLogoConatinerSite {
+    width: 200px;
+  }
+  .boxGarante span {
+    font-size: 12px;
+  }
+
+  .boxListGarante li {
+    font-size: 16px;
+  
+  }
+  .boxItem, .boxItemTwo {
+    width: 260px;
+    padding: 16px;
+  }
+
+  .bgContainerCronograma h3 {
+    font-size: 24px;
+    margin: 8px 8px 48px 8px;
+  }
+
+  .boxCronograma .boxItemCronograma h4, .boxItemCronograma span{
+    width: 215px;
+    font-size: 14px;
+    
+  }
+  .boxCronograma p{
+    font-size: 12px;
+    margin: 6px;
+  }
+
+  .imageCronograma {
+    width: 100%;
+  }
+
+  .boxItemCronograma {
+    width: 256px;
+    height: 454px;
+    padding: 22px;
+  }
 }
 
 @media screen and (max-width: 768px) {

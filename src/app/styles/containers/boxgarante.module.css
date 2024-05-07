@@ -20,13 +20,14 @@
     height:   50rem;
     background: linear-gradient(180deg, #3F1A57 7.39%, rgba(107, 38, 151, 0) 90.74%);
     background: (180deg, color(display-p3 0.227 0.110 0.325) 7.39%, color(display-p3 0.388 0.165 0.569 / 0) 90.74%);
-    padding-top: 250px;
+    padding-top: 198px;
     text-align: center;
+  
   
   }
 
   .bgContainerGarante h2 {
-    margin-bottom: 48px;
+    margin: 16px 16px 48px 16px;
   }
   .boxGarante {
     width: 100%;
@@ -203,12 +204,12 @@
 
 
   .boxItem {
-    width: 434px;
+    width: 394px;
     margin: 0 auto;
   }
 
   .boxItemTwo {
-    width: 434px;
+    width: 394px;
     height: 100%;
 }
 
@@ -259,7 +260,7 @@
 @media screen and (min-width: 375px) and (max-width: 812px) {
   
   .marginBottonHomeCronograma {
-    margin-top: 200px;
+    margin-top: 210px;
   }
 
 .bgContainerGarante {
@@ -307,6 +308,12 @@
     margin-top: 125px;
   }
 
+}
+
+@media screen and (min-width: 777px) and (max-width: 672px) {
+  .marginBottonHomeCronograma {
+    margin-top: 123px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
