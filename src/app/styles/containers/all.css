@@ -1,11 +1,13 @@
 @import "@/app/styles/containers/boxprincipal.module.css";
 @import "@/app/styles/containers/boxbeneficios.module.css";
 @import "@/app/styles/containers/boxsobre.module.css";
+@import "@/app/styles/containers/boxtabelaingresso.module.css";
 @import "@/app/styles/containers/boxingresso.module.css";
 @import "@/app/styles/containers/boxgarante.module.css";
 @import "@/app/styles/containers/convidadosglobais.module.css";
 @import "@/app/styles/containers/convidadospaginaprincipal.module.css";
-@import "@/app/styles/containers/faq.module.css";
+@import "@/app/styles/containers/boxfaq.module.css";
+@import "@/app/styles/containers/pfaq.module.css";
 @import "@/app/styles/containers/footer.module.css";
 @import "@/app/styles/containers/boxparceiros.module.css";
 @import "@/app/styles/containers/boxpatrocinadores.module.css";
@@ -15,3 +17,5 @@
 @import "@/app/styles/containers/palestrantes.module.css";
 @import "@/app/styles/containers/imagesconvidados.module.css";
 @import "@/app/styles/containers/programacao.module.css";
+@import "@/app/styles/containers/pcontato.module.css";
+@import "@/app/styles/containers/pSatsParty.module.css";
