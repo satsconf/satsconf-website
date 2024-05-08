@@ -39,9 +39,24 @@ img {
   width: 100%;
 }
 
+
+.animate__fadeInLeftBig {
+  --animate-duration: 1000ms;
+  --animate-delay: 0.60 s;
+
+}
+.animate__slideInUp {
+  --animate-duration: 1800ms;
+  --animate-delay: 0.60 s;
+}
+
+.animate__zoomIn{
+  --animate-duration: 5000ms;
+  --animate-delay: 0.60 s;
+}
 .boxTitle {
   width: 100%;
-  height: 8rem;
+  height: 12rem;
   text-align: center;
   color: var(--white);
   display: flex;
@@ -102,6 +117,10 @@ p {
 /* Adicionando media queries para responsividade */
 
 @media screen and (max-width: 768px) {
+ 
+ .boxTitle {
+    height: 16rem;
+ }
   .container-center {
     width: 100%;
     padding: 100px 0;

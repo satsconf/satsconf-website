@@ -1,15 +1,13 @@
 .bgContainerParceiros {
     width: 100%;
-    height: 15rem;
+    height: 28rem;
     text-align: center;
     position: relative;
     margin-bottom: 98px;
     overflow: hidden;
 }
 
-.bgContainerParceiros h2 {
-    margin-bottom: 54px;
-}
+
 .bgContainerParceiros ul li {
     margin: 16px;
 }
@@ -20,8 +18,11 @@
 }
 
 .boxParceiros {
-    padding: 58px;
+    width: 100%;
+    height: 158px;
     background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    display: flex;
 }
 
 .bgContainerParceiros .boxListParceiros {

@@ -35,9 +35,10 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */
   padding: 16px;
-  border-radius: 50px;
-  padding: 45px;
+  border-radius: 30px;
+  padding: 32px;
   box-sizing: border-box;
+
 }
 
 .boxCronograma p {
@@ -55,6 +56,7 @@
 }
 
 .boxCronograma .boxItemCronograma h4 {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,9 +68,11 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
   font-size: 16px;
+
 }
 
 .boxItemCronograma span {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,6 +198,8 @@
   .bgContainerGarante {
     height: 150rem;
   }
+
+  
 }
 @media screen and (min-width: 628px) and (max-width: 673px) {
   .bgContainerGarante {

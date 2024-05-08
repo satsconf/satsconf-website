@@ -8,7 +8,7 @@ const Faq = ({ children }) => {
         <div className=" bgContainerMargin">
           <div className="boxprincipal">
             {/* caixa co container com fonte do titulo */}
-            <div className="sc-bg-container krona-one-regular ">
+            <div className="sc-bg-container krona-one-regular">
               <h1>TIRE SUAS DÚVIDAS SOBRE A SATSCONF</h1>
               {/* gap de 16 com container de botão */}
             </div>

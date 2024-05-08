@@ -12,7 +12,10 @@ const FAQ = () => {
 
     return (
         <div className="faqContainer" id="faq">
-            <h2 className="containerTitleFaq">FAQ</h2>
+           <div className="boxTitle">
+           <h2 className="containerTitleFaq">
+                FAQ</h2>
+           </div>
             {data.map((item, index) => (
                 <div className="faqItem " key={index}>
                   <div className="faqHeader">

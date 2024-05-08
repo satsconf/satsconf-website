@@ -1,5 +1,5 @@
 "use client";
-
+import 'animate.css';
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
 
 import { useState, useEffect } from "react";
@@ -19,7 +19,7 @@ const BoxSobre = () => {
   return (
     <div className="bgContainerSobre ">
       <div className="font-white boxprincipalSobre">
-        <div className="block">
+        <div className="block animate__animated animate__fadeInLeftBig">
           <h2 className="sc-fz-18">SOBRE A SATS CONF</h2>
 
           {data.map((item, i) => {

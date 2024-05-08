@@ -1,10 +1,11 @@
+import 'animate.css';
 import BtnNovidades from "../../ui/button/BtnNovidades";
 
 const ConvidadosPaginaPrincipal = () => {
   return (
     <div className="bgContainerImgPalestrantes">
       <div className="bgContainerConvidadosPaginaPrincipal">
-        <div className="containerTitlePalestrantes">
+        <div className="containerTitlePalestrantes boxTitle ">
           <h2>Palestrantes</h2>
         </div>
         <div className="ContainerImagemConvidadosDestaque">
@@ -178,7 +179,7 @@ const ConvidadosPaginaPrincipal = () => {
 
             </div>
             <div className=" container-btn-palestrantes">
-                <div className="boxBtnHomePalestrantes">
+                <div className="boxBtnHomePalestrantes animate__animated animate__slideInUp">
                 <BtnNovidades url="/palestrantes">VEJA TODOS PALESTRANTES</BtnNovidades>           
               {/* botão do container principal */}      
                 </div>

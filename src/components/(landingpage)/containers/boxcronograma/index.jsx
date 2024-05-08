@@ -1,5 +1,6 @@
+import 'animate.css';
 import SatsConf from "@/components/(landingpage)/images/MeuComponenteSatsConf";
-import SatsParty from "@/components/(landingpage)/images/Satsparty";
+import SatsParty from "@/components/(landingpage)/images/Satsparty/logoSatsParty";
 import SatsWeek from "@/components/(landingpage)/images/satsweek";
 
 const BoxCronograma = () => {
@@ -8,9 +9,9 @@ const BoxCronograma = () => {
 
       <div className="bgContainerCronograma">
         {/* componente cronograma */}
-        <h3 className="krona-one-regular sc-fz-36">Cronograma SATS CONF 2024</h3>
+        <h3 className="krona-one-regular sc-fz-36 boxTitle">Cronograma SATS CONF 2024</h3>
         <div className="boxCronograma">
-          <div className="boxItemCronograma">
+          <div className="boxItemCronograma animate__animated animate__zoomIn">
             <h4>8 e 9 de Novembro</h4>
             <div className="imageCronograma ">
             <SatsConf />
@@ -19,7 +20,7 @@ const BoxCronograma = () => {
             <p>Palestras, painéis, workshops, competições, jogos, networking, comidas, bebidas, lojas e muito mais.</p>
             <span className="krona-one-regular ">Audio | São Paulo</span>
           </div>
-          <div className="boxItemCronograma ">
+          <div className="boxItemCronograma animate__animated animate__zoomIn">
             <h4>10 de Novembro</h4>
             <div className="imageCronograma">
             <SatsParty />
@@ -28,7 +29,7 @@ const BoxCronograma = () => {
             <p>Uma festa exclusiva para os VIPs com ótima comida e networking com palestrantes e influenciadores.</p>
             <span className="krona-one-regular ">Local Secreto </span>
           </div>
-          <div className="boxItemCronograma">
+          <div className="boxItemCronograma animate__animated animate__zoomIn" >
             <h4>4 a 10 de Novembro</h4>
             <div className="imageCronograma">
             <SatsWeek />

@@ -1,7 +1,10 @@
 const BoxParceiros = () => {
     return (
         <div className="bgContainerParceiros">
-            <h2 className="krona-one-regular sc-fz-36 font-white">Parceiros</h2>
+            <div className="boxTitle">
+            <h2 className="krona-one-regular sc-fz-36 font-white ">Parceiros</h2>
+            </div>
+        
             <div className="boxParceiros">
                 <ul className="boxListParceiros">
                     <li>
