@@ -13,7 +13,7 @@ const BoxGarante = () => {
     <div className="backgroundTop" id="programacao">
       <div className="bgContainerGarante font-white">
 
-        <h2 className="krona-one-regular sc-fz-36">Garante seu ingresso agora mesmo!</h2>
+        <h2 className="krona-one-regular sc-fz-36 boxTitle">Garante seu ingresso agora mesmo!</h2>
         <div className="boxGarante">
           <div className="boxItem boxColorPrimary">
             <span className="krona-one-regular ">2 A 4 NOVEMBRO</span>

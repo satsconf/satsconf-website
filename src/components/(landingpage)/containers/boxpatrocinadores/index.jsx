@@ -1,10 +1,10 @@
 const BoxPatrocinadores = () => {
   return (
-    <div className="">
+    <div className="backgroundBottom">
       <div className="bgContainerPatrocinadores ">
-        <div className="krona-one-regular  font-white texte ">
-          <div className="backgroundBottom">
-            <h2 className="sc-fz-36">Patrocinadores </h2>
+        <div className="krona-one-regular  font-white ">
+          <div className="">
+            <h2 className="sc-fz-36 boxTitle">Patrocinadores </h2>
 
             <div className="boxPatrocinadores">
               <h3>Cota Platina</h3>

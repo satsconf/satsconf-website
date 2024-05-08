@@ -4,11 +4,12 @@
     background: linear-gradient(180deg, #3F1A57 15.39%, rgba(107, 38, 151, 0) 90.74%);
 background-color: (180deg, color(display-p3 0.227 0.110 0.325) 7.39%, color(display-p3 0.388 0.165 0.569 / 0) 90.74%);
 overflow: hidden;
+padding-top: -68px;
 }
 
 .bgContainerPatrocinadores h2 {
-    margin-bottom: 200px;
     position: relative;
+    
     
 }
 

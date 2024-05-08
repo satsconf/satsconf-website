@@ -117,6 +117,12 @@
   }
 }
 
+@media screen and (min-width: 628px) and (max-width:  673px){
+ .item {
+  width: 348px;
+ }
+    }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bgContainerSobre {
     height: 88rem;

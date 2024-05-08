@@ -1,169 +1,173 @@
 .btnIngresso {
-    width: 188px;
-    height: 53px;
-    border-radius: 34px;
-    background: linear-gradient(90deg, #b32fe0 0%, #ffb126 115.16%);
-    background: (
-      90deg,
-      color(display-p3 0.647 0.227 0.847) 0%,
-      color(display-p3 1 0.71 0.29) 115.16%);
-    box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    color: var(--white);
-    cursor: pointer;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .container-btn {
+  width: 188px;
+  height: 53px;
+  border-radius: 34px;
+  background: linear-gradient(90deg, #b32fe0 0%, #ffb126 115.16%);
+  background: (
+    90deg,
+    color(display-p3 0.647 0.227 0.847) 0%,
+    color(display-p3 1 0.71 0.29) 115.16%
+  );
+  box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container-btn {
   display: flex;
   flex-direction: row;
   margin: 16px 0;
   text-align: center;
-  }
-  
-  .container-btn-palestrantes {
-    padding: 79px 0;
-    margin: auto;
-    position: relative;
-    z-index: 2;
-  }
+}
 
-  .boxCenterPaginaPrincipalConvidados {
-display: flex;
-flex-direction: column;
-  }
+.container-btn-palestrantes {
+  padding: 79px 0;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
 
+.boxCenterPaginaPrincipalConvidados {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-btn-palestrantes .btnNovidades {
+  width: 328px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.btnNovidades {
+  width: 168px;
+  height: 53px;
+  border: 1px solid #ffff;
+  border-radius: 34px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.btnCronograma {
+  margin: 0 auto;
+  padding: 0;
+  width: 350px;
+  height: 70px;
+  border-radius: 34px;
+  position: relative;
+  top: 0;
+  right: 0;
+  background: var(--white);
+  box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  color: var(--black);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  -moz-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+}
+
+.btnCronogramaSecundary {
+  margin: 0 auto;
+  padding: 0;
+  width: 350px;
+  height: 70px;
+  border-radius: 34px;
+  position: absolute;
+  top: 29px;
+  right: -176px;
+  background: var(--white);
+  box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  color: var(--black);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  -moz-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+  -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+}
+
+@media screen and (min-width: 280px) and (max-width: 653px) {
+  .bgContainerGarante {
+    padding-top: 88px;
+  }
   .container-btn-palestrantes .btnNovidades {
-    width: 328px;
-    height: 64px;
-    margin: 0 auto;
+    width: 260px;
   }
-  
-  .btnNovidades {
-    width: 168px;
-    height: 53px;
-    border: 1px solid #ffff;
-    border-radius: 34px;
-    background: transparent;
-    box-shadow: none;
-    color: var(--white);
-    cursor: pointer;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-  }
-
 
   .btnCronograma {
-    margin: 0 auto;
-    padding: 0;
-    width: 350px;
-    height: 70px;
-    border-radius: 34px;
-    position: relative;
-    top: 0;
-    right: 0;
-    background: var(--white);
-    box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    color: var(--black);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    -moz-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-
+    margin: -33px 0;
+    width: 222px;
+    font-size: 12px;
   }
 
   .btnCronogramaSecundary {
-    margin: 0 auto;
-    padding: 0;
-    width: 350px;
-    height: 70px;
-    border-radius: 34px;
-    position: absolute;
-    top: 29px;
-    right: -176px;
-    background: var(--white);
-    box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    color: var(--black);
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    -moz-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
-    -webkit-box-shadow: 0px 0px 21.1px 0px rgba(217, 129, 135, 0.4);
+    margin: -33px 0;
+    width: 199px;
+    right: -102px;
+    font-size: 12px;
   }
+}
 
-  @media screen and (min-width: 280px) and (max-width: 653px){
-    .bgContainerGarante {
-      padding-top: 192px;
-
-    }
-    .container-btn-palestrantes .btnNovidades {
-      width: 260px;
+@media screen and (min-width: 375px) and (max-width: 812px) {
+  .btnCronograma {
+    width: 282px;
+    margin: 32px;
     }
 
-    .btnCronograma {
-      margin: -33px 0;
-      width: 222px;
-      font-size: 18px;
+    .btnCronogramaSecundary {
+      width: 282px;
+      right: -141px;
+      margin: -22px 0;
     }
+}
 
-    .btnCronogramaSecundary{
-      margin: -33px 0;
-      width: 199px;
-      right: -102px;
-      font-size: 18px;
-    }
-      }
 
-  @media screen and (min-width: 768px) {
-  
- 
-
-    /* Altere para telas maiores */
+@media screen and (min-width: 768px) {
+  /* Altere para telas maiores */
   .btnNovidades {
     width: 188px;
     height: 53px;
   }
-  
-  
+
   .container-btn {
     display: flex;
     flex-direction: row;
     width: 100%;
-    }
-
   }
-  
-  @media screen and (min-width: 280px) and (max-width: 320px){
-    .container-btn {
-      width: 258px;
-    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .container-btn {
+    width: 258px;
   }
+}
 
-
-  @media screen and (min-width: 321px) and (max-width: 780px){
-    .container-btn {
-      width: 338px;
-    }
+@media screen and (min-width: 321px) and (max-width: 780px) {
+  .container-btn {
+    width: 338px;
   }
+}
 
-
-  @media screen and (min-width: 782px) and (max-width: 926px){
-    .container-btn {
-      width: 398px;
-    }
+@media screen and (min-width: 782px) and (max-width: 926px) {
+  .container-btn {
+    width: 398px;
   }
-
+}

@@ -1,5 +1,7 @@
 .bgContainerImagemConvidadoGlobal {
-    margin: 0 16px;
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
  
 }
 
