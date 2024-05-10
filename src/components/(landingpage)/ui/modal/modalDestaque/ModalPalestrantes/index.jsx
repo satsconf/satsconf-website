@@ -10,7 +10,8 @@ const ModalPalestrantes = ({
   linkedin,
 }) => {
   return (
-    <div className="bgModalPalestrantes">
+  
+    <div className="bgModalPalestrantes" id="modal">
       <div className="modalContentPalestrantes">
         <div className="modal-body">
           <img src={image} alt={name} />

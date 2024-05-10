@@ -55,7 +55,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    z-index: 999;
+    z-index: 200;
 }
 
 
@@ -67,6 +67,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+
     
 }
 
@@ -79,6 +80,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 /* 
 /* Ajuste para dispositivos menores */

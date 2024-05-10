@@ -1,7 +1,7 @@
 /* modalPalestrantes.module.css */
 
 .bgModalPalestrantes {
-  position: fixed; /* ou absolute, dependendo da sua necessidade */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -10,11 +10,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+ z-index: 1000;
 }
 
 .modalContentPalestrantes {
-  position: absolute;
   width: 670px;
   height: 376px;
   background-color: var(--white);
@@ -22,15 +21,17 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  z-index: 1000;
   border: none;
+  z-index: 1500;
 }
+
 
 .modal-body {
   background-color: var(--background);
   width: 50%;
   height: auto;
   border-radius: 26px 0 0 26px;
+  
 }
 
 .modal-close-btn,
@@ -42,7 +43,8 @@
   border-radius: 26px 0 0 26px;
   height: 100%;
   width: 100%;
-  display: block;
+  object-fit: cover;
+
 }
 
 .bgModalPalestrantes .modalContentPalestrantes .modal-header h2 {

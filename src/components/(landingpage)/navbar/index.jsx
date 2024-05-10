@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="nav">
+    <nav className="nav" >
       <div className="navBorder">
         <div className="navContainer">
           {/* link para pagina inicial da landingpage*/}
