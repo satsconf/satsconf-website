@@ -1,0 +1,96 @@
+/* modalPalestrantes.module.css */
+
+.bgModalPalestrantes {
+  position: fixed; /* ou absolute, dependendo da sua necessidade */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.431);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContentPalestrantes {
+  position: absolute;
+  width: 670px;
+  height: 376px;
+  background-color: var(--white);
+  border-radius: 27px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  z-index: 1000;
+  border: none;
+}
+
+.modal-body {
+  background-color: var(--background);
+  width: 50%;
+  height: auto;
+  border-radius: 26px 0 0 26px;
+}
+
+.modal-close-btn,
+.social-icons {
+  cursor: pointer;
+}
+
+.bgModalPalestrantes .modalContentPalestrantes .modal-body img {
+  border-radius: 26px 0 0 26px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.bgModalPalestrantes .modalContentPalestrantes .modal-header h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #402159;
+  font-family: "Krona One", sans-serif;
+}
+
+.bgModalPalestrantes .modalContentPalestrantes .modal-header p {
+  font-size: 16px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--black);
+}
+.bgModalPalestrantes .modalContentPalestrantes .modal-header .btnComprarModal {
+  width: 180px;
+  height: 52px;
+  border-radius: 34px;
+  color: var(--white);
+  font-size: 12px;
+  font-family: "Sora", sans-serif;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #b32fe0 6.67%, #ffb126 95.83%);
+  background: linear-gradient(
+    90deg,
+    color(display-p3 0.647 0.227 0.847) 6.67%,
+    color(display-p3 1 0.71 0.29) 95.83%
+  );
+}
+
+.modal-header {
+  width: 50%;
+  margin: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .modalContentPalestrantes {
+    max-width: 100%;
+    width: 500px;
+    height: 278px;
+  }
+
+  .bgModalPalestrantes .modalContentPalestrantes .modal-body img {
+    width: 100%;
+  }
+}
