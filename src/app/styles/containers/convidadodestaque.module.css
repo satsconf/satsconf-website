@@ -11,11 +11,10 @@
   background-image: url('/sats-conf-bg.png'); /* Caminho para a sua imagem PNG */
   background-size: cover; /* Cobertura total da área do elemento */
   background-position: center; /* Posicionamento central da imagem */
-  z-index: 1;
+  
 }
 
 .bgContainerConvidadosDestaque {
-  width: 100%;
   margin: 0 auto;
 
 }
@@ -31,9 +30,9 @@ background-color: transparent;
 
 .boxprincipalConvidadoDestaque {
   width: 974px;
-  height: 250px;
+  height: 48rem;
   margin: 0 auto;
-  padding: 248px 0 188px 0;
+  padding: 248px 0 248px 0;
 
 }
 
@@ -43,8 +42,10 @@ background-color: transparent;
 
 }
 
-.blocoConvidados {
-  margin-top: 450px;
+.boxBlocoConvidados {
+margin: 0 auto;
+
+
 }
 @media screen and (min-width: 280px) and (max-width: 653px){
   
@@ -63,7 +64,7 @@ background-color: transparent;
     height: 530rem;
   }
 
-  .blocoConvidados {
+  .boxBlocoConvidados {
     margin-top: 0;
   }
 
@@ -127,10 +128,7 @@ background-color: transparent;
      }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .bgContainerConvidadosDestaque {
-    width: 100%;
-
-  }
+  
 
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;

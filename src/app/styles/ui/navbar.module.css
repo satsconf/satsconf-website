@@ -16,10 +16,14 @@
     top: 89px; /* Ajuste conforme necessário */
     left: 111px;
     width: 60%;
-    background-color: rgba(17, 07, 22, 0.86);
+    background-color: rgb(18 8 29 / 94%);
     padding: 10px; /* Adicione espaçamento interno */
     border-radius:  10px; /* Adicione borda arredondada */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra */
+    box-shadow: 0px 4px 10px rgba(18, 8, 29, 0.6); /* Adicione uma sombra */
+    z-index: 202;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
   }
   
   .navMenu.showMenu li {
@@ -33,6 +37,8 @@
     width: 100%;
     height: 100%;
     padding: 0 20px;
+    
+    
 }
 
 .navContainer ul {
@@ -40,10 +46,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .navContainer ul li {
     margin: 15px;
+    
 }
 
 
@@ -56,6 +64,7 @@
     flex-wrap: wrap;
     align-items: center;
     z-index: 200;
+
 }
 
 
@@ -76,11 +85,19 @@
     height: 112px;
     border-radius: 100px;
     border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgba(18, 8, 29, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
     align-items: center;
+
    
+}
+
+.nav.navBorder.navContainer.navMenu ul li{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 /* 
 /* Ajuste para dispositivos menores */
