@@ -17,16 +17,20 @@ const ModalPalestrantes = ({
           <img src={image} alt={name} />
         </div>
         <div className="modal-header">
-          <h2>{name}</h2>
+          <div className="modal-header-exit">
           <button className="modal-close-btn" onClick={() => handleClose()}>
             X
           </button>
+          </div>
+     
+          <h2>{name}</h2>
+         
           <p>{description}</p>
           <Link href="/">
             <button className="btnComprarModal">Comprar Ingresso</button>
           </Link>
 
-          <div className="social-icons">
+          <div className="social-icons-modal">
             <a href={twitter}>Twitter</a>
             <a href={linkedin}>LinkedIn</a>
           </div>

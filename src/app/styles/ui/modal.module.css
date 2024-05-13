@@ -15,7 +15,7 @@
 
 .modalContentPalestrantes {
   width: 670px;
-  height: 376px;
+  height: 568px;
   background-color: var(--white);
   border-radius: 27px;
   display: flex;
@@ -23,6 +23,7 @@
   margin: 0 auto;
   border: none;
   z-index: 1500;
+  padding: 0 16px 0 0;
 }
 
 
@@ -33,9 +34,19 @@
   border-radius: 26px 0 0 26px;
   
 }
+.social-icons-modal{
+  position: absolute;
+  top: 79%;
+  left: 29%;
+  width: 466px;
+  height: 62px;
+  background: #402159;
+  border-radius: 27px 0 0 27px;
 
+
+}
 .modal-close-btn,
-.social-icons {
+.social-icons-modal {
   cursor: pointer;
 }
 
@@ -52,16 +63,21 @@
   font-weight: 400;
   color: #402159;
   font-family: "Krona One", sans-serif;
+  margin-bottom: 20px;
 }
 
 .bgModalPalestrantes .modalContentPalestrantes .modal-header p {
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: var(--black);
+  color:  #585659;
+  margin-bottom: 20px;
+  width: 292px;
+  height: 264px;
 }
+
 .bgModalPalestrantes .modalContentPalestrantes .modal-header .btnComprarModal {
   width: 180px;
   height: 52px;
@@ -76,13 +92,32 @@
   background: linear-gradient(
     90deg,
     color(display-p3 0.647 0.227 0.847) 6.67%,
-    color(display-p3 1 0.71 0.29) 95.83%
-  );
+    color(display-p3 1 0.71 0.29) 95.83% );
+  margin-bottom: 70px;
 }
 
 .modal-header {
   width: 50%;
   margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-header-exit {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4%;
+}
+
+.modal-header-exit button {
+  font-size: 18px;
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  padding: 13px 18px;
+  background-color: var(--black);
 }
 
 @media screen and (max-width: 900px) {

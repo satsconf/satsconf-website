@@ -6,7 +6,7 @@ import { useState } from "react";
 import ModalPalestrantes from "@/components/(landingpage)/ui/modal/modalDestaque/ModalPalestrantes";
 
 
-const Card = ({ id, name, skills, description, image, twitter, linkedin }) => {
+const Card = ({ id, name, skills, description, image, twitter, linkedin, className }) => {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => {
@@ -14,7 +14,8 @@ const Card = ({ id, name, skills, description, image, twitter, linkedin }) => {
   };
 
   return (
-    <div className="bgContainerConvidadosDestaque">
+    <div className={`card ${className}`}>
+          <div className="bgContainerConvidadosDestaque">
       <div className="boxBlocoConvidados">
         <div className="ContainerImagemConvidadosDestaque">
           {/* imagem um */}
@@ -25,7 +26,7 @@ const Card = ({ id, name, skills, description, image, twitter, linkedin }) => {
               setShowModal(true);
             }}
           >
-            <div className="number">{id}</div>
+            <div className="number" id={id}></div>
 
             <img src={image} alt="" className="imageConvidados" />
             <div className="containerImagesBoxDestaque">
@@ -47,6 +48,8 @@ const Card = ({ id, name, skills, description, image, twitter, linkedin }) => {
         />
       )}
     </div>
+    </div>
+
   );
 };
 

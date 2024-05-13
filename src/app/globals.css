@@ -114,13 +114,14 @@ p {
   gap: 32px;
 }
 
-.profile-card {
+.profile-card  {
 display: flex;
 align-items: center;
+flex-wrap: wrap;
 justify-content: center;
-width: 1202px;
+width: 1302px;
 margin: 0 auto;
-
+gap: 20px;
 }
 
 

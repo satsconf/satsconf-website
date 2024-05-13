@@ -25,7 +25,7 @@ const BoxPrincipalPalestrantes = () => {
         </div>
         <div>
         <Card />
-        <CardGeral />
+       
         </div>
      
       </div>

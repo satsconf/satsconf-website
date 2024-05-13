@@ -1,35 +1,43 @@
 
 .ContainerImagemConvidadosDestaque {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(122px, 1fr));
     /* Grid com 5 imagens por linha */
-    gap: 8px;
     /* Espaçamento entre as imagens */
     justify-items: center;
     align-items: center;
     /* Centraliza as imagens horizontalmente */
     /* padding: -1 76px; */
     /* Margem para centralizar o grid */
-    margin: 0 auto;
+    margin: -20px auto;
    
   }
   
   
-  .containerConvidadosDestaque img {
+ .palestrante-destaque img {
     width: 368px;
     height: 420px;
     border: none;
     object-fit: cover;
   }
 
+  .palestrante-destaque img {
+    width: 385px;
+    height: 416px;
+  }
+
+ .palestrante-global img {
+  width: 218px;
+  height: 270px;
+  }
   
   .containerImagesBoxDestaque {
     position: relative;
     bottom: 36px;
     left: 50%;
     transform: translateX(-50%);
-    width: 197px;
-    height: 100px;
+    width: 194px;
+    height: 124px;
     margin-bottom: 65px;
     text-align: center;
     justify-content: center;
@@ -53,6 +61,7 @@
     font-weight: 800;
     font-style: normal;
     margin-top: 25px;
+    font-size: 18px;
   
   }
 
@@ -73,7 +82,7 @@
     }
 
 
-  .containerConvidadosDestaque img {
+  .containerConvidadosDestaque .palestrante-destaque img{
     width: 368px;
     height: 420px;
     border: none;
@@ -81,10 +90,11 @@
   }
 
 
+
   }
 
   @media screen and (min-width: 320px) and (max-width: 568px) {
-    .containerConvidadosDestaque img {
+    .containerConvidadosDestaque .palestrante-destaque img {
 
       width: 368px;
       height: 420px;
