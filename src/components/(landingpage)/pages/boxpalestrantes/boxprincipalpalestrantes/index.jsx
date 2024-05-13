@@ -1,6 +1,8 @@
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
-import ImagesConvidadosDestaque from "../imagesconvidadosdestaque";
+import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
+import CardGeral from "@/components/(landingpage)/ui/modal/modalGeral/CardGeral";
+
 
 const BoxPrincipalPalestrantes = () => {
   return (
@@ -21,8 +23,11 @@ const BoxPrincipalPalestrantes = () => {
             <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
           </div>
         </div>
-
-        <ImagesConvidadosDestaque />
+        <div>
+        <Card />
+        <CardGeral />
+        </div>
+     
       </div>
     </div>
   );
