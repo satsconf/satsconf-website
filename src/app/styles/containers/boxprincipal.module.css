@@ -28,6 +28,21 @@
   margin: auto;
 }
 
+.boxprincipal .SatsConfParty-Span {
+  font-size: 16px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  width: 234px;
+  height: 53px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 34px;
+}
+
+ 
+
 .sc-bg-container {
   width: 380px;
 
@@ -59,15 +74,19 @@
 
 }
 
-
 @media screen and (max-width: 767px) {
   /* Estilos específicos para dispositivos móveis */
+
 
   #BoxPrincipal {
     width: 700px;
     overflow-x: hidden;
   }
   
+  .boxprincipal .SatsConfParty-Span {
+    width: 300px;
+    font-size: 16px;
+  }
 
 .bgContainerPrincipal {
   width: 380px;

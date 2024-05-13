@@ -114,10 +114,37 @@ p {
   gap: 32px;
 }
 
+.profile-card {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 1202px;
+margin: 0 auto;
+
+}
+
+
+.number {
+  display: none;
+}
+
+.margem-top-20 {
+  margin-top: 20px;
+}
+
+
+.margem-top-30 {
+  margin-top: 30px;
+}
+
+
 /* Adicionando media queries para responsividade */
 
 @media screen and (max-width: 768px) {
- 
+ .profile-card  {
+  width: 100%;
+display: block;
+ }
  .boxTitle {
     height: 16rem;
  }
