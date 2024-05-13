@@ -5,6 +5,7 @@
 import { useState } from "react";
 import ModalPalestrantes from "@/components/(landingpage)/ui/modal/modalDestaque/ModalPalestrantes";
 
+
 const Card = ({ id, name, skills, description, image, twitter, linkedin }) => {
   const [showModal, setShowModal] = useState(false);
 

@@ -14,6 +14,7 @@ const ConvidadosSats = () => {
       socialMedia: {
         twitter: "https://twitter.com/participant1",
         linkedin: "https://www.linkedin.com/in/participant1",
+
       },
     },
     {
@@ -38,6 +39,7 @@ const ConvidadosSats = () => {
         linkedin: "https://www.linkedin.com/in/participant1",
       },
     },
+   
   ]);
 
   return (
