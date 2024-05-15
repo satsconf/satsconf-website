@@ -1,7 +1,7 @@
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
-import CardGeral from "@/components/(landingpage)/ui/modal/modalGeral/CardGeral";
+
 
 
 const BoxPrincipalPalestrantes = () => {
