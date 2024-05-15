@@ -1,14 +1,5 @@
 
 .ContainerImagemConvidadosDestaque {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(122px, 1fr));
-    /* Grid com 5 imagens por linha */
-    /* Espaçamento entre as imagens */
-    justify-items: center;
-    align-items: center;
-    /* Centraliza as imagens horizontalmente */
-    /* padding: -1 76px; */
-    /* Margem para centralizar o grid */
     margin: -20px auto;
    
   }
@@ -29,6 +20,7 @@
  .palestrante-global img {
   width: 218px;
   height: 270px;
+  object-fit: cover;
   }
   
   .containerImagesBoxDestaque {
@@ -70,7 +62,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    margin-top: 25px;
+    margin: 25px 8px;
   }
   
   /* Estilos específicos para dispositivos móveis */
@@ -94,11 +86,38 @@
   }
 
   @media screen and (min-width: 320px) and (max-width: 568px) {
-    .containerConvidadosDestaque .palestrante-destaque img {
+    .palestrante-destaque img {
 
-      width: 368px;
+      width: 318px;
       height: 420px;
-      border: none;
+
     
     }
+
+    .palestrante-global img {
+      width: 318px;
+      height: 420px;
+  }
+  }
+
+  @media screen and (min-width: 596px) and (max-width: 1024px)  {
+
+    .palestrante-destaque img {
+      width: 340px;
+    }
+    .palestrante-global img {
+      width: 340px;
+      height: 459px;
+  }
+  }
+  @media screen and (min-width: 912px) and (max-width: 1368px) {
+    #Palestrantes {
+      height: 382rem;
+    }
+    #Palestrantes .profile-card {
+      width: 900px;
+  
+    }
+
+   
   }

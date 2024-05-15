@@ -4,10 +4,11 @@
 
 }
 
-.palestrante-destaque {
- 
+#Palestrantes img {
+  filter: grayscale(0.20);
+  image-rendering: auto;
+}
 
-} 
 
 .bgContainerImageConvidadosPage {
   position: relative;
@@ -66,7 +67,8 @@ margin: 0 auto;
 
   #Palestrantes {
     width: 100%;
-    height: 530rem;
+    height: 616rem;
+    max-height: auto;
   }
 
   .boxBlocoConvidados {
@@ -152,9 +154,22 @@ margin: 0 auto;
   }
 }
 @media screen and (min-width: 820px) and (max-width: 1180px) {
+  
+  #Palestrantes .profile-card {
+    width: 1200px;
+
+  }
+
+  .palestrante-destaque img {
+    width: 335px;
+
+  }
+
   .bgContainerConvidadosPaginaPrincipal {
     height: 168rem;
   }
+ 
+ 
 }
 @media screen and (min-width: 912px) and (max-width: 1368px) {
   .bgContainerConvidadosPaginaPrincipal {

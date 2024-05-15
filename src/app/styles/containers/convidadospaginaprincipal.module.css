@@ -1,3 +1,9 @@
+
+#listaConvidados {
+    height: auto;
+}
+
+
 .bgContainerImgPalestrantes {
     width: 100%;
     background-image: url('/sats-conf-bg-palestrante.png'); /* Caminho para a sua imagem PNG */
