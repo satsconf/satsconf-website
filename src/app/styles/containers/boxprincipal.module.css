@@ -223,8 +223,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+  .bgContainerMargin {
+    margin-top: 91px;
+  }
+
   .sc-bg-container {
-    max-width: 378px; /* Reduzindo o tamanho do contêiner para tablets */
+    max-width: 578px; /* Reduzindo o tamanho do contêiner para tablets */
   }
 
   
@@ -238,6 +242,6 @@
 @media screen and (min-width: 810px) and (max-width: 1080px) {
 
   .sc-bg-container {
-    max-width: 378px; /* Reduzindo o tamanho do contêiner para tablets */
+    max-width: 478px; /* Reduzindo o tamanho do contêiner para tablets */
   }
 }
