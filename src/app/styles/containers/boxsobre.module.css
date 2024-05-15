@@ -2,7 +2,7 @@
 
 .bgContainerSobre {
   width: 100%;
-  height: 58rem;
+  height: 52rem;
   background-color: var(--background);
   padding: 15rem 0 15rem 0;
 }
@@ -83,6 +83,38 @@
   display: block;
 
 }
+@media screen and (max-width: 380px){
+.boxprincipalSobre {
+  width: 200px;
+}
+
+}
+
+@media screen and (max-width: 600px){
+
+.bgContainerSobre  {
+height: auto;
+}
+
+.item {
+  width: 100%;
+
+}
+}
+
+
+
+@media screen and (max-width: 900px){
+
+  .bgContainerSobre  {
+  height: auto;
+  }
+  
+  .item {
+    width: 100%;
+ 
+  }
+  }
 
 @media screen and (min-width: 280px) and (max-width: 653px){
   .bgContainerSobre{
@@ -110,7 +142,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   .bgContainerSobre {
-    height: 84rem;
+    height: 74rem;
   }
   .item {
     width: 300px;
