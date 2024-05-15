@@ -6,7 +6,7 @@ import { useState } from "react";
 import ModalPalestrantes from "@/components/(landingpage)/ui/modal/modalDestaque/ModalPalestrantes";
 
 
-const Card = ({ id, name, skills, description, image, twitter, linkedin, className }) => {
+const Card = ({ id, name, skills, description, image, twitter, linkedin, nostr, instagram, youtube, github, link, className }) => {
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => {
@@ -43,7 +43,12 @@ const Card = ({ id, name, skills, description, image, twitter, linkedin, classNa
           description={description}
           image={image}
           twitter={twitter}
+          link={link}
           linkedin={linkedin}
+          nostr={nostr}
+          instagram={instagram}
+          youtube={youtube}
+          github={github}
           handleClose={handleClose}
         />
       )}
