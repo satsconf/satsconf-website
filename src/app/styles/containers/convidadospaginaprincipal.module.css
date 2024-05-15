@@ -1,52 +1,50 @@
-
 #listaConvidados {
-    height: auto;
+  height: auto;
 }
 
-
 .bgContainerImgPalestrantes {
-    width: 100%;
-    background-image: url('/sats-conf-bg-palestrante.png'); /* Caminho para a sua imagem PNG */
-    background-size: cover; /* Cobertura total da área do elemento */
-    background-position: center calc(10% - 100px); /* Posicionamento central da imagem */
-
+  width: 100%;
+  background-image: url("/sats-conf-bg-palestrante.png");
+  /* Caminho para a sua imagem PNG */
+  background-size: cover;
+  /* Cobertura total da área do elemento */
+  background-position: center calc(10% - 100px);
+  /* Posicionamento central da imagem */
 }
 
 .containerTitlePalestrantes {
-    width: 100%;
-    height: 54px;
-    color: var(--white);
-    text-align: center;
-    font-family: "Krona One", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0 auto;
-
+  width: 100%;
+  height: 54px;
+  color: var(--white);
+  text-align: center;
+  font-family: "Krona One", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 auto;
 }
 
 .bgConvidadosPaginaPrincipal {
-    height: 95rem;
+  height: 95rem;
 }
-
 
 @media screen and (max-width: 768px) {
-
-   .bgContainerImgPalestrantes {
-    background-image:none;
-   }
-
-
-
+  .bgContainerImgPalestrantes {
+    background-image: none;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
-   .ContainerImagemConvidadosDestaque {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #listaConvidados .profile-card {
+    width: 700px;
+  }
+
+  #Palestrantes .profile-card {
+    width: 700px;
+    height: 400rem;
+  }
+
+  .ContainerImagemConvidadosDestaque {
     max-width: 100%;
-
-   }
-   
-    
-
-   
+  }
 }
