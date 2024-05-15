@@ -10,12 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
- z-index: 1000;
+  z-index: 1000;
 }
 
 .modalContentPalestrantes {
-  width: 670px;
-  height: 568px;
+  width: 900px;
+  height: 616px;
   background-color: var(--white);
   border-radius: 27px;
   display: flex;
@@ -26,24 +26,32 @@
   padding: 0 16px 0 0;
 }
 
-
 .modal-body {
   background-color: var(--background);
   width: 50%;
   height: auto;
   border-radius: 26px 0 0 26px;
-  
 }
-.social-icons-modal{
-  position: absolute;
-  top: 79%;
-  left: 29%;
+.social-icons-modal {
+  position: relative;
+}
+
+.social-icons-modal a {
+  color: #000000;
+  margin: 6px;
+}
+
+.social-icons-modal svg {
+  margin: 0;
+}
+
+.social-cons-bg-travado {
+  display: block;
   width: 466px;
   height: 62px;
   background: #402159;
   border-radius: 27px 0 0 27px;
-
-
+  box-sizing: border-box;
 }
 .modal-close-btn,
 .social-icons-modal {
@@ -55,7 +63,6 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
 
 .bgModalPalestrantes .modalContentPalestrantes .modal-header h2 {
@@ -72,7 +79,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color:  #585659;
+  color: #585659;
   margin-bottom: 20px;
   width: 292px;
   height: 264px;
@@ -92,7 +99,8 @@
   background: linear-gradient(
     90deg,
     color(display-p3 0.647 0.227 0.847) 6.67%,
-    color(display-p3 1 0.71 0.29) 95.83% );
+    color(display-p3 1 0.71 0.29) 95.83%
+  );
   margin-bottom: 70px;
 }
 
@@ -102,6 +110,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.modal-header a {
+  padding-top: 26px;
 }
 
 .modal-header-exit {
@@ -120,14 +132,54 @@
   background-color: var(--black);
 }
 
-@media screen and (max-width: 900px) {
-  .modalContentPalestrantes {
-    max-width: 100%;
-    width: 500px;
-    height: 278px;
+@media screen and (max-width: 368px) {
+  .modal-body {
+    background-color: var(--white);
+    width: 100%;
+  }
+
+  .modal-header {
+    width: 100%;
   }
 
   .bgModalPalestrantes .modalContentPalestrantes .modal-body img {
+    display: none;
+  }
+
+  .bgModalPalestrantes .modalContentPalestrantes .modal-header p {
+    font-size: 11px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .modal-body {
+    background-color: var(--white);
     width: 100%;
+  }
+
+  .modal-header {
+    width: 100%;
+  }
+
+  .bgModalPalestrantes .modalContentPalestrantes .modal-header p {
+    font-size: 12px;
+    width: 320px;
+  }
+
+  .bgModalPalestrantes .modalContentPalestrantes .modal-body img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (min-widht: 1366px) and (max-width: 768px) {
+  .social-cons-bg-travado {
+    top: 69%;
+    left: 14%;
+    width: 900px;
+    height: 568px;
   }
 }
