@@ -16,10 +16,19 @@
       padding: 16px;
   }
   
+  .footer ul li {
+    display: flex;
+    align-items: center;
+
+  }
   .footer h2,.footer p,.footer a, .footer ul li {
       color: white;
+      margin: 8px;
   }
   
+  .footer svg {
+    margin: 8px;
+  }
   .footerContainer div{
       display: flex;
       justify-content: space-around;

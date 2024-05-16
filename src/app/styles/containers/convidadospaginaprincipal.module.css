@@ -2,6 +2,10 @@
   height: auto;
 }
 
+#listaConvidados h2 {
+  font-size: 36px;
+}
+
 .bgContainerImgPalestrantes {
   width: 100%;
   background-image: url("/sats-conf-bg-palestrante.png");
@@ -29,6 +33,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+#listaConvidados h2 {
+  font-size: 24px;
+}
+
   .bgContainerImgPalestrantes {
     background-image: none;
   }

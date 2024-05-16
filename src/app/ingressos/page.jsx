@@ -39,7 +39,7 @@ const Ingressos = ({ children }) => {
       <div className="bgContainerComprarIngresso">
         <div className=" krona-one-regular">
           <div className="boxTitle">
-            <h2 className="sc-fz-36">INGRESSOS</h2>
+            <h2>INGRESSOS</h2>
             <p className="sc-fz-18 sora-light ">
               Garanta seu ingresso para a terceira edição do maior evento
               100% bitcoin do brasil

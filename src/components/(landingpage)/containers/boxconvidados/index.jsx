@@ -233,7 +233,7 @@ const BoxConvidados = () => {
     return(
         <div id="listaConvidados">
           <div className="bgContainerImgPalestrantes">
-          <div className="containerTitlePalestrantes boxTitle sc-fz-36">
+          <div className="containerTitlePalestrantes boxTitle ">
             <h2>Palestrantes </h2>
             </div>
             <div className="listaConvidadosPaginaPrincipal">

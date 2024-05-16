@@ -3,6 +3,14 @@
   overflow-x: hidden;
 }
 
+#Ingressos .bgContainerComprarIngresso H2 {
+  font-size: 36px;
+}
+
+#listaIngressoBox .bgTabelaIngresso h2 {
+  font-size: 36px;
+}
+
 .backgroundTopIngresso {
   position: relative; /* Garante que o position absolute do pseudo-elemento seja relativo a este container */
 
@@ -76,6 +84,18 @@
 }
 
 @media screen and (max-width: 767px) {
+
+
+
+#listaIngressoBox .bgTabelaIngresso h2 {
+  font-size: 24px;
+}
+
+
+#Ingressos .bgContainerComprarIngresso H2 {
+  font-size: 24px;
+}
+
   .BoxTabelaIngresso {
     width: 100%;
 
