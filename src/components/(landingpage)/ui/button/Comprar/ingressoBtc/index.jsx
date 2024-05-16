@@ -62,31 +62,93 @@ const ShopifyCollectionButton = () => {
               styles: {
                 product: {
                   "@media (min-width: 601px)": {
-                    "max-width": "calc(25% - 20px)",
-                    "margin-left": "20px",
-                    "margin-bottom": "50px",
-                    "width": "calc(25% - 20px)",
-                  },
+                    "max-width":"900px",
+                    "margin":"0px",
+                    "width":"100%",
+                    "display":"flex",
+                    "justify-content":"space-between",
+                    "align-items":"center",
+                    "padding":"20px 0",
+                    
+                  }
+                 
                 },
                 title: {
                   "font-size": "17px",
                   "color": "#fff",
+                  "margin": "0",
                 },
                 price: {
                   "font-size": "17px",
                   "color": "#c2c2c2",
+                  "margin": "0px",
+
                 },
                 button: {
+                  "width":"100%",
                   "font-family": "Arial, sans-serif",
                   "font-size": "18px",
                   "padding-top": "15px",
                   "padding-bottom": "15px",
                   ":hover": {
-                    "background-color": "#ea5118",
+                    "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                   },
-                  "background-color": "#ea5118",
+                  "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                   ":focus": {
-                    "background-color": "#ea5118",
+                    "background": "linear-gradient(to right, #a63ad8b7, #ffb44ad3);",
+                  },
+                  "border-radius": "35px",
+                },
+                quantityInput: {
+                  "font-size": "18px",
+                  "padding-top": "0",
+                  "padding-bottom": "0",
+                },
+              },
+              text: {
+                button: "Add no carrinho",
+              },     
+            },
+            productSet: {
+              styles: {
+                products: {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-50px",
+                    "width": "300px",
+                    "margin": "0px",
+                  },
+                },
+              },
+            },
+            modalProduct: {
+              contents: {
+                img: false,
+                imgWithCarousel: true,
+                button: false,
+                buttonWithQuantity: true,
+              },
+              styles: {
+                product: {
+                  "@media (min-width: 601px)": {
+                    "max-width": "500px",
+                    "margin": "0px",
+                    "width":"100%",
+                    "display":"flex",
+                    "justify-content":"space-around",
+                    "align-items":"center",
+                  },
+                },
+                button: {
+                  "font-family": "Arial, sans-serif",
+                  "font-size": "14px",
+                  "padding-top": "15px",
+                  "padding-bottom": "15px",
+                  ":hover": {
+                    "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
+                  },
+                  "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
+                  ":focus": {
+                    "background": "linear-gradient(to right, #a63ad8b7, #ffb44ad3);",
                   },
                   "border-radius": "35px",
                 },
@@ -104,7 +166,9 @@ const ShopifyCollectionButton = () => {
               styles: {
                 products: {
                   "@media (min-width: 601px)": {
-                    "margin-left": "-20px",
+                    "margin": "0px",
+                    
+                   
                   },
                 },
               },
@@ -118,98 +182,54 @@ const ShopifyCollectionButton = () => {
               },
               styles: {
                 product: {
-                  "@media (min-width: 601px)": {
+                    "@media (min-width: 900px)": {
                     "max-width": "100%",
-                    "margin-left": "0px",
-                    "margin-bottom": "0px",
+                    "margin": "0px",
+                    "width":"100%",
+                    "display":"flex",
+                    "justify-content":" space-around",
+                    "align-items":"center",
                   },
                 },
                 button: {
                   "font-family": "Arial, sans-serif",
                   "font-size": "14px",
-                  "padding-top": "15px",
-                  "padding-bottom": "15px",
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
                   ":hover": {
-                    "background-color": "#ea5118",
+                    "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                   },
-                  "background-color": "#ea5118",
+                  "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                   ":focus": {
-                    "background-color": "#ea5118",
-                  },
-                  "border-radius": "35px",
-                },
-                quantityInput: {
-                  "font-size": "18px",
-                  "padding-top": "15px",
-                  "padding-bottom": "15px",
-                },
-              },
-              text: {
-                button: "Add no carrinho",
-              },
-            },
-            productSet: {
-              styles: {
-                products: {
-                  "@media (min-width: 601px)": {
-                    "margin-left": "-20px",
-                  },
-                },
-              },
-            },
-            modalProduct: {
-              contents: {
-                img: false,
-                imgWithCarousel: true,
-                button: false,
-                buttonWithQuantity: true,
-              },
-              styles: {
-                product: {
-                  "@media (min-width: 601px)": {
-                    "max-width": "100%",
-                    "margin-left": "0px",
-                    "margin-bottom": "0px",
-                  },
-                },
-                button: {
-                  "font-family": "Arial, sans-serif",
-                  "font-size": "14px",
-                  "padding-top": "15px",
-                  "padding-bottom": "15px",
-                  ":hover": {
-                    "background-color": "#ea5118",
-                  },
-                  "background-color": "#ea5118",
-                  ":focus": {
-                    "background-color": "#ea5118",
+                    "background": "linear-gradient(to right, #a63ad8b7, #ffb44ad3);",
                   },
                   "border-radius": "35px",
                 },
                 quantityInput: {
                   "font-size": "14px",
-                  "padding-top": "15px",
-                  "padding-bottom": "15px",
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  
                 },
                 title: {
                   "font-family": "Helvetica Neue, sans-serif",
-                  "font-weight": "bold",
+                  "font-weight": "Regular",
                   "font-size": "26px",
                   "color": "#ffffff",
                 },
                 price: {
                   "font-family": "Quantico, sans-serif",
-                  "font-size": "20px",
+                  "font-size": "16px",
                  
                   
                 },
                 compareAt: {
                   "font-family": "Quantico, sans-serif",
-                  "font-size": "17px",
+                  "font-size": "16px",
                 },
                 unitPrice: {
                   "font-family": "Quantico, sans-serif",
-                  "font-size": "18px",
+                  "font-size": "16px",
                 },
                 description: {
                   "font-size": "15px",
@@ -224,17 +244,18 @@ const ShopifyCollectionButton = () => {
             cart: {
               styles: {
                 "font-family": "Arial, sans-serif",
-                "font-size": "18px",
-                "padding-top": "15px",
-                "padding-bottom": "15px",
+                "font-size": "16px",
+                "padding-top": "0px",
+                "padding-bottom": "0px",
                 ":hover": {
-                  "background-color": "#ea5118",
+                  "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                 },
-                "background-color": "#ea5118",
+                "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
                 ":focus": {
-                  "background-color": "#ea5118",
+                  "background": "linear-gradient(to right, #a63ad8b7, #ffb44ad3);",
                 },
                 "border-radius": "35px",
+                                
               },
             },
             text: {
@@ -246,12 +267,13 @@ const ShopifyCollectionButton = () => {
           toggle: {
             styles: {
               "font-family": "Arial, sans-serif",
-              "background-color": "#ea5118",
+              "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
               ":hover": {
-                "background-color": "#ea5118",
+                "background": "linear-gradient(to right, rgba(165, 58, 216, 1), rgba(255, 181, 74, 1));",
               },
               ":focus": {
-                "background-color": "#ea5118",
+                "background": "linear-gradient(to right, #a63ad8b7, #ffb44ad3);",
+                
               },
             },
             count: {
@@ -266,7 +288,7 @@ const ShopifyCollectionButton = () => {
   };
 
   return (
-    <div id="collection-component-1715006201665">
+    <div id="collection-component-1715006201665" >
       {!initialized && "Loading..."}
     </div>
   );
