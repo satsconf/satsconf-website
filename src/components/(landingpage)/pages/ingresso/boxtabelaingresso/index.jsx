@@ -4,8 +4,9 @@ import { FiCheckCircle, FiMinus } from "react-icons/fi";
 
 const BoxTabelaIngresso = () => {
   return (
-    <div className="bgTabelaIngresso">
-      <div className="boxTitle">
+    <div className="backgroundTopIngresso">
+       <div className="bgTabelaIngresso">
+      <div className="boxTitle krona-one-regular sc-fz-36">
         <h2>O QUE ESTÁ INCLUSO</h2>
       </div>
       <table className="BoxTabelaIngresso sora-regular sc-fz-18">
@@ -88,6 +89,8 @@ const BoxTabelaIngresso = () => {
         <BtnNovidades url="/">COMPRAR EM GRUPO</BtnNovidades>
       </div>
     </div>
+    </div>
+   
   );
 };
 
