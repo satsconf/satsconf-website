@@ -41,7 +41,7 @@ const ShopifyCollectionButton = () => {
 
   const ShopifyBuyInit = () => {
     const client = ShopifyBuy.buildClient({
-      domain: "satsconf.myshopify.com",
+      domain: "satsconf24.vercel.app",
       storefrontAccessToken: "ae173c279212fcd7ecbb7afde61026aa",
     });
 
