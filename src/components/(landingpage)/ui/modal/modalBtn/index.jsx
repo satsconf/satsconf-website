@@ -10,7 +10,7 @@ const IngressoBtn = () => {
          // Definir um atraso de 1 segundo (1000 milissegundos) antes de mostrar o botão BTC
          const timeout = setTimeout(() => {
           setMostrarBTC(true);
-      }, 0);
+      }, 10);
       // Limpar o timeout quando o componente for desmontado
       return () => clearTimeout(timeout);
       },[]);
