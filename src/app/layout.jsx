@@ -1,8 +1,8 @@
-import "./globals.css";
+import "@/app/globals.css";
 import "@/app/styles/all.css";
 import Footer from "@/components/(landingpage)/footer";
 import Header from "@/components/(landingpage)/header";
-
+import Manutencao from "./manutenção/page";
 
 
 export const metadata = {
@@ -11,13 +11,19 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const isMaintenanceMode = process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'false';
   return (
     <html lang="en">
       <body>
-        <Header/>
-        {children}
-
-        <Footer />
+      {isMaintenanceMode ? (
+          <Manutencao />
+        ) : (
+          <>
+            <Header />
+            {children}
+            <Footer />
+          </>
+        )}
         </body>
     </html>
   );

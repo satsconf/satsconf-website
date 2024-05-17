@@ -6,7 +6,7 @@ import IngressoBtn from "@/components/(landingpage)/ui/modal/modalBtn";
 
 const Ingressos = ({ children }) => {
   return (
-    <div id="Ingressos">
+    <section id="Ingressos">
       {/* Aqui é onde você renderiza children */}
       {children}
 
@@ -41,8 +41,8 @@ const Ingressos = ({ children }) => {
           <div className="boxTitle">
             <h2>INGRESSOS</h2>
             <p className="sc-fz-18 sora-light ">
-              Garanta seu ingresso para a terceira edição do maior evento
-              100% bitcoin do brasil
+              Garanta seu ingresso para a terceira edição do maior evento 100%
+              bitcoin do brasil
             </p>
           </div>
           <div>
@@ -53,7 +53,7 @@ const Ingressos = ({ children }) => {
       <div>
         <BoxTabelaIngresso />
       </div>
-    </div>
+    </section>
   );
 };
 

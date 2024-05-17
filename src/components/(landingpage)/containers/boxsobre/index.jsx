@@ -1,5 +1,5 @@
 "use client";
-import 'animate.css';
+import "animate.css";
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
 
 import { useState, useEffect } from "react";
@@ -17,7 +17,7 @@ const BoxSobre = () => {
   };
 
   return (
-    <div className="bgContainerSobre ">
+    <section className="bgContainerSobre">
       <div className="font-white boxprincipalSobre">
         <div className="block animate__animated animate__fadeInLeftBig">
           <h2 className="sc-fz-18">SOBRE A SATS CONF</h2>
@@ -43,12 +43,10 @@ const BoxSobre = () => {
           })}
         </div>
         <div className="containerVideo">
-          <img src="/video.png"    width="314"
-      height="287"
-   alt="" />
+          <img src="/video.png" width="314" height="287" alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

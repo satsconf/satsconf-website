@@ -1,4 +1,8 @@
 
+#Palestrantes.profile-card {
+  width: 220vh;
+
+}
 .ContainerImagemConvidadosDestaque {
     margin: -20px auto;
    
@@ -115,7 +119,8 @@
       height: 382rem;
     }
     #Palestrantes .profile-card {
-      width: 900px;
+      width: 1206px;
+      max-width: 100%;
   
     }
 

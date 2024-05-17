@@ -41,8 +41,12 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+
 }
 
+.boxprincipal h1{
+  font-size: 36px;
+}
 .boxprincipal span {
   font-size: 16px;
 }
@@ -69,6 +73,10 @@
     overflow-x: hidden;
   }
   
+
+.boxprincipal h1{
+  font-size: 24px;
+}
 
 .bgContainerPrincipal {
   width: 380px;

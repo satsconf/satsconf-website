@@ -1,6 +1,6 @@
 const BoxPatrocinadores = () => {
   return (
-    <div className="backgroundBottom">
+    <section className="backgroundBottom">
       <div className="bgContainerPatrocinadores ">
         <div className="krona-one-regular  font-white ">
           <div className="">
@@ -125,7 +125,7 @@ const BoxPatrocinadores = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

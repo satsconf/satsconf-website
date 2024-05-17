@@ -6,7 +6,7 @@ import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard"
 
 const BoxPrincipalPalestrantes = () => {
   return (
-    <div className="bgContainerImageConvidadosPage">
+    <section className="bgContainerImageConvidadosPage">
       <div className="bgContainerConvidadosDestaque ">
         <div className="boxprincipalConvidadoDestaque font-white krona-one-regular ">
           <div className="sc-mgem-16 ">
@@ -29,7 +29,7 @@ const BoxPrincipalPalestrantes = () => {
         </div>
      
       </div>
-    </div>
+    </section>
   );
 };
 

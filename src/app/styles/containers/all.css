@@ -15,6 +15,7 @@
 @import "@/app/styles/containers/blogcontainer.module.css";
 @import "@/app/styles/containers/convidadodestaque.module.css";
 @import "@/app/styles/containers/palestrantes.module.css";
+@import "@/app/styles/containers/manutencao.module.css";
 @import "@/app/styles/containers/imagesconvidados.module.css";
 @import "@/app/styles/containers/programacao.module.css";
 @import "@/app/styles/containers/pcontato.module.css";

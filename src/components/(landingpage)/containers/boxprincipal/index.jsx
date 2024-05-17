@@ -4,7 +4,7 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/inde
 
 const BoxPrincipal = () => {
   return (
-    <div id="BoxPrincipal">
+    <section id="BoxPrincipal">
       <div className="bgContainerImg">
         <div className="bgContainerPrincipal">
           <div className=" bgContainerMargin ">
@@ -29,7 +29,7 @@ const BoxPrincipal = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

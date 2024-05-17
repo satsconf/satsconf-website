@@ -9,21 +9,23 @@ import BoxSobre from "@/components/(landingpage)/containers/boxsobre";
 
 import FAQComponent from "@/components/(landingpage)/containers/faq";
 
-
 const Home = () => {
   return (
-    <div className="container">
-      <BoxPrincipal />
-      <BoxBeneficios />
-      <BoxSobre />
-      <BoxConvidados />
-      <BoxGarante />
-      <BoxCronograma />
-      <BoxPatrocinadores />
-      <BoxParceiros />
-      <FAQComponent />
+    
+      <main>
+        <section className="container">
+          <BoxPrincipal />
+          <BoxBeneficios />
+          <BoxSobre />
+          <BoxConvidados />
+          <BoxGarante />
+          <BoxCronograma />
+          <BoxPatrocinadores />
+          <BoxParceiros />
+          <FAQComponent />
+        </section>
+      </main>
    
-    </div>
   );
 };
 

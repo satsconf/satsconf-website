@@ -15,7 +15,7 @@ const BoxBeneficios = () => {
   };
 
   return (
-    <div className="containerCentralizadoBeneficios">
+    <section className="containerCentralizadoBeneficios">
       <div className="bgContainerBeneficios">
         <div className="containerBotoes sc-flex-center font-white sc-gap-32">
           {[...Array(1)].map((_, index) => (
@@ -38,7 +38,7 @@ const BoxBeneficios = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
