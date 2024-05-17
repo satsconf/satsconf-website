@@ -3,7 +3,7 @@ import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer bgContainerFooter">
+    <footer className="footer bgContainerFooter">
       <div className="footerContainer">
         <div className="logo">
           <div className="containerLogoFooter">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
