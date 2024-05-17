@@ -22,6 +22,10 @@
   color: var(--white  );
 }
 
+.faqItem span {
+  color: #9D96A8;
+}
+
 .containerTitleFaq {
   width: 100%;
   color: var(--white);
@@ -45,7 +49,7 @@
 }
 
 .faqNumber {
-  min-width: 52px;
+  margin: 22px;
   text-align: center;
   margin-right: 35px;
   font-weight: bold;
@@ -64,9 +68,38 @@
 .faqAnswer {
   display: none;
   padding: 0 88px;
-  color: var(--white);
+  color: #5A5365;
 }
 
+.faqItem.open {
+  background-color: #c5bdd0;
+}
+
+.faqItem.open h3 {
+  color: #2F1F3D;
+}
+
+.faqItem.open span {
+  color: #2F1F3D;
+}
+
+.faqItem .icon {
+  width: 32px;
+  height: 32px;
+  background-color: #615868;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  
+}
+
+.faqToggle.open-icon .icon{
+  background-color: #2F1F3D;
+}
+
+.faqItem .faqQuestion {
+  margin: 2px;
+}
 
 @media (max-width: 768px) {
 
@@ -85,10 +118,13 @@
   }
 
   .faqItem .faqNumber {
+    margin: 12px;
     font-size: 34px;
   }
 
   .faqItem .faqQuestion {
-    font-size: 16px;
+    font-size: 18px;
+    margin: 0 4px;
   }
+
 }
