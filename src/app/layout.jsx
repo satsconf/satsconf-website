@@ -13,8 +13,7 @@ import { metadata } from "./metadata";
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   const isMaintenanceMode = process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'true';
-  const maintenancePath = process.env.NEXT_PUBLIC_MAINTENANCE_PATH;
-  const isMaintenancePage = pathname === maintenancePath; 
+  const isHomePage = pathname === "/"; 
  
   return (
     <html lang="en">
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description}></meta>
       </head>
       <body>
-      {isMaintenanceMode && isMaintenancePage ? (
+      {isMaintenanceMode && isHomePage ? (
           <Manutencao />
         ) : (
           <>
