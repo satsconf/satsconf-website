@@ -43,12 +43,3 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
   
-        
-    - name: Deploy to Easypanel
-        env:
-          TOKEN: ${{ secrets.EASYPANEL_TOKEN }}
-        run: |
-          curl -X POST "https://api.easypanel.io/v1/projects/YOUR_PROJECT_ID/deploy" \
-          -H "Authorization: Bearer $TOKEN" \
-          -H "Content-Type: application/json" \
-          -d '{"source": "github", "branch": "main"}'
