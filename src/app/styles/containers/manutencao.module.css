@@ -165,15 +165,15 @@
   }
 
   .boxManutencao h3 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .boxManutencao h4 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .logoManutencao img {
-    width: 540px;
-    margin: 57px;
+    width: 440px;
+    margin: 57px auto;
   }
 }
