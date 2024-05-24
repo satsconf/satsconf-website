@@ -1,3 +1,4 @@
+import FAQcontato from "@/components/(landingpage)/containers/faq/facontato";
 import ImageContato from "@/components/(landingpage)/images/ImageContato";
 
 const Contato = ({ children }) => {
@@ -5,7 +6,7 @@ const Contato = ({ children }) => {
     <section id="Contato">
       {/* Aqui é onde você renderiza children */}
       {children}
-      <div className="">
+      <div className="bgContainerImgFaq">
         <div className="bgContainerPrincipal">
           <div className=" bgContainerMargin ">
             <div className="boxprincipal">
@@ -21,6 +22,9 @@ const Contato = ({ children }) => {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+        <FAQcontato />
         </div>
       </div>
     </section>

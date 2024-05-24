@@ -71,6 +71,10 @@
   color: #5A5365;
 }
 
+.faqAnswer p {
+  color: #5A5365;
+}
+
 .faqItem.open {
   background-color: #c5bdd0;
 }
@@ -98,7 +102,11 @@
 }
 
 .faqItem .faqQuestion {
-  margin: 2px;
+  margin: 0 auto 0 0;
+}
+
+.faqItem .title h3{
+  text-align: left;
 }
 
 @media (max-width: 768px) {

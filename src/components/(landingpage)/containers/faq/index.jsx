@@ -44,20 +44,43 @@ const FAQ = () => {
 const data = [
   {
     question:
-      "Ainda não sei quem vai usar o ingresso, posso trocar o titular depois?",
-    answer:
-      "Claro! Você pode comprar o ingresso agora usando o seu nome, e realizar a troca para um novo titular até 75h antes do evento acontecer.",
+      "O que é a Satsconf?",
+    answer:(
+    <>
+    <p>A Satsconf é uma conferência anual realizada em São Paulo que reúne as maiores referências nacionais e internacionais do Bitcoin. Com palestras, workshops, painéis de discussão e momentos para networking, nosso objetivo é compartilhar conhecimento sobre liberdade, soberania individual e a internet do dinheiro. Nosso público abrange desde iniciantes que querem aprender mais sobre Bitcoin até veteranos no assunto. A cada ano, procuramos trazer palestrantes especialistas e líderes de opinião da comunidade Bitcoin, bem como estabelecer parcerias com organizações influentes na indústria. Se você acredita no poder de transformação do Bitcoin, a Satsconf é feita para você.</p>
+    </>
+    ),
   },
   {
-    question: "Posso parcelar meu inglesso via cartão? Tem juros?",
-    answer:
-      "Pode! Em caso de parcelamento, é cobrada uma taxa de parcelamento única de 3.49% a.m para qualquer quantidade de parcelas que você escolher.",
+    question: "Quem está por trás da Satsconf?",
+    answer:(
+    <>
+    <p> A Satsconf foi concebida e é organizada por Lucas Ferreira, evangelista na Lightning Labs, onde ele ajuda empresas, projetos e desenvolvedores a desenvolver soluções com a Lightning Network e apoia iniciativas que fortalecem a comunidade Bitcoin. Ele também é co-fundador e diretor executivo da Vinteum, uma organização sem fins lucrativos dedicada à pesquisa, desenvolvimento e educação de desenvolvedores de Bitcoin no Brasil.</p>
+    <br/>
+    <p> Desde a primeira edição da Satsconf, a Pure Soul Eventos tem sido uma parceira inestimável na organização do evento.</p>
+    </>
+    ),
   },
   {
     question:
-      "Ainda não decidi que dia ir, posso trocar a data do diário depois?",
+      "O evento será em em que língua?",
+    answer:(
+    <>
+    <p>A Satsconf é um evento internacional, mas destinado principalmente ao público brasileiro. As palestras e painéis são conduzidos principalmente em português, mas também podem ser em inglês ou ocasionalmente em espanhol/portunhol. Para assegurar que todos possam aproveitar ao máximo o evento, oferecemos tradução simultânea de inglês para português.</p>
+    <br/>
+    <p>Queremos salientar que estrangeiros são absolutamente bem-vindos na Satsconf. Muitos participantes falam inglês ou espanhol e estão ansiosos para estabelecer conexões mais estreitas entre as comunidades bitcoiner brasileira e internacional. Portanto, se você é um falante não-nativo de português, não hesite em participar - a Satsconf é um evento para todos os entusiastas do Bitcoin, independentemente de sua origem ou idioma.</p>
+    </>
+    ),
+  },
+  {
+    question:
+      "Quais criptomoedas/criptoativos serão tratados na Satsconf?",
     answer:
-      "A data do ingresso Diário não pode ser alterada. Sugerimos que você adquira o ingresso Passaporte e garanta o melhor preço para aproveitar os 3 dias.",
+    (
+    <>
+    <p>Esse evento é 100% sobre Bitcoin e não sobre “criptomoedas”. Apenas Bitcoin. Por favor, foque no tema do evento e guarde discussões sobre “criptoativos” para outros eventos. NFTs, DeFi, “Blockchain” não são temas deste evento.</p>
+    </>
+    ),
   },
 ];
 

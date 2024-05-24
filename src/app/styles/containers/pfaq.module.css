@@ -2,3 +2,33 @@
     width: 100%;
     overflow-x: hidden;
 }
+
+
+.bgContainerImgFaq {
+    position: relative;
+    width: 100%;
+    background-image: url("/bg-faq-satsc.png"); /* Caminho para a sua imagem PNG */
+    background-size: cover; /* Cobertura total da área do elemento */
+    background-position: cover; /* Posicionamento central da imagem */
+    background-repeat: no-repeat;
+    z-index: 1;
+  
+  }
+
+  .bgContaineImgIgresso {
+    width: 100%;
+    position: relative;
+  }
+
+  .bgContaineImgIgresso::before{
+    content: '';
+    position: absolute;
+    top: -96px;
+    left: 0;
+    right: 0;
+    height: 106px; /* Altura do gradiente */
+    background: rgb(20,8,30);
+    background: linear-gradient(to top, rgba(20, 8, 30, 1) 16%, rgba(20, 8, 30, 0) 100%);
+    z-index: 2;
+    box-sizing: border-box;
+  }

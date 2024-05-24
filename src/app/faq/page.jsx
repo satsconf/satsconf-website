@@ -1,9 +1,13 @@
+import FAQpreparese from "@/components/(landingpage)/containers/faq/faqpreparese";
+import FAQqueromeenvolver from "@/components/(landingpage)/containers/faq/faqqueromeenvolver";
 import ImageFaq from "@/components/(landingpage)/images/ImageFaq";
+
 
 const Faq = ({ children }) => {
   return (
     <div id="Faq">
-      {/* Aqui é onde você renderiza children */} {children}
+            {/* Aqui é onde você renderiza children */} {children}
+      <div className="bgContainerImgFaq ">
       <div className="bgContainerPrincipal ">
         <div className=" bgContainerMargin">
           <div className="boxprincipal">
@@ -17,13 +21,16 @@ const Faq = ({ children }) => {
               {/* imagem do container principal da pagina de ingresso esportado como componente */}
             <ImageFaq />
             </div>
+
+            </div>
           </div>
         </div>
       </div>
-      <div className=" krona-one-regular">
-        <div></div>
+      <div className=" krona-one-regular bgContaineImgIgresso">
+      <FAQqueromeenvolver />
       </div>
-    </div>
+      <FAQpreparese />
+      </div>
   );
 };
 

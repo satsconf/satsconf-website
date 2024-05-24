@@ -3,6 +3,7 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import BoxTabelaIngresso from "@/components/(landingpage)/pages/ingresso/boxtabelaingresso";
 import ImageIgresso from "@/components/(landingpage)/images/ImageIngresso";
 import IngressoBtn from "@/components/(landingpage)/ui/modal/modalBtn";
+import FAQIngresso from "@/components/(landingpage)/pages/ingresso/faqingresso";
 
 const Ingressos = ({ children }) => {
   return (
@@ -52,6 +53,9 @@ const Ingressos = ({ children }) => {
       </div>
       <div>
         <BoxTabelaIngresso />
+      </div>
+      <div>
+        <FAQIngresso />
       </div>
     </section>
   );
