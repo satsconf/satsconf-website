@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   const isMaintenanceMode = process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'true';
   const isHomePage = pathname === "/"; 
  
+  console.log('Maintenance Mode:', process.env.NEXT_PUBLIC_MAINTENANCE_MODE);
 
   return (
     <html lang="en">
