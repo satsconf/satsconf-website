@@ -4,7 +4,7 @@
     border: none;
     cursor: pointer;
     color: var(--white);
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 5px; /* Adicione um espaçamento à direita para separar o botão do logo */
   }
 
@@ -70,7 +70,7 @@
 
 .nav a{
     color: var(--white);
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 15.12px;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
@@ -99,6 +99,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
+
 /* 
 /* Ajuste para dispositivos menores */
 @media screen and (max-width: 768px) {
@@ -147,7 +148,7 @@
   }
   @media screen and (min-width: 375px) and (max-width: 667px){
 .nav {
-    width: 375px;
+    width: 37.5vh;
   }
   
   }
@@ -155,7 +156,7 @@
 
   @media screen and (min-width: 414px) and (max-width: 896px){
     .nav {
-        width: 408px;
+        width: 40.8vh;
       }
       
       }
@@ -163,7 +164,7 @@
 
   @media screen and (min-width: 360px) and (max-width: 740px){
     .nav {
-        width: 360px;
+        width: 100%;
       }
       
       }
@@ -172,7 +173,7 @@
   @media screen and (min-width: 768px) and (max-width: 1024px){
   
   .nav {
-    width: 856px;
+    width: 96vh;
   }
     .sc-bg-container {
     width: 438px;

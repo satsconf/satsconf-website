@@ -42,8 +42,7 @@
   color: var(--white);
   display: flex;
   align-items: center;
-  align-items: stretch;
-  justify-content: space-between;
+  justify-content: flex-start;
   cursor: pointer;
 }
 

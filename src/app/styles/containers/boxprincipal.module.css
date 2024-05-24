@@ -11,14 +11,11 @@
   background-position: cover; /* Posicionamento central da imagem */
   background-repeat: no-repeat;
   z-index: 1;
-
 }
 
-
-.bgContainerMargin{
+.bgContainerMargin {
   margin: 0 16px 0 16px;
 }
-
 
 .boxprincipal {
   display: flex;
@@ -28,10 +25,8 @@
   margin: auto;
 }
 
-
 .sc-bg-container {
-  width: 380px;
-
+  width: 23.75rem;
 }
 
 .boxprincipal span,
@@ -41,57 +36,48 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
 }
 
-.boxprincipal h1{
-  font-size: 36px;
+.boxprincipal h1 {
+  font-size: 2.25rem;
 }
 .boxprincipal span {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .btningresso-img {
   padding: 36px 0;
 }
 
-
 .bgContainerPrincipal {
   width: 110rem 0;
   height: 52rem;
   padding: 15rem 0 15rem 0;
-  
-
 }
 
 @media screen and (max-width: 767px) {
   /* Estilos específicos para dispositivos móveis */
 
-
   #BoxPrincipal {
     width: 700px;
     overflow-x: hidden;
   }
-  
 
-.boxprincipal h1{
-  font-size: 24px;
-}
+  .boxprincipal h1 {
+    font-size: 1.8rem;
+  }
 
-.bgContainerPrincipal {
-  width: 380px;
- 
-
-}
+  .bgContainerPrincipal {
+    width: 380px;
+  }
   .bgContainer {
     width: 442px;
     height: 50rem; /* Reduzindo a altura do contêiner */
   }
 
   .sc-bg-container {
-    width: 330px; /* Usando a largura total para dispositivos móveis */
+    width: 20.62rem; /* Usando a largura total para dispositivos móveis */
     margin-bottom: 20px; /* Adicionando espaço entre o texto e os botões */
- 
   }
 
   .bgContainerImg {
@@ -101,7 +87,7 @@
     background-position: center; /* Posicionamento central da imagem */
     overflow-x: hidden;
   }
-  
+
   .btningresso-img {
     display: none;
   }
@@ -110,7 +96,6 @@
 @media screen and (min-width: 768px) {
   /* Altere para telas maiores */
 
-  
   .boxprincipal {
     width: 980px;
     justify-content: space-between;
@@ -119,14 +104,13 @@
 }
 @media screen and (min-width: 280px) and (max-width: 653px) {
   .sc-bg-container {
-    width: 260px; /* Usando a largura total */
-  }
- 
-  .boxprincipal span {
-    font-size: 10px;
+    width: 16, 25rem; /* Usando a largura total */
   }
 
- 
+  .boxprincipal span {
+    font-size: 0.6rem;
+  }
+
   .bgContainerImg {
     width: 100%;
     height: auto;
@@ -134,15 +118,13 @@
     background-position: center; /* Posicionamento central da imagem */
     overflow-x: hidden;
   }
-  
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px) {
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
 
-  
   .sc-bg-container {
-    width: 300px; /* Usando a largura total */
+    width: 18.75; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 
@@ -151,22 +133,18 @@
   }
 }
 
-
-
-@media screen and (min-width: 360px) and (max-width: 740px){
-  
-  
+@media screen and (min-width: 360px) and (max-width: 740px) {
   .sc-bg-container {
-    max-width: 300px; /* Usando a largura total */
-
+    max-width: 18.75rem; /* Usando a largura total */
   }
-    
-    }
+}
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
   /* Estilos específicos para dispositivos com largura de tela de 375x812 */
- 
-  
+  .boxprincipal h1 {
+    font-size: 1.9rem;
+  }
+
   .sc-bg-container {
     max-width: 100%; /* Usando a largura total */
     margin-bottom: 15px; /* Adicionando espaço entre o texto e os botões */
@@ -177,8 +155,8 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px){
-  .sc-bg-container{
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .sc-bg-container {
     width: 308px;
   }
 
@@ -187,10 +165,9 @@
   }
 }
 
-
 @media screen and (min-width: 412px) and (max-width: 914px) {
   .sc-bg-container {
-    width: 333px; /* Usando a largura total */
+    width: 80.81rem; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 }
@@ -198,10 +175,8 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Estilos específicos para tablets */
 
-
   .sc-bg-container {
-    width: 700px; /* Usando a largura total para tablets */
-  
+    width: 73.75rem; /* Usando a largura total para tablets */
   }
   .boxprincipal span,
   .boxprincipal h1 {
@@ -209,7 +184,7 @@
   }
 
   .boxprincipal h1 {
-    font-size: 42px;
+    font-size: 2.62rem;
   }
 
   .boxprincipal {
@@ -217,7 +192,7 @@
   }
 
   .sc-bg-container {
-    width: 700px; /* Reduzindo o tamanho do contêiner para tablets */
+    width: 73.75rem; /* Reduzindo o tamanho do contêiner para tablets */
   }
 
   .btningresso-img {
@@ -227,29 +202,22 @@
   }
 }
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
   .bgContainerMargin {
     margin-top: 91px;
   }
 
   .sc-bg-container {
-    max-width: 578px; /* Reduzindo o tamanho do contêiner para tablets */
+    max-width: 36.12rem; /* Reduzindo o tamanho do contêiner para tablets */
   }
 
-  
-
   .boxprincipal span {
-    font-size: 10px;
-
+    font-size: 0.62rem;
   }
 }
 
 @media screen and (min-width: 810px) and (max-width: 1080px) {
-
   .sc-bg-container {
-    max-width: 478px; /* Reduzindo o tamanho do contêiner para tablets */
+    max-width: 29.87rem; /* Reduzindo o tamanho do contêiner para tablets */
   }
 }
