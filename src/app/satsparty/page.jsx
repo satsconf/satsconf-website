@@ -1,7 +1,6 @@
 import ImagePrincipalSatsParty from "@/components/(landingpage)/images/Satsparty/imagePrincipalSatsParty";
 import SatsPartyImgEvento from "@/components/(landingpage)/images/Satsparty/satspartyEvento";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
-import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 
 const pSatsParty = ({ children }) => {
   return (
