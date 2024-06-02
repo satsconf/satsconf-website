@@ -3,6 +3,7 @@ import FAQqueromeenvolver from "@/components/(landingpage)/containers/faq/faqque
 import ImageFaq from "@/components/(landingpage)/images/ImageFaq";
 
 
+
 const Faq = ({ children }) => {
   return (
     <div id="Faq">

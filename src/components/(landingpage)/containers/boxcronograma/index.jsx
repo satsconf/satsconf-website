@@ -1,7 +1,7 @@
 import "animate.css";
-import SatsConf from "@/components/(landingpage)/images/MeuComponenteSatsConf";
-import SatsParty from "@/components/(landingpage)/images/Satsparty/logoSatsParty";
-import SatsWeek from "@/components/(landingpage)/images/satsweek";
+import SatsConf from "../../images/MeuComponenteSatsConf";
+import SatsParty from "../../images/Satsparty/logoSatsParty";
+import SatsWeek from "../../images/satsweek";
 
 const BoxCronograma = () => {
   return (

@@ -1,5 +1,5 @@
 
-#Palestrantes.profile-card {
+#PagPalestrantes.profile-card {
   width: 220vh;
 
 }
@@ -115,10 +115,10 @@
   }
   }
   @media screen and (min-width: 912px) and (max-width: 1368px) {
-    #Palestrantes {
+    #PagPalestrantes {
       height: 382rem;
     }
-    #Palestrantes .profile-card {
+    #PagPalestrantes .profile-card {
       width: 1206px;
       max-width: 100%;
   

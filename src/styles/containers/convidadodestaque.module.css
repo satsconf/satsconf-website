@@ -1,9 +1,11 @@
-#Palestrantes {
+
+#PagPalestrantes {
   width: 100%;
-  height: 230rem;
+  height: 200rem;
+
 }
 
-#Palestrantes img {
+#PagPalestrantes img {
   filter: grayscale(0.2);
   image-rendering: auto;
 }
@@ -54,9 +56,9 @@
 
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
-  #Palestrantes {
+  #PagPalestrantes {
     width: 100%;
-    height: 616rem;
+    height: 820rem;
     max-height: auto;
   }
 
@@ -96,6 +98,9 @@
 }
 
 @media screen and (min-width: 518px) and (max-width: 658px) {
+  #PagPalestrantes {
+    height: 800rem;
+  }
   .bgContainerConvidadosPaginaPrincipal {
     height: 100%;
   }
@@ -135,7 +140,7 @@
   }
 }
 @media screen and (min-width: 820px) and (max-width: 1180px) {
-  #Palestrantes .profile-card {
+  #PagPalestrantes .profile-card {
     width: 100%;
   }
 

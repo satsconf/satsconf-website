@@ -124,7 +124,7 @@
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
 
   .sc-bg-container {
-    width: 18.75; /* Usando a largura total */
+    width: 18.75rem; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 

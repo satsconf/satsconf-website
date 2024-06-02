@@ -104,6 +104,10 @@
 /* Ajuste para dispositivos menores */
 @media screen and (max-width: 768px) {
 
+  .navMenu a {
+    font-size: 0.9em;
+  }
+
   .navLogo{
     margin: 0 5px 0 0;
   }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
+import BtnIngresso from "@/app/[lang]/(landingpage)/ui/button/BtnIngresso";
 
 const SatsPartyImgEvento = () => {
   return (

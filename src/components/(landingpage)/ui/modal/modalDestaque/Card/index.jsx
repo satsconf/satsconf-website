@@ -3,7 +3,7 @@
 "use client";
 
 import { useState } from "react";
-import ModalPalestrantes from "@/components/(landingpage)/ui/modal/modalDestaque/ModalPalestrantes";
+import ModalPalestrantes from "../ModalPalestrantes";
 
 
 const Card = ({ id, name, skills, description, image, twitter, linkedin, nostr, instagram, youtube, github, link, className }) => {

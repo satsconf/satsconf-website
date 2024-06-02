@@ -1,4 +1,4 @@
-import "@/app/globals.css";
+import "@/app/[lang]/globals.css";
 import "@/app/styles/all.css";
 import Manutencao from "./page";
 

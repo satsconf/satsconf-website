@@ -1,24 +1,32 @@
 "use client"
 
 import "@/app/globals.css";
-import "@/app/styles/all.css";
-import Footer from "@/components/(landingpage)/footer";
-import Header from "@/components/(landingpage)/header";
-import Manutencao from "./manutenção/page";
+import "../styles/all.css";
+import Footer from "../components/(landingpage)/footer";
+import Header from "../components/(landingpage)/header";
+import Manutencao from "./manutencao/page";
 import { usePathname } from "next/navigation";
 import { metadata } from "./metadata";
+// Importa a função de geração de parâmetros
 
 
+// Função wrapper para gerar parâmetros estáticos
+export async function generateStaticParamsWrapper() {
+  return generateStaticParams();
+}
 
-export default function RootLayout({ children }) {
+// Define o layout root com desestruturação de props
+export default function RootLayout({ children, params }) {
   const pathname = usePathname();
   const isMaintenanceMode = process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'true';
   const isHomePage = pathname === "/"; 
+
+
  
   console.log('Maintenance Mode:', process.env.NEXT_PUBLIC_MAINTENANCE_MODE);
 
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description}></meta>
@@ -35,11 +43,13 @@ export default function RootLayout({ children }) {
       {isMaintenanceMode && isHomePage ? (
           <Manutencao />
         ) : (
+               // Envolve o conteúdo da aplicação com o I18nextProvider
           <>
             <Header />
             {children}
             <Footer />
           </>
+  
         )}
         </body>
     </html>

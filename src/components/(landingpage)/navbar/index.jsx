@@ -5,8 +5,8 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "@/app/globals.css";
 
-import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo/index";
-import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index";
+import MeuComponenteLogo from "../images/MeuComponenteLogo";
+import BtnIngresso from "../ui/button/BtnIngresso";
 
 const Navbar = () => {
   // Estado para controlar a exibição do menu hamburguer
@@ -16,6 +16,11 @@ const Navbar = () => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+
+const handleLinkClickHome = () => {
+  setShowMenu(false);
+};
 
   return (
     <nav className="nav" >
@@ -32,19 +37,19 @@ const Navbar = () => {
 
           <ul className={`navMenu ${showMenu ? "showMenu" : ""}`}>
             <li>
-              <Link href="/">HOME</Link>
+              <Link href="/" onClick={handleLinkClickHome}>HOME</Link>
             </li>
             <li>
-              <Link href="/palestrantes">PALESTRANTES</Link>
+              <Link href="/palestrantes" onClick={handleLinkClickHome}>PALESTRANTES</Link>
             </li>
             <li>
-              <Link href="/#programacao">PROGRAMAÇÃO</Link>
+              <Link href="/programacao" onClick={handleLinkClickHome}>PROGRAMAÇÃO</Link>
             </li>
             <li>
-              <Link href="/contato">CONTATO</Link>
+              <Link href="/contato" onClick={handleLinkClickHome}>CONTATO</Link>
             </li>
             <li>
-              <Link href="/faq">FAQ</Link>
+              <Link href="/faq" onClick={handleLinkClickHome}>FAQ</Link>
             </li>
           </ul>
           <div>
@@ -52,11 +57,13 @@ const Navbar = () => {
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>
+         
           <div>
             <button className="hamburgerBtn" onClick={toggleMenu}>
               {showMenu ? <FaTimes /> : <FaBars />}
             </button>
           </div>
+        
         </div>
       </div>
     </nav>

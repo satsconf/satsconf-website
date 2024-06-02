@@ -1,4 +1,4 @@
-import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo/index.jsx"; // Import the necessary component
+import MeuComponenteLogo from "../images/MeuComponenteLogo";
 import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {

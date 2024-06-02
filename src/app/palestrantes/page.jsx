@@ -1,12 +1,13 @@
-
 import BoxPrincipalPalestrantes from "@/components/(landingpage)/pages/boxpalestrantes/boxprincipalpalestrantes";
 
 const Palestrantes = ({ children }) => {
+
+
   return (
-    <div id="Palestrantes">
+    <div id="PagPalestrantes" >
       {" "}
       {children}
-      <BoxPrincipalPalestrantes/>
+    <BoxPrincipalPalestrantes />
     </div>
   );
 };

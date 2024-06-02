@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import ShopifyBuyButton from "@/components/(landingpage)/ui/button/Comprar/ingressoBtc";
+import ShopifyBuyButton from "@/app/[lang]/(landingpage)/ui/button/Comprar/ingressoBtc";
 
 const IngressoBtn = () => {
     const [mostrarBTC, setMostrarBTC] = useState(true);

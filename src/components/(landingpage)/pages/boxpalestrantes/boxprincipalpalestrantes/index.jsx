@@ -3,7 +3,6 @@ import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
 
 
-
 const BoxPrincipalPalestrantes = () => {
   return (
     <section className="bgContainerImageConvidadosPage">

@@ -1,15 +1,15 @@
 "use client";
-
 import { useState } from "react";
 import Card from "../Card";
 //conteudo do modal
 const ConvidadosSats = () => {
+
   const [profiles, updateProfiles] = useState([
     {
       id: 1,
       name: "Alex Gladstein",
       description: "Alex Gladstein é o chief strategy officer at the Human Rights Foundation. No seu trabalho, Gladstein conectou centenas de dissidentes e grupos da sociedade civil com líderes empresariais, tecnólogos, jornalistas, filantropos, decisores políticos e artistas para promover sociedades livres e abertas. Ele frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade, e foi coautor do “The Little Bitcoin Book” em 2019. Seu livro 'Check Your Financial Privilege' foi publicado em 2022, e seu último livro, 'Hidden Repression: How the FMI and World Bank sell Exploitation as Development' foi publicado em abril 2023.",
-      image: "./alex-gladstein.jpeg",
+      image: "../alex-gladstein.jpeg",
       skills: "Human Rights Foundation",
       socialMedia: {
         twitter: "https://twitter.com/gladstein",
@@ -33,7 +33,7 @@ const ConvidadosSats = () => {
           </a>
         </>
       ),
-      image: "./margot-paez.jpg",
+      image: "../margot-paez.jpg",
       skills: "Bitcoin Policy Institute",
       socialMedia: {
         twitter: "https://twitter.com/jyn_urso",
@@ -49,7 +49,7 @@ const ConvidadosSats = () => {
       id: 3,
       name: "Giacomo Zucco",
       description: "Giacomo é consultor/professor do protocolo Bitcoin e do protocolo Lightning Network. Ele passa seu tempo apoiando projetos que considera relevantes para o futuro do Bitcoin, seja como educador, consultor, empreendedor, maximalista ou troll. Anteriormente, ele esteve envolvido na GreenAddress, AssoBIT, BlockchainLab, Bitcoin Magazine. Atualmente ele está promovendo Bitcoin através da Rede Plano B, BTCTimes, Relai, BCademy, Notarify.",
-      image: "./giacomo-zucco.webp",
+      image: "../giacomo-zucco.webp",
       skills: "Plan B Network",
       socialMedia: {
         twitter: "https://twitter.com/giacomozucco",
@@ -65,7 +65,7 @@ const ConvidadosSats = () => {
       id: 4,
       name: "Carol Souza",
       description: "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método tem como objetivo o desenvolvimento da soberania financeira e intelectual.",
-      image: "./selfie-carol.jpg",
+      image: "../selfie-carol.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
         twitter: " https://twitter.com/carol_bitcoin",
@@ -81,7 +81,7 @@ const ConvidadosSats = () => {
       id: 5,
       name: "Rapha Zagury",
       description: "Atualmente, Raphael atua como CIO e Head of Research na Swan. Antes de ingressar na Swan, ele fundou e atuou como CFO para Open Co, onde liderou com sucesso a empresa através de várias rodadas de financiamento. Antes da Open Co, Raphael fundou a One Partners, uma boutique de fusões e aquisições e firma de gestão de patrimônio no Brasil. Originalmente do Rio de Janeiro, Brasil, Raphael obteve seu MBA na Yale School of Management e seu diploma de Economia no Instituto Brasileiro de Mercado de Capitais (IBMEC).      ",
-      image: "./rapha.avif",
+      image: "../rapha.avif",
       skills: "Swan",
       socialMedia: {
         twitter: "https://twitter.com/alphaazeta",
@@ -97,7 +97,7 @@ const ConvidadosSats = () => {
       id: 6,
       name: "Diego Kolling",
       description: "Apaixonado por tecnologia e finanças, Diego é um prolífico educador de Bitcoin e Lightning. Além de ter um canal educacional no Youtube, gere a comunidade NodeRunners Brasil, voltada a educação de operadores de nodes da Lightning Network.",
-      image: "./diego-Kolling.png",
+      image: "../diego-Kolling.png",
       skills: "NodeRunners Brasil",
       socialMedia: {
         twitter: "https://twitter.com/diegokolling",
@@ -113,7 +113,7 @@ const ConvidadosSats = () => {
       id: 7,
       name: "Kaká Furlan",
       description: "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método tem como objetivo o desenvolvimento da soberania financeira e intelectual.    ",
-      image: "./selfie-kaka.jpg",
+      image: "../selfie-kaka.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
         twitter: "https://twitter.com/kakafurlan",
@@ -129,7 +129,7 @@ const ConvidadosSats = () => {
       id: 8,
       name: "Bruno Garcia",
       description: "Um dos 50 desenvolvedores com mais contribuições do Bitcoin Core, Bruno é também diretor educacional da Vinteum, um centro de pesquisa e desenvolvimento de Bitcoin sem fins lucrativos dedicado a apoiar os desenvolvedores de Bitcoin no Brasil.",
-      image: "./bruno-garcia.jpeg",
+      image: "../bruno-garcia.jpeg",
       skills: "Bitcoin Core Dev",
       socialMedia: {
         twitter: "https://twitter.com/brrrunog ",
@@ -145,7 +145,7 @@ const ConvidadosSats = () => {
       id: 9,
       name: "Caio Leta ",
       description: "PhD em geologia econômica e isotópica; bitcoin minimalista; fundador do projeto Explica Bitcoin; autor do livro O Mundo Mágico do Bitcoin; Head de Pesquisa e Conteúdo na Bipa.      ",
-      image: "./caio-leta.jpg",
+      image: "../caio-leta.jpg",
       skills: "Bipa",
       socialMedia: {
         twitter: "https://twitter.com/caioleta_",
@@ -161,7 +161,7 @@ const ConvidadosSats = () => {
       id: 10,
       name: "Steven Roose",
       description: "Importante contribuidor open-source para o ecossistema Rust-bitcoin, Ark, e para a rede Liquid.      ",
-      image: "./steven-roose.jpeg",
+      image: "../steven-roose.jpeg",
       skills: "Ark",
       socialMedia: {
         twitter: "https://twitter.com/stevenroose3",
@@ -177,7 +177,7 @@ const ConvidadosSats = () => {
       id: 11,
       name: "Ivy Galindo",
       description: "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além de rodar um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
-      image: "./ivy-galindo.jpg",
+      image: "../ivy-galindo.jpg",
       skills: "Swan",
       socialMedia: {
         twitter: "https://twitter.com/ivygalindo_",
@@ -194,7 +194,7 @@ const ConvidadosSats = () => {
       id: 12,
       name: "Lucas Ferreira",
       description: "Idealizador da Satsconf, Lightning Evangelist na Lightning Labs, responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
-      image: "./lucas-ferreira.jpg",
+      image: "../lucas-ferreira.jpg",
       skills: "Lightning Labs / Vinteum",
       socialMedia: {
         twitter: "https://twitter.com/lucasdcf",
@@ -212,7 +212,7 @@ const ConvidadosSats = () => {
       id: 13,
       name: "Madu",
       description: "Educadora, Madu é redatora e entusiasta de Bitcoin, que busca compartilhar todo o aprendizado para outras pessoas, nos mais variados formatos digitais. Já trabalhou com empresas especializadas no setor como: Area Bitcoin, Livecoins, Mercado Bitcoin, Arthur Mining e TC Investimentos.      ",
-      image: "./madulobato.jpg",
+      image: "../madulobato.jpg",
       skills: "Blink",
       socialMedia: {
         twitter: "https://twitter.com/eduardalobatoo",
@@ -230,7 +230,7 @@ const ConvidadosSats = () => {
       id: 14,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -247,7 +247,7 @@ const ConvidadosSats = () => {
       id: 15,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -264,7 +264,7 @@ const ConvidadosSats = () => {
       id: 16,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -281,7 +281,7 @@ const ConvidadosSats = () => {
       id: 17,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -298,7 +298,7 @@ const ConvidadosSats = () => {
       id: 17,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -315,7 +315,7 @@ const ConvidadosSats = () => {
       id: 18,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -332,7 +332,7 @@ const ConvidadosSats = () => {
       id: 19,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -349,7 +349,7 @@ const ConvidadosSats = () => {
       id: 20,
       name: "Em breve!",
       description: "",
-      image: "./satsconf-convidado-destaque-ano.jpg",
+      image: "../satsconf-convidado-destaque-ano.jpg",
       skills: "...",
       socialMedia: {
         twitter: "",
@@ -368,7 +368,7 @@ const ConvidadosSats = () => {
    
    
   ]);
-
+  
   return (
     <div className="profile-card">
       {profiles.map((profile, index) => {

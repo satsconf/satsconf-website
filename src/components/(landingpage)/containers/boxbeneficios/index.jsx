@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic"; // Importa a função dynamic do Next.js
 
 const BtnBeneficios = dynamic(() =>
-  import("@/components/(landingpage)/ui/button/BtnBeneficios/index.jsx")
+  import("../../ui/button/BtnBeneficios/index.jsx")
 ); // Lazy loading do componente BtnBeneficios
 
 const BoxBeneficios = () => {

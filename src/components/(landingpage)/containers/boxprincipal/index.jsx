@@ -1,8 +1,10 @@
-import MeuComponenteEvento from "@/components/(landingpage)/images/MeuComponenteEvento/index.jsx";
-import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso/index.jsx";
-import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades/index.jsx";
+import MeuComponenteEvento from "../../images/MeuComponenteEvento";
+import BtnIngresso from "../../ui/button/BtnIngresso";
+import BtnNovidades from "../../ui/button/BtnNovidades";
 
 const BoxPrincipal = () => {
+
+  
   return (
     <section id="BoxPrincipal">
       <div className="bgContainerImg">

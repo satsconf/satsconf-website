@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { FiCheckCircle } from "react-icons/fi";
-import MeuComponenteLogo from "@/components/(landingpage)/images/MeuComponenteLogo";
-import MeuComponenteIgressoVip from "@/components/(landingpage)/images/ImageLogoVip";
-import BtnCronograma from "@/components/(landingpage)/ui/button/BtnCronograma";
+import MeuComponenteLogo from "../../images/MeuComponenteLogo";
+import MeuComponenteIgressoVip from "../../images/ImageLogoVip";
+import BtnCronograma from "../../ui/button/BtnCronograma";
 import BtnCronogramaSecundary from "../../ui/button/BtnCronogramaSecundary/inde";
 
 const BoxGarante = () => {
