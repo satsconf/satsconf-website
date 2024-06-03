@@ -4,7 +4,7 @@ import BoxConvidados from "../components/(landingpage)/containers/boxconvidados"
 import BoxCronograma from "../components/(landingpage)/containers/boxcronograma";
 import BoxGarante from "../components/(landingpage)/containers/boxgarante";
 import BoxParceiros from "../components/(landingpage)/containers/boxparceiros";
-import BoxPatrocinadores from "../components/(landingpage)/containers/boxpatrocinadores";
+// import BoxPatrocinadores from "../components/(landingpage)/containers/boxpatrocinadores";
 import BoxSobre from "../components/(landingpage)/containers/boxsobre";
 
 
@@ -22,7 +22,6 @@ const Home = () => {
           <BoxConvidados />
           <BoxGarante />
           <BoxCronograma />
-          <BoxPatrocinadores />
           <BoxParceiros />
           <FAQComponent />
         </section>
