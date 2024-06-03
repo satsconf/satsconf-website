@@ -9,8 +9,8 @@ const BoxBeneficios = () => {
   const renderizarBotoes = (quantidade) => {
     const botoes = [];
     for (let i = 0; i < quantidade; i++) {
-      botoes.push(<BtnBeneficios key={i}>Networking</BtnBeneficios>);
-      botoes.push(<BtnBeneficios key={i + 1}>Bitcoin</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i} className="btnAnimado">Networking</BtnBeneficios>);
+      botoes.push(<BtnBeneficios key={i + 1} className="btnAnimado">Bitcoin</BtnBeneficios>);
     }
     return botoes;
   };
@@ -24,7 +24,7 @@ const BoxBeneficios = () => {
               key={index}
               className="linhaBotoes sc-flex-center font-white sc-gap-32"
             >
-              {renderizarBotoes(4)}
+              {renderizarBotoes(5)}
             </div>
           ))}
         </div>
@@ -34,7 +34,7 @@ const BoxBeneficios = () => {
               key={index}
               className="linhaBotoes sc-flex-center font-white sc-gap-32"
             >
-              {renderizarBotoes(4)}
+              {renderizarBotoes(5)}
             </div>
           ))}
         </div>
