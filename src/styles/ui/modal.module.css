@@ -15,7 +15,7 @@
 
 .modalContentPalestrantes {
   width: 900px;
-  height: 616px;
+  height: 576px;
   background-color: var(--white);
   border-radius: 27px;
   display: flex;
@@ -120,7 +120,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 4%;
+  margin-bottom: -4%;
 }
 
 .modal-header-exit button {
