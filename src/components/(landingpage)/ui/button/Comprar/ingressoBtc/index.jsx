@@ -40,20 +40,21 @@ const ShopifyCollectionButton = () => {
   }, [initialized]);
 
   const ShopifyBuyInit = () => {
+    const storefrontToken = process.env.NEXT_PUBLIC_SHOPIFY_STOREFRONT_TOKEN;
     const client = ShopifyBuy.buildClient({
-      domain: "satsconf24.vercel.app",
-      storefrontAccessToken: "ae173c279212fcd7ecbb7afde61026aa",
+      domain: "ingresso.satsconf.com.br",
+      storefrontAccessToken: storefrontToken,
     });
 
     ShopifyBuy.UI.onReady(client).then((ui) => {
       const node = document.getElementById(
-        "collection-component-1715006201665"
+        "collection-component-1717444578886"
       );
       if (node && !initialized) {
         node.innerHTML = "";
 
         ui.createComponent("collection", {
-          id: "276358463586",
+          id: "1717444578886",
           node: node,
           moneyFormat: "R%24%20%7B%7Bamount_with_comma_separator%7D%7D",
           options: {
@@ -288,7 +289,7 @@ const ShopifyCollectionButton = () => {
   };
 
   return (
-    <div id="collection-component-1715006201665" >
+    <div id="collection-component-1717444578886" >
       {!initialized && "Loading..."}
     </div>
   );
