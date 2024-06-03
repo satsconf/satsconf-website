@@ -1,9 +1,9 @@
-import BtnIngresso from "@/app/[lang]/(landingpage)/ui/button/BtnIngresso";
-import BtnNovidades from "@/app/[lang]/(landingpage)/ui/button/BtnNovidades";
-import BoxTabelaIngresso from "@/app/[lang]/(landingpage)/pages/ingresso/boxtabelaingresso";
-import ImageIgresso from "@/app/[lang]/(landingpage)/images/ImageIngresso";
-import IngressoBtn from "@/app/[lang]/(landingpage)/ui/modal/modalBtn";
-import FAQIngresso from "@/app/[lang]/(landingpage)/pages/ingresso/faqingresso";
+import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
+import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
+import BoxTabelaIngresso from "@/components/(landingpage)/pages/ingresso/boxtabelaingresso";
+import ImageIgresso from "@/components/(landingpage)/images/ImageIngresso";
+import IngressoBtn from "@/components/(landingpage)/ui/modal/modalBtn";
+import FAQ from "@/components/(landingpage)/pages/ingresso/faqingresso";
 
 const Ingressos = ({ children }) => {
   return (
@@ -55,7 +55,7 @@ const Ingressos = ({ children }) => {
         <BoxTabelaIngresso />
       </div>
       <div>
-        <FAQIngresso />
+        <FAQ />
       </div>
     </section>
   );

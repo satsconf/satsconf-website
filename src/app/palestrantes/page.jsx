@@ -19,7 +19,7 @@ const Palestrantes = ({ children }) => {
             </h2>
           </div>
           <div className="sc-gap-8 container-btn">
-            <BtnIngresso url="https://www.example.com">
+            <BtnIngresso url="https://www.satsconf.com.br/ingressos">
               COMPRAR INGRESSO
             </BtnIngresso>
             {/* botão do container principal */}

@@ -53,7 +53,7 @@ const handleLinkClickHome = () => {
             </li>
           </ul>
           <div>
-            <BtnIngresso url="https://www.example.com">
+            <BtnIngresso url="https://www.satsconf.com.br/ingressos">
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>

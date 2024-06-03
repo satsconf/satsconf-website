@@ -1,5 +1,5 @@
-import BtnIngresso from "@/app/[lang]/(landingpage)/ui/button/BtnIngresso";
-import BtnNovidades from "@/app/[lang]/(landingpage)/ui/button/BtnNovidades";
+import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
+import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import { FiCheckCircle, FiMinus } from "react-icons/fi";
 
 const BoxTabelaIngresso = () => {

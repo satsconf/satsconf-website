@@ -40,7 +40,7 @@ const BoxGarante = () => {
               </li>
             </ul>
             <div className="containerbtnHome marginBottonHomeCronograma">
-              <BtnCronograma url=""> ESGOTADO</BtnCronograma>
+              <BtnCronograma url="https://www.satsconf.com.br/ingressos"> COMPRAR</BtnCronograma>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ const BoxGarante = () => {
               <p>*Números de assentos VIP limitados e sujeito a alteração.</p>
             </div>
             <div className="containerbtnHome marginBottonHomeCronogramaTwo">
-              <BtnCronogramaSecundary url="">
+              <BtnCronogramaSecundary url="https://www.satsconf.com.br/ingressos">
                 {" "}
                 COMPRAR INGRESSO AGORA{" "}
               </BtnCronogramaSecundary>
