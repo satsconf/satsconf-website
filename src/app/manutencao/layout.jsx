@@ -11,7 +11,7 @@ export const metadata = {
 export default function ManutencaoLayout({children}) {
  
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
           <Manutencao />
        

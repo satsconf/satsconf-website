@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
-import ShopifyBuyButton from "@/app/(landingpage)/ui/button/Comprar/ingressoBtc";
+import CompraReal from '../../button/Comprar/ingressoReal';
+import CompraBtc from '../../button/Comprar/ingressoBtc';
 
 const IngressoBtn = () => {
     const [mostrarBTC, setMostrarBTC] = useState(true);
@@ -27,16 +28,16 @@ const IngressoBtn = () => {
     <div className="boxIngressoComprar">
       <div className="botaoContainerBtcRl">
         <button id='btnBtc' className={mostrarBTC ? 'active' : ''} onClick={handleSelecionarBTC}>Comprar BTC</button>
-        <button id='btnReal' className={!mostrarBTC ? 'active' : ''} onClick={handleSelecionarReal}>Comprar em Reais</button>
+        <button id='btnReal' className={!mostrarBTC ? 'active' : ''} onClick={handleSelecionarReal}>Comprar em R$</button>
       </div>
       <div className="conteudoIngresso">
         {mostrarBTC ? (
           <div>      
-            <ShopifyBuyButton />
+            <CompraBtc />
           </div>
         ) : (
           <div>
-          <ShopifyBuyButton />
+          <CompraReal />
           </div>
         )}
       </div>
