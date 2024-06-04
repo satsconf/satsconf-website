@@ -1,7 +1,7 @@
 "use client"
 
 import "@/app/globals.css";
-import "../styles/all.css";
+import "@/app/styles/all.css";
 import Footer from "../components/(landingpage)/footer";
 import Header from "../components/(landingpage)/header";
 import Manutencao from "./manutencao/page";
