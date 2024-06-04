@@ -12,7 +12,7 @@ const Footer = () => {
 
           <div>
             <p>Satsconf. &copy; 2024 </p>
-            <a href="">Política de Privacidade</a>
+            <a href="https://www.satsconf.com.br/politica">Política de Privacidade</a>
           </div>
           <div className="collumn">
             <h2>Nos acompanhe</h2>
