@@ -87,6 +87,13 @@ margin: 0 0 56px 0;
     margin: 0 48px;
   
   }
+
+  .boxIngressoComprar span {
+    margin: 8px;
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 0.8rem;
+  }
   @media screen and (min-width: 280px) and (max-width: 320px) {
 
  .botaoContainerBtcRl button  {
@@ -132,11 +139,11 @@ margin: 0 0 56px 0;
 
     }
     .bgContainerComprarIngresso {
-        height: 62rem;
+        height: 68rem;
     }
     .boxIngressoComprar {
         width: 100%;
-        height: 640px;
+        height: 736px;
         border-radius: 0;
      
     }
