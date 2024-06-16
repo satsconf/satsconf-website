@@ -25,9 +25,9 @@ const IngressoBtn = () => {
       };
 
     return (
-    <div className="boxIngressoComprar">
+    <div className="boxIngressoComprar" id='comprarqui'>
       <span>ESCOLHA COMO VAI PAGAR.</span>
-      <div className="botaoContainerBtcRl">
+      <div className="botaoContainerBtcRl" >
         <button id='btnBtc' className={mostrarBTC ? 'active' : ''} onClick={handleSelecionarBTC}>BTC (21% OFF)</button>
         <button id='btnReal' className={!mostrarBTC ? 'active' : ''} onClick={handleSelecionarReal}>Comprar em R$</button>
       </div>

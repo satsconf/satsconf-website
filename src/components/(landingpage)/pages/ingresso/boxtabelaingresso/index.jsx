@@ -82,7 +82,7 @@ const BoxTabelaIngresso = () => {
         </tbody>
       </table>
       <div className="sc-gap-8 containerBtnIngresso">
-        <BtnIngresso url="https://www.example.com">
+        <BtnIngresso url="#comprarqui">
           COMPRAR INGRESSO
         </BtnIngresso>
         {/* botão do container principal */}
