@@ -1,10 +1,21 @@
+"use client"
+import React from "react";
+//importação global do modalNovidades
+import { useContext } from "react";
+import { ModalContext } from "@/providers/ModalContext";
+//componentes do site
 import MeuComponenteEvento from "../../images/MeuComponenteEvento";
 import BtnIngresso from "../../ui/button/BtnIngresso";
 import BtnNovidades from "../../ui/button/BtnNovidades";
 
 const BoxPrincipal = () => {
 
-  
+  const {handleModalVisible} = useContext(ModalContext);
+
+  const handleOpenModal= ()=>{
+    handleModalVisible();
+  };
+
   return (
     <section id="BoxPrincipal">
       <div className="bgContainerImg">
@@ -19,7 +30,7 @@ const BoxPrincipal = () => {
                 <div className="sc-gap-16 container-btn">
                   <BtnIngresso url="https://www.satsconf.com.br/ingressos">COMPRAR INGRESSO</BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
+                  <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
                 </div>
               </div>
 

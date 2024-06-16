@@ -1,9 +1,20 @@
+"use client"
+import React from "react";
+//importação global do modalNovidades
+import { useContext } from "react";
+import { ModalContext } from "@/providers/ModalContext";
+
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import Card from "@/components/(landingpage)/ui/modal/modalDestaque/profilecard";
 
 const Palestrantes = ({ children }) => {
 
+  const {handleModalVisible} = useContext(ModalContext);
+
+  const handleOpenModal= ()=>{
+    handleModalVisible();
+  };
 
   return (
     <div id="PagPalestrantes" >
@@ -23,7 +34,7 @@ const Palestrantes = ({ children }) => {
               COMPRAR INGRESSO
             </BtnIngresso>
             {/* botão do container principal */}
-            <BtnNovidades url="/">RECEBER NOVIDADES</BtnNovidades>
+            <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
           </div>
         </div>
         <div>
