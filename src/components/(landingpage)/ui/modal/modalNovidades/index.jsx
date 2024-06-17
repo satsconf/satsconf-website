@@ -103,7 +103,7 @@ const ModalNovidades = ({ user }) => {
                   value={number}
                 />
               </div>
-              <button type="submit">SE INSCREVER PARA RECEBER NOVIDADES</button>
+              <button type="submit">RECEBER NOVIDADES!</button>
             </form>
           </div>
         </div>
