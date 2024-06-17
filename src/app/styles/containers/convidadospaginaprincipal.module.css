@@ -44,12 +44,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
   #listaConvidados .profile-card {
     width: 700px;
   }
 
   #PagPalestrantes .profile-card {
-    width: 700px;
+    width: 100%;
     height: 400rem;
   }
 
