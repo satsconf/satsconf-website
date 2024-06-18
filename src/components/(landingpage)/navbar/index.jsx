@@ -73,7 +73,7 @@ const toggleDropdownTwo = () => {
             </div>
             <div className="dropdown">
             <li>
-              <Link href="/" onClick={toggleDropdownTwo} className="dropbtn">MAIS</Link>
+              <button href="/" onClick={toggleDropdownTwo} className="dropbtn">MAIS</button>
             </li>
             <div className={`dropdown-content ${showDropdownT ? "show" : ""}`}>
             <Link href="/programacao">Ingresso Estudante</Link>
