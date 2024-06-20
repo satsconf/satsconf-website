@@ -86,7 +86,7 @@ const BoxTabelaIngresso = () => {
           COMPRAR INGRESSO
         </BtnIngresso>
         {/* botão do container principal */}
-        <BtnNovidades url="/">COMPRAR EM GRUPO</BtnNovidades>
+        <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">COMPRAR EM GRUPO</BtnNovidades>
       </div>
     </div>
     </div>
