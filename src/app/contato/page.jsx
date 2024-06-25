@@ -25,6 +25,14 @@ const Contato = ({ children }) => {
           </div>
         </div>
         <div>
+        <div className="boxTitle">
+            {" "}
+            <h2 className=" containerTitleForm">
+              Preencha o formulário abaixo para entrar em contato com um
+              representante: 
+            </h2>
+
+          </div>
           <TypeformEmbed />
         <FAQcontato />
         </div>
