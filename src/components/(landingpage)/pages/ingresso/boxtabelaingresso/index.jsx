@@ -28,58 +28,122 @@ const BoxTabelaIngresso = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td className="bordaleft">Acesso a palestras do Palco x</td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />{" "}
-            </td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />
-            </td>
-          </tr>
-          <tr>
-            <td className="bordaleft">Acesso a palestras do Palco x</td>
-            <td className="boxCenter">
-              <FiMinus size={38} color="white" />
-            </td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />
-            </td>
-          </tr>
-          <tr>
-            <td className="bordaleft">Acesso a palestras do Palco x</td>
-            <td className="boxCenter">
-              <FiMinus size={38} color="white" />
-            </td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />
-            </td>
-          </tr>
-          <tr>
-            <td className="bordaleft">Acesso a palestras do Palco x</td>
-            <td className="boxCenter">
-              <FiMinus size={38} color="white" />
-            </td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />
-            </td>
-          </tr>
-          <tr>
-            <td className="bordaleft">Acesso a palestras do Palco x</td>
-            <td className="boxCenter">
-              <FiMinus size={38} color="white" />
-            </td>
-            <td className="boxCenter">
-              {" "}
-              <FiCheckCircle size={38} color="white" />
-            </td>
-          </tr>
-        </tbody>
+            <tr>
+              <td className="bordaleft">
+                Acesso aos 2 dias de evento principal
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />{" "}
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">Acesso ao Palco Satoshi Nakamoto </td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">Acesso às salas de Workshop</td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">Acesso à Área de Exposição</td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Acesso à SatsKids, SatsGaming, SatsArte e SatsMarket
+              </td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Entrada especial no evento
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Acesso aos assentos VIP no palco Satoshi Nakamoto e Hal Finney
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Acesso à Área VIP com comidas e bebidas{" "}
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Acesso privilegiado aos palestrantes
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+                Acesso a SATSPARTY open bar e open food
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+          </tbody>
       </table>
       <div className="sc-gap-8 containerBtnIngresso">
         <BtnIngresso url="#comprarqui">

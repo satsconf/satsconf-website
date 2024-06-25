@@ -9,7 +9,7 @@
 
 #listaIngressoBox .bgTabelaIngresso h2 {
   font-size: 36px;
-  z-index: 5;
+  z-index: 10;
 }
 
 .backgroundTopIngresso {
@@ -31,14 +31,12 @@
 
 .bgTabelaIngresso {
   width: 100%;
-  height: 65rem;
+  height: 92rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(rgba(58, 28, 83, 1), #14081e);
-  
 }
-
 
 .BoxTabelaIngresso {
   width: 800px;
@@ -92,6 +90,7 @@
 
 #listaIngressoBox .bgTabelaIngresso h2 {
   font-size: 24px;
+  z-index: 5;
 }
 
 
