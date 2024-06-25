@@ -1,50 +1,49 @@
 .bgContainerParceiros {
-    width: 100%;
-    height: 25rem;
-    text-align: center;
-    position: relative;
-    margin-bottom: 98px;
-    overflow: hidden;
+  width: 100%;
+  height: 22rem;
+  text-align: center;
+  position: relative;
+  margin-bottom: 98px;
+  overflow: hidden;
 }
 
 
 .bgContainerParceiros ul li {
-    margin: 16px;
+  margin: 16px;
 }
 
 .bgContainerParceiros ul li img {
-    width: 96px;
-    height: 28px;
+  width: 96px;
+  height: 28px;
 }
 
 .boxParceiros {
-    width: 100%;
-    height: 158px;
-    background-color: rgba(255, 255, 255, 0.1);
-    position: absolute;
-    display: flex;
+  width: 100%;
+  height: 158px;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  display: flex;
 }
 
 .bgContainerParceiros .boxListParceiros {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 .bgContainerParceiros ul {
-    display: flex;
-    animation: scroll-horizontal 30s linear infinite;
-    
+  display: flex;
+  animation: scroll-horizontal 30s linear infinite;
+  
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
   
-  @keyframes scroll-horizontal {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-    
-  }
-  
+}
