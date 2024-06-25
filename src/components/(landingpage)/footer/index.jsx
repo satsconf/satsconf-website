@@ -1,6 +1,11 @@
 import Link from "next/link";
 import MeuComponenteLogo from "../images/MeuComponenteLogo";
-import { FaTelegramPlane, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaTelegramPlane,
+  FaTwitter,
+  FaInstagram,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,7 +23,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="collumn">
-            <h2>Nos acompanhe</h2>
+            <h2>Quer se envolver?</h2>
             <ul>
               <li>
                 <Link href="https://t.me/satsconf">
@@ -34,6 +39,12 @@ const Footer = () => {
               <li>
                 <Link href="https://www.instagram.com/satsconf.btc">
                   <FaInstagram style={{ color: "white" }} />
+                  Acompanhe o Instagram
+                </Link>
+              </li>
+              <li>
+                <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
+                  <FaWhatsapp style={{ color: "white" }} />
                   Acompanhe o Instagram
                 </Link>
               </li>
