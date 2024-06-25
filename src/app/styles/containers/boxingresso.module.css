@@ -13,7 +13,7 @@ z-index: 2;
 #btnReal {
   background: rgba(245, 233, 255, 0.871);
   color: rgba(20, 8, 30, 1);
-  margin-left: -83px;
+  margin-left: -31px;
   z-index: 1; 
 
 }
@@ -133,7 +133,7 @@ margin: 0 0 56px 0;
 @media screen and (max-width: 767px){
     
     .botaoContainerBtcRl button {
-        padding: 16px 20px;
+        padding: 16px 32px;
         font-size: 16px;
         text-align: center;
 
