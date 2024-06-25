@@ -1,7 +1,7 @@
 import FAQpreparese from "@/components/(landingpage)/containers/faq/faqpreparese";
 import FAQqueromeenvolver from "@/components/(landingpage)/containers/faq/faqqueromeenvolver";
 import ImageFaq from "@/components/(landingpage)/images/ImageFaq";
-
+import FAQComponent from "@/components/(landingpage)/containers/faq";
 
 
 const Faq = ({ children }) => {
@@ -30,7 +30,18 @@ const Faq = ({ children }) => {
       <div className=" krona-one-regular bgContaineImgIgresso">
       <FAQqueromeenvolver />
       </div>
+      <div className="krona-one-regular bgContaineImgIgresso">
+        <FAQComponent />
+      </div>
       <FAQpreparese />
+      <div className="boxTitle padding-bottom-30">
+        <h2 className="krona-one-regular ">Não encontrou a resposta para sua pergunta?</h2>
+        <p className="">
+          Entre em contato por e-mail (info@satsconf.com.br), pelo formulário do
+          site, ou visite nossos grupos no Telegram ou Whatsapp, <br /> onde alguém da
+          organização ou mesmo outro participante do evento podem te ajudar.
+        </p>
+      </div>
       </div>
   );
 };
