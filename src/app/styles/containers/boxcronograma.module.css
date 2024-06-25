@@ -3,6 +3,7 @@
   height: 62rem;
   padding-top: 0;
   color: var(--white);
+ 
 }
 
 .bgContainerCronograma h3 {
@@ -36,6 +37,10 @@
   border-radius: 30px;
   padding: 32px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .boxCronograma p {
@@ -43,6 +48,8 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1rem;
+  padding-bottom: 16px;
 }
 
 .imageCronograma {
@@ -53,7 +60,7 @@
 }
 
 .boxCronograma .boxItemCronograma h4 {
-  margin: 0 auto;
+  margin: -2px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,6 +72,7 @@
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
   font-size: 16px;
+  padding: 10px;
 }
 
 .boxItemCronograma span {
@@ -74,13 +82,14 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  width: 236px;
+  width: auto;
   height: 46px;
   font-size: 16px;
   text-transform: unset;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 23px;
-  margin-top: 38px;
+  margin: 38px 0;
+  padding: 20px;
 }
 
 .boxItemCronograma:hover {
@@ -91,7 +100,9 @@
   width: 178.74px;
   height: 89.8px;
 }
+
 @media screen and (max-width: 600px) {
+  
   .boxItem,
   .boxItemTwo {
     width: 320px;
@@ -121,7 +132,7 @@
   }
   .boxItem,
   .boxItemTwo {
-    width: 260px;
+    width: 320px;
     padding: 16px;
   }
 
@@ -132,7 +143,7 @@
   .boxCronograma .boxItemCronograma h4,
   .boxItemCronograma span {
     width: 215px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
   }
   .boxCronograma p {
@@ -159,7 +170,7 @@
 
   .boxItem,
   .boxItemTwo {
-    width: 328px;
+    width: auto;
     padding: 26px;
   }
 }
@@ -168,6 +179,7 @@
   .bgContainerCronograma {
     height: auto; /* Ajuste este valor conforme necessário */
     padding: 0 0 20px 0;
+    margin-bottom: 15rem;
   }
 
   .btnCronograma,
@@ -190,7 +202,7 @@
   }
 
   .bgContainerGarante {
-    height: 146rem;
+    height: 252rem;
   }
 }
 
@@ -199,12 +211,12 @@
     height: auto;
   }
   .bgContainerGarante {
-    height: 136rem;
+    height: auto;
   }
 }
 @media screen and (min-width: 628px) and (max-width: 673px) {
   .bgContainerGarante {
-    height: 116rem;
+    height: auto;
   }
 }
 
@@ -213,20 +225,22 @@
     height: 88rem; /* Ajuste este valor conforme necessário */
   }
   .bgContainerGarante {
-    height: 150rem;
+    height: auto;
+    margin-bottom: 50px;
+
   }
 }
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
   .bgContainerCronograma {
     height: 100rem; /* Ajuste este valor conforme necessário */
-    padding-top: 206px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (min-width: 912px) and (max-width: 1368px) {
   .bgContainerCronograma {
-    height: 98rem; /* Ajuste este valor conforme necessário */
+    height: 94rem; /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -238,20 +252,26 @@
 
 @media screen and (min-width: 1225px) and (max-width: 2199px) {
   .bgContainerCronograma {
-    height: 52rem;
+    height: 60rem;
   }
   .bgContainerGarante {
-    height: 108rem;
+    height: 128rem;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1336px) {
   .bgContainerCronograma {
-    height: 74rem;
-    padding-top: 206px;
+    height: 65rem;
+    padding-top: 96px;
   }
 
   .bgContainerGarante {
     height: 100%;
+  }
+}
+
+@media screen and (min-width: 2024px)  {
+  .bgContainerGarante{
+    height: auto;
   }
 }
