@@ -20,7 +20,6 @@ const Home = () => {
           <BoxSobre />
           <BoxConvidados />
           <BoxGarante />
-          <BoxParceiros />
           <FAQComponent />
         </section>
       </main>
