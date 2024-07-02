@@ -8,6 +8,7 @@ import "@/app/globals.css";
 import MeuComponenteLogo from "../images/MeuComponenteLogo";
 import BtnIngresso from "../ui/button/BtnIngresso";
 
+
 const Navbar = () => {
   // Estado para controlar a exibição do menu hamburguer
   const [showMenu, setShowMenu] = useState(false);

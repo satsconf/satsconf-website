@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import { i18n } from "@/translate/i18n";
 //importação global do modalNovidades
 import { useContext } from "react";
 import { ModalContext } from "@/providers/ModalContext";
@@ -24,13 +25,13 @@ const BoxPrincipal = () => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <span>8 e 9 DE NOVEMBRO | SÃO PAULO</span>
-                <h1>MAIOR EVENTO 100% BITCOIN DO BRASIL</h1>
+                <span>{i18n.t('data.app')}</span>
+                <h1>{i18n.t('titles.itWorks')}</h1>
                 {/* gap de 16 com container de botão */}
                 <div className="sc-gap-16 container-btn">
-                  <BtnIngresso url="https://www.satsconf.com.br/ingressos">COMPRAR INGRESSO</BtnIngresso>
+                  <BtnIngresso url="https://www.satsconf.com.br/ingressos">{i18n.t('buttons.purchase')}</BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
+                  <BtnNovidades onClick={handleOpenModal}>{i18n.t('buttons.news')}</BtnNovidades>
                 </div>
               </div>
 
