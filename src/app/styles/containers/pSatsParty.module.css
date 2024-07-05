@@ -13,11 +13,12 @@
   background-size: cover; /* Cobertura total da área do elemento */
   background-position: center; /* Posicionamento central da imagem */
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 .BoxSatsParty {
   height: auto;
-  margin: 8rem;
+ margin: auto;
 }
 
 .container-div-bottom-satsparty {
@@ -25,6 +26,7 @@
   align-items: center;
   gap: 20px;
   margin: 20px;
+
 }
 
 .itemSatsPartyEvento {
@@ -65,8 +67,22 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 368px){
+  .galleryImg {
+      width: 135px;
+      height: 92px;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
+  .itemSatsPartyEvento{
+    width: 97%;
+  }
+  .galleryImg {
+      width: 162px;
+      height: 121px;
+  }
 
   .boxprincipal .SatsConfParty-Span {
     width: 300px;
@@ -74,7 +90,7 @@
   }
 
   .BoxSatsParty {
-    margin: 16px;
+    margin: 16px 0;
   }
 
   .container-div-bottom-satsparty {
@@ -82,14 +98,17 @@
   }
 
   .container-div-bottom-satsparty a {
-    width: 164px;
+    width: 100%;
     margin: 8px;
+    padding: 8px;
+    font-size: 14px;
   }
 
   .itemSatsPartyEvento h4 {
     text-align: center;
     font-size: 12px;
-    width: 169px;
+    padding: 0;
+    margin: 20px auto;
   }
 
 }
