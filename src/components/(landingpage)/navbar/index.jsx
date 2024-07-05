@@ -82,18 +82,20 @@ const Navbar = () => {
                 PALESTRANTES
               </Link>
             </li>
-            <div className="dropdown" 
+
+            <div
+              className="dropdown"
               onMouseEnter={handleMouseEnterDropdown}
               onMouseLeave={handleMouseLeaveDropdown}
-              >
+            >
               <li>
-                <button
+                <Link
                   href="/"
                   onClick={toggleDropdown}
                   className="dropbtn navItem"
                 >
                   PROGRAMAÇÃO
-                </button>
+                </Link>
               </li>
               <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
@@ -103,7 +105,7 @@ const Navbar = () => {
                   SatsWeek
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
-                  SatsArte
+                SatsGallery
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsGaming
@@ -111,7 +113,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsKids
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/satsparty" onClick={handleLinkClickHome}>
                   SatsParty
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
@@ -119,18 +121,24 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
-            <div className="dropdown"
+            <li>
+              <Link href="/contato" onClick={handleLinkClickHome}>
+                CONTATO
+              </Link>
+            </li>
+            <div
+              className="dropdown"
               onMouseEnter={handleMouseEnterDropdownT}
               onMouseLeave={handleMouseLeaveDropdownT}
-              >
+            >
               <li>
-                <button
+                <Link
                   href="/"
                   onClick={toggleDropdownTwo}
                   className="dropbtn navItem"
                 >
                   MAIS
-                </button>
+                </Link>
               </li>
               <div
                 className={`dropdown-content ${showDropdownT ? "show" : ""}`}
@@ -151,15 +159,11 @@ const Navbar = () => {
                   Local do Evento
                 </Link>
                 <Link href="/faq" onClick={handleLinkClickHome}>
-                  Faq
+                  FAQ
                 </Link>
               </div>
             </div>
-            <li>
-              <Link href="/contato" onClick={handleLinkClickHome}>
-                CONTATO
-              </Link>
-            </li>
+            
           </ul>
           <div>
             <BtnIngresso url="https://www.satsconf.com.br/ingressos">

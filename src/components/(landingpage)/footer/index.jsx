@@ -12,10 +12,16 @@ const Footer = () => {
     <footer className="footer bgContainerFooter">
       <div className="footerContainer">
         <div className="logo">
-          <div className="containerLogoFooter">
+        <div className="boxFooter">
+        <div className="containerLogoFooter">
             <MeuComponenteLogo /> {/* Use the imported component */}
           </div>
-
+          <li>
+                <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
+                  <FaWhatsapp style={{ color: "white" }} />
+                  Entre no grupo do Whatsapp
+                </Link>
+              </li>
           <div>
             <p>Satsconf. &copy; 2024 </p>
             <Link href="https://www.satsconf.com.br/politica">
@@ -42,14 +48,10 @@ const Footer = () => {
                   Acompanhe o Instagram
                 </Link>
               </li>
-              <li>
-                <Link href="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
-                  <FaWhatsapp style={{ color: "white" }} />
-                  Acompanhe no WhatsApp
-                </Link>
-              </li>
+              
             </ul>
           </div>
+        </div>
         </div>
       </div>
     </footer>
