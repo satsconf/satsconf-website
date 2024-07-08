@@ -22,9 +22,9 @@ const Footer = () => {
                   Entre no grupo do Whatsapp
                 </Link>
               </li>
-          <div>
+          <div className="footerCopy">
             <p>Satsconf. &copy; 2024 </p>
-            <Link href="https://www.satsconf.com.br/politica">
+            <Link className="footerLink" href="https://www.satsconf.com.br/politica">
               Política de Privacidade
             </Link>
           </div>
