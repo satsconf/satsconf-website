@@ -5,6 +5,8 @@ import ImageIgresso from "@/components/(landingpage)/images/ImageIngresso";
 import IngressoBtn from "@/components/(landingpage)/ui/modal/modalBtn";
 import FAQ from "@/components/(landingpage)/pages/ingresso/faqingresso";
 
+import cookie from "js-cookie";
+
 const Ingressos = ({ children }) => {
   return (
     <section id="Ingressos">
@@ -21,7 +23,13 @@ const Ingressos = ({ children }) => {
                 <h1>INGRESSOS SATSCONF</h1>
                 {/* gap de 8 com container de botão */}
                 <div className="sc-gap-8 container-btn">
-                  <BtnIngresso url="#comprarqui">
+                  <BtnIngresso url="#comprarqui"onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
                     COMPRAR INGRESSO
                   </BtnIngresso>
                   {/* botão do container principal */}

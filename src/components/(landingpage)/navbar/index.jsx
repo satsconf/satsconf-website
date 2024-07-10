@@ -7,6 +7,7 @@ import "@/app/globals.css";
 
 import MeuComponenteLogo from "../images/MeuComponenteLogo";
 import BtnIngresso from "../ui/button/BtnIngresso";
+import cookie from "js-cookie";
 
 
 const Navbar = () => {
@@ -166,7 +167,13 @@ const Navbar = () => {
             
           </ul>
           <div>
-            <BtnIngresso url="https://www.satsconf.com.br/ingressos">
+            <BtnIngresso url="https://www.satsconf.com.br/ingressos" onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
               Comprar Ingresso{" "}
             </BtnIngresso>
           </div>

@@ -1,6 +1,7 @@
 import ImagePrincipalSatsParty from "@/components/(landingpage)/images/Satsparty/imagePrincipalSatsParty";
 import SatsPartyImgEvento from "@/components/(landingpage)/images/Satsparty/satspartyEvento";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
+import cookie from "js-cookie";
 
 const pSatsParty = ({ children }) => {
   return (
@@ -14,7 +15,14 @@ const pSatsParty = ({ children }) => {
               <span className="SatsConfParty-Span">Evento exclusivo para vips</span>
               <h1 className="margem-top-30">ENTRE NO NOVO MUNDO COM A GENTE!</h1>
               <div className="container-btn-satsparty margem-top-20">
-              <BtnIngresso url="/">COMPRAR INGRESSO</BtnIngresso>
+              <BtnIngresso url="https://www.satsconf.com.br/ingressos" onClick={() =>{
+            cookie.set("btn_lp_global-buy", "btn_55117878", {
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'strict'
+            })
+          }}>
+              COMPRAR INGRESSO</BtnIngresso>
               </div>
         
               {/* gap de 16 com container de botão */}
