@@ -29,10 +29,11 @@
 }
 
 .container-btn-palestrantes {
-  padding: 1px 0 79px 0;
+  padding: 1px 0 130px 0;
   margin: auto;
   position: relative;
   z-index: 2;
+ 
 }
 
 .boxCenterPaginaPrincipalConvidados {
@@ -183,5 +184,13 @@
 @media screen and (min-width: 782px) and (max-width: 926px) {
   .container-btn {
     width: 398px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .container-btn-palestrantes {
+    padding: 1px 0 230px 0;
+   
   }
 }
