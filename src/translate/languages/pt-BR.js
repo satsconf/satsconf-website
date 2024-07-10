@@ -11,6 +11,9 @@ const messages = {
                 purchase: 'COMPRAR INGRESSO',
                 news: 'RECEBER NOVIDADES'
             },
+            location: {
+                address: 'Audio | São Paulo'
+            }
         }
     }
 }
