@@ -10,6 +10,8 @@ import { metadata } from "./metadata";
 //PROVIDERS MODAL NOVIDADES
 import { ModalProvider } from "@/providers/ModalContext";
 import { DadosProvider } from "@/providers/DadosContext";
+import { CookieProvider } from "@/providers/CookieContext";
+import Cookies from "@/utils/cookies";
 
 // Define o layout root com desestruturação de props
 export default function RootLayout({ children }) {
@@ -43,9 +45,12 @@ export default function RootLayout({ children }) {
           <>
             <DadosProvider>
               <ModalProvider>
+              <CookieProvider>
                 <Header />
                 {children}
                 <Footer />
+                <Cookies />
+                </CookieProvider>
               </ModalProvider>
             </DadosProvider>
           </>
