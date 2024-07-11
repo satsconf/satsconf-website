@@ -1,0 +1,29 @@
+#LocalEvento {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#LocalEvento .divFontLocalEvento span {
+    font-size: 1rem;
+    color: var(--white);
+
+}
+
+#LocalEvento .divFontLocalEvento h1 {
+    font-size: 2.6rem;
+}
+
+
+#LocalEvento .divFontLocalEvento h3 {
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #LocalEvento .divFontLocalEvento h3 {
+        color: var(--white);
+        font-size: 0.8rem;
+    }
+}
