@@ -19,6 +19,9 @@
 @import "../../styles/containers/manutencao.module.css";
 @import "../../styles/containers/imagesconvidados.module.css";
 @import "../../styles/containers/programacao.module.css";
-@import "../../styles/containers/pcontato.module.css";
+@import "../../styles/containers/LocalEvento.module.css";
 @import "../../styles/containers/pSatsParty.module.css";
 @import "../../styles/containers/politica.module.css";
+@import "../../styles/containers/mapa.module.css";
+@import "../../styles/containers/hoteis.module.css";
+@import "../../styles/containers/patrocinio.module.css";

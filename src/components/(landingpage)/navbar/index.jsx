@@ -8,6 +8,7 @@ import "@/app/globals.css";
 import MeuComponenteLogo from "../images/MeuComponenteLogo";
 import BtnIngresso from "../ui/button/BtnIngresso";
 import cookie from "js-cookie";
+import LangGlobe from "../ui/LangGlobe";
 
 
 const Navbar = () => {
@@ -120,6 +121,9 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsMarket
                 </Link>
+                <Link href="/programacao" onClick={handleLinkClickHome}>
+                SatsHack
+                </Link>
               </div>
             </div>
             <li>
@@ -150,13 +154,13 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   Imprensa
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/patrocinio" onClick={handleLinkClickHome}>
                   Patrocínio
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/hoteis" onClick={handleLinkClickHome}>
                   Hotéis
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/local-do-evento" onClick={handleLinkClickHome}>
                   Local do Evento
                 </Link>
                 <Link href="/FAQ" onClick={handleLinkClickHome}>
@@ -183,6 +187,7 @@ const Navbar = () => {
               {showMenu ? <FaTimes /> : <FaBars />}
             </button>
           </div>
+          <LangGlobe />
         </div>
       </div>
     </nav>
