@@ -1,0 +1,66 @@
+#pHoteis .divFontLocalHotel {
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 50px;
+}
+#pHoteis .divFontLocalHotel h1,
+.divFontLocalHotel h3 {
+  font-size: 0.8rem;
+}
+
+#pHoteis .divFontLocalHotel h2 {
+  font-size: 2.2rem;
+}
+
+#pHoteis .containerHoteis {
+  height: 40rem;
+}
+
+#pHoteis .containerHoteis h2 {
+  font-size: 20px;
+}
+
+#pHoteis .containerImagesHotel {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 56px;
+}
+.containerAmbienteHotel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: -22px auto;
+  grid-auto-rows: 210px;
+  justify-items: center;
+}
+
+.containerAmbienteHotel div img {
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  #pHoteis .containerHoteis {
+    padding: 0 2rem;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .containerAmbienteHotel {
+    grid-template-columns: repeat(1, 1fr);
+    margin: -18px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #pHoteis .containerImagesHotel {
+    width: 52%;
+  }
+  #pHoteis .containerHoteis {
+    padding: 0 4rem;
+  }
+  .containerAmbienteHotel div img {
+    padding: 0 4px;
+  }
+}
