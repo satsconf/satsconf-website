@@ -13,23 +13,24 @@ export const CookieProvider = ({ children }) => {
   const [showCookieBox, setShowCookieBox] = useState(false);
 
   useEffect(() => {
-    if (!cookieConsent) {
-      const timer = setTimeout(() => {
-        setShowCookieBox(true);
-      }, 4000);
-      return () => clearTimeout(timer);
+    if (!window.gtagScriptAdded) {
+      // Inicializa o Google Analytics quando os cookies são aceitos
+      const script1 = document.createElement("script");
+      script1.async = true;
+      script1.src =
+        "https://www.googletagmanager.com/gtag/js?id=UA-241114736-1";
+      script1.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-241114736-1');
+      `;
+      document.head.appendChild(script1);
+
+      // Marque que as tags foram adicionadas
+      window.gtagScriptAdded = true;
     }
   }, [cookieConsent]);
-
-  //   useEffect(() => {
-  //     const cookieConsent = cookie.get('Cookie_accepted_global');
-  //     if (cookieConsent === 'accepted_g1458542') {
-  //         // Ativar Google Analytics
-  //         // (exemplo de código fictício)
-  //         window.ga('create', 'UA-XXXXXX-X', 'auto');
-  //         window.ga('send', 'pageview');
-  //     }
-  // }, [])
 
   const acceptCookies = () => {
     cookie.set("Cookie_accepted_global", "accepted_g1458542", { path: "/" });
