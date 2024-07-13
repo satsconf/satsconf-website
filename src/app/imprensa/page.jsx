@@ -1,6 +1,6 @@
 "use client"
-import ImagePatrocinio from "@/components/(landingpage)/pages/patrocinio/ImageIngresso";
 import TypeformPatrocinador from "@/components/(landingpage)/containers/typeform/tformPatrocinador";
+import ImageImpreensa from "@/components/(landingpage)/images/ImageImprensa";
 
 
 const Imprensa = ({ children }) => {
@@ -22,7 +22,7 @@ const Imprensa = ({ children }) => {
 
               <div className="btningresso-img container-com-gradiente">
                 {/* imagem do container principal da pagina de ingresso esportado como componente */}
-                <ImagePatrocinio />
+                <ImageImpreensa />
               </div>
             </div>
           </div>
