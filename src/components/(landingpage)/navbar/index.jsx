@@ -151,7 +151,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   Ingresso Estudante
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/imprensa" onClick={handleLinkClickHome}>
                   Imprensa
                 </Link>
                 <Link href="/patrocinio" onClick={handleLinkClickHome}>

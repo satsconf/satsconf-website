@@ -12,7 +12,6 @@ import cookie from "js-cookie";
 import { FiMapPin } from "react-icons/fi";
 
 const BoxPrincipal = () => {
-
   const {handleModalVisible} = useContext(ModalContext);
 
   const handleOpenModal= ()=>{
@@ -26,16 +25,15 @@ const BoxPrincipal = () => {
           <div className=" bgContainerMargin ">
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
-              <div className="sc-bg-container krona-one-regular ">
+              <div className="sc-bg-container krona-one-regular lineTitle-45">
               <span>{i18n.t('data.app')}</span>
                 <br />
+               
+                <h1>{i18n.t('titles.itWorks')}</h1>
                 <p className="pLocal"> <FiMapPin />
                 
                 {i18n.t('location.address')}
                 </p>
-
-                <h1>{i18n.t('titles.itWorks')}</h1>
-               
                 {/* gap de 16 com container de botão */}
                 <div className="sc-gap-16 container-btn">
                   <BtnIngresso url="https://www.satsconf.com.br/ingressos"onClick={() =>{

@@ -1,7 +1,7 @@
-const ImageContato = () => {
+const ImageLocal = () => {
     return (
       <img
-        src="../entre-em-contato-satsconf.png"
+        src="../local-sats-conf-evento.png"
         width="374"
         height="374"
         alt="Imagem do Evento Satsconf de 2023"
@@ -9,5 +9,5 @@ const ImageContato = () => {
     );
   };
   
-  export default ImageContato;
+  export default ImageLocal;
   

@@ -59,7 +59,7 @@ const BoxGarante = () => {
               </li>
             </ul>
             <div className="containerbtnHome marginBottonHomeCronograma">
-              <BtnCronograma url="https://www.satsconf.com.br/ingressos"> COMPRAR</BtnCronograma>
+              <BtnCronograma url="https://www.satsconf.com.br/ingressos"> COMPRAR INGRESSO AGORA</BtnCronograma>
             </div>
           </div>
 
