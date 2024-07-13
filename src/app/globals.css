@@ -21,6 +21,7 @@
   --font-sora: "Sora", sans-serif;
   --color-orange: #ffb126;
   --color-roxo: #b32fe0;
+  --color-gray: #878686;
 }
 
 * {
@@ -38,6 +39,17 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+.lineTitle-45 {
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+
+.lineTitle-50 {
+  line-height: 50px;
+  text-transform: uppercase;
 }
 
 .animate__fadeInLeftBig {
