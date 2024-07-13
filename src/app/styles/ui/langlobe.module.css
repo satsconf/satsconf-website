@@ -13,8 +13,12 @@
     font-size: 1.5em;
     cursor: pointer;
     color: var(--white);
+    margin: 0 12px;
   }
-  
+  #pSatsParty img{
+    width: 300px;
+    height: auto;
+  }
   .ulLangGlobe {
     position: absolute;
     top: calc(100% + -7px);

@@ -185,12 +185,6 @@
   .container-btn {
     width: 398px;
   }
-}
 
-@media screen and (min-width: 800px) {
-
-  .container-btn-palestrantes {
-    padding: 1px 0 230px 0;
-   
-  }
+  
 }

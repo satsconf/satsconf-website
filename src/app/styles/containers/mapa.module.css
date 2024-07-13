@@ -1,0 +1,13 @@
+.containerLocal {
+    height: 48rem;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 980px; /* Largura máxima do iframe */
+    height: 450px; /* Altura do iframe */
+    border: 0;
+    overflow: hidden;
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+    margin: -38px auto;
+}
