@@ -14,7 +14,7 @@ const CompraBtc = () => {
         <li>
           <span>Normal Pass</span>
         </li>
-        <li>R$197,50</li>
+        <li>R$237</li>
         <li>
           <div className="buttonIngressoComprar">
             <Link href="https://ingresso.satsconf.com.br/cart/41678531788935:1?storefront=true" onClick={() =>{
@@ -36,7 +36,7 @@ const CompraBtc = () => {
         <li>
           <span>VIP Pass</span>
         </li>
-        <li>R$592,50</li>
+        <li>R$632</li>
         <li>
           <div className="buttonIngressoComprar">
             <Link href="https://ingresso.satsconf.com.br/cart/41678547320967:1?storefront=true" onClick={() =>{

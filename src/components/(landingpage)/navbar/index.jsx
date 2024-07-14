@@ -8,7 +8,6 @@ import "@/app/globals.css";
 import MeuComponenteLogo from "../images/MeuComponenteLogo";
 import BtnIngresso from "../ui/button/BtnIngresso";
 import cookie from "js-cookie";
-import LangGlobe from "../ui/LangGlobe";
 
 
 const Navbar = () => {
@@ -187,7 +186,6 @@ const Navbar = () => {
               {showMenu ? <FaTimes /> : <FaBars />}
             </button>
           </div>
-          <LangGlobe />
         </div>
       </div>
     </nav>
