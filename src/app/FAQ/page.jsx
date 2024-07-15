@@ -1,7 +1,7 @@
 import FAQpreparese from "@/components/(landingpage)/containers/faq/faqpreparese";
 import FAQqueromeenvolver from "@/components/(landingpage)/containers/faq/faqqueromeenvolver";
 import ImageFaq from "@/components/(landingpage)/images/ImageFaq";
-import FAQComponent from "@/components/(landingpage)/containers/faq";
+import FAQgeral from "@/components/(landingpage)/containers/faq/geral";
 
 
 const Faq = ({ children }) => {
@@ -28,10 +28,11 @@ const Faq = ({ children }) => {
         </div>
       </div>
       <div className=" krona-one-regular bgContaineImgIgresso">
-      <FAQqueromeenvolver />
+        <FAQgeral/>
       </div>
       <div className="krona-one-regular bgContaineImgIgresso">
-        <FAQComponent />
+      <FAQqueromeenvolver />
+
       </div>
       <FAQpreparese />
       <div className="boxTitle containerEntrarContato">
