@@ -16,7 +16,7 @@
   background-position: center calc(10% - 100px);
   /* Posicionamento central da imagem */
   position: relative;
-  z-index: -5;
+  z-index: auto;
 }
 
 .containerTitlePalestrantes {
