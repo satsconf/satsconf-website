@@ -35,12 +35,12 @@ const ModalNovidades = ({ user }) => {
     e.preventDefault();
     setError("");
 
-    if (!name || !email || !number) {
-      setError("Por favor, preencha todos os campos.");
+    if (!name || !email ) {
+      setError("Por favor, preencha seu nome e e-mail.");
       return;
     }
     //Dentro de handleSubmit, os valores dos campos do formulário são lidos dos estados locais (name, email, number) e agrupados em um objeto newProduct.
-    const newDados = { name, email, number };
+    const newDados = { name, email };
 
     try {
       // Usar apenas addDados para enviar os dados
@@ -80,7 +80,7 @@ const ModalNovidades = ({ user }) => {
             </h3>
             <form className="formBox">
               <div className="">
-                <label htmlFor="name">Seu nome completo</label>
+                <label htmlFor="name">Seu nome *</label>
                 {/* O usuário interage com o formulário preenchendo os campos de nome, email e telefone.-Cada campo do formulário está ligado a um estado local que é atualizado através das funções handleName, handleEmail e handleNumber. */}
                 <input
                   type="text"
@@ -90,7 +90,7 @@ const ModalNovidades = ({ user }) => {
                   value={name}
                 />
 
-                <label htmlFor="email">Seu melhor e-mail</label>
+                <label htmlFor="email">Seu melhor e-mail *</label>
                 <input
                   type="text"
                   name="email"
