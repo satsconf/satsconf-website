@@ -134,7 +134,7 @@
   /* Estilos específicos para dispositivos com largura de tela de 320x568 */
 
   .sc-bg-container {
-    width: 18.75rem; /* Usando a largura total */
+    width: 20.75rem; /* Usando a largura total */
     margin-bottom: 10px; /* Adicionando espaço entre o texto e os botões */
   }
 
@@ -146,11 +146,14 @@
     width: 380px;
     height: 34rem;
   }
+
+  
 }
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
   .sc-bg-container {
-    max-width: 18.75rem; /* Usando a largura total */
+    max-width: 22rem;
+    width: 100%; /* Usando a largura total */
   }
 }
 
@@ -174,7 +177,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
   .sc-bg-container {
-    width: 308px;
+    width: 336px;
   }
 
   .container-btn {

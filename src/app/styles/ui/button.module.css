@@ -144,7 +144,7 @@
 }
 @media screen and (max-width: 768px)  {
   .btnIngresso, .btnNovidades {
-    font-size: 12px;
+    font-size: 8px;
   }
 
 }
@@ -179,6 +179,7 @@
   .container-btn {
     width: 338px;
   }
+  
 }
 
 @media screen and (min-width: 782px) and (max-width: 926px) {
