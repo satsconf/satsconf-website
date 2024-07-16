@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { i18n } from "@/translate/i18n";
+
 //importação global do modalNovidades
 import { useContext } from "react";
 import { ModalContext } from "@/providers/ModalContext";
@@ -11,12 +11,14 @@ import BtnNovidades from "../../ui/button/BtnNovidades";
 import cookie from "js-cookie";
 import { FiMapPin } from "react-icons/fi";
 
+
 const BoxPrincipal = () => {
   const {handleModalVisible} = useContext(ModalContext);
 
   const handleOpenModal= ()=>{
     handleModalVisible();
   };
+  
 
   return (
     <section id="BoxPrincipal">
@@ -26,13 +28,13 @@ const BoxPrincipal = () => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular lineTitle-45">
-              <span>{i18n.t('data.app')}</span>
+              <span>8 E 9 DE NOVEMBRO</span>
                 <br />
                
-                <h1>{i18n.t('titles.itWorks')}</h1>
+                <h1>MAIOR EVENTO 100% BITCOIN DO BRASIL</h1>
                 <p className="pLocal"> <FiMapPin />
                 
-                {i18n.t('location.address')}
+                AUDIO | SÃO PAULO
                 </p>
                 {/* gap de 16 com container de botão */}
                 <div className="sc-gap-16 container-btn">
@@ -44,9 +46,9 @@ const BoxPrincipal = () => {
             })
           }}>
                   
-                  {i18n.t('buttons.purchase')}</BtnIngresso>
+                  COMPRAR INGRESSO</BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades onClick={handleOpenModal}>{i18n.t('buttons.news')}</BtnNovidades>
+                  <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
                 </div>
               </div>
 
