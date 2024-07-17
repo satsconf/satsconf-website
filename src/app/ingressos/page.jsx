@@ -13,7 +13,7 @@ const Ingressos = ({ children }) => {
       {/* Aqui é onde você renderiza children */}
       {children}
 
-      <div className="bgContainerImg ">
+      <div className="bgContainerImg displayNone">
         <div className="bgContainerPrincipal">
           <div className=" bgContainerMargin">
             <div className="boxprincipal">

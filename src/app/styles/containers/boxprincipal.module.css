@@ -97,6 +97,10 @@
     background-size: cover; /* Cobertura total da área do elemento */
     background-position: center; /* Posicionamento central da imagem */
     overflow-x: hidden;
+    
+  }
+
+  .displayNone {
     display: none;
   }
 
