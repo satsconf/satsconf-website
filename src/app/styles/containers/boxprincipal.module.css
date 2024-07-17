@@ -60,6 +60,7 @@
 .pLocal svg {
   margin: 0 8px 0 0;
 }
+
 @media screen and (max-width: 767px) {
   /* Estilos específicos para dispositivos móveis */
 
@@ -96,11 +97,19 @@
     background-size: cover; /* Cobertura total da área do elemento */
     background-position: center; /* Posicionamento central da imagem */
     overflow-x: hidden;
+    display: none;
   }
 
   .btningresso-img {
     display: none;
   }
+
+
+.bgContainerComprarIngresso {
+  padding-top: 10rem;
+
+}
+
 }
 
 @media screen and (min-width: 768px) {
