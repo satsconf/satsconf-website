@@ -51,10 +51,11 @@
 }
 
 .boxDescontoIngresso {
-  margin: 8px;
+  margin: 10px;
   text-align: center;
   color: #ffb126;
   font-size: 0.8rem;
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -63,7 +64,7 @@
   }
   .containerComprarIngressoReal ul {
     flex-direction: column;
-    margin: 16px 16px;
+    margin: 8px 19px;
   }
 
   .containerComprarIngressoReal ul li {

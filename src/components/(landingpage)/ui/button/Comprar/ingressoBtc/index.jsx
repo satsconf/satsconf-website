@@ -52,9 +52,7 @@ const CompraBtc = () => {
         </li>
       </ul>
 
-      <div className="boxDescontoIngresso">
-        <h3>ATENÇÃO! 21% de desconto pagando em Bitcoin!</h3>
-      </div>
+     
     </div>
   );
 };
