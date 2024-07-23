@@ -8,43 +8,28 @@ import Backend from 'i18next-http-backend';
 import ptTranslations from '../locale/pt-BR.json';
 import enTranslations from '../locale/en-US.json';
 import esTranslations from '../locale/es-AR.json';
-
 i18n
-.use(Backend) // Adiciona o Backend 
-.use(initReactI18next)
-.use(LanguageDetector)
-.init({
-  // debug: true,
-  resources: {
-    en: { translation: enTranslations },
-    pt: { translation: ptTranslations },
-    es: { translation: esTranslations }
-  },
-  lng: 'pt-BR', // Define explicitamente o idioma padrão inicial
-  fallbackLng: 'pt-BR', // Configura o fallback geral para Português do Brasil
+ .use(initReactI18next)
+ .use(LanguageDetector)
+ .init({
+   fallbackLng: 'pt-BR',
+   debug: true,
+   resources: {
+     en: { translation: enTranslations },
+     pt: { translation: ptTranslations },
+     es: { translation: esTranslations }
+   },
+   detection: {
+     order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
+     caches: ['cookie'],
+     lookupLocalStorage: 'i18nextLng',
+     checkWhitelist: true, // Certifique-se de que só detecta idiomas que estão na sua lista de recursos
+   },
+   interpolation: {
+     escapeValue: false,
+   }
+ });
 
-  // 'pt-BR': ['pt'], 
-  // 'en-US': ['en'],  // Se 'en-US' faltar algo, recorra a 'en'
-  //  // Se 'pt-BR' faltar algo, recorra a 'pt'
-  // 'default': ['pt']
-  // },  // Se nenhum idioma específico for encontrado, use 'en-US'
-  interpolation: {
-    escapeValue: false, // not needed for react as it escapes by default
-  },
-  resourceus: {
-    backend: {
-      loadPath: '/src/locales/{{lng}}/{{ns}}.json',
-      // Caminho para os arquivos de tradução
-    },
-    languageDetector: {
-      order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
-      caches: ['cookie'], // Onde armazenar o idioma detectado
-      lookupLocalStorage: 'i18nextLng', // Especifica a chave usada para armazenar o idioma no localStorage
-    },
-    
-  }
-  
-})
 
 export { i18n };
 
