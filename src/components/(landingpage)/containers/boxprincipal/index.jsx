@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-
+import { useTranslation } from "react-i18next"; 
 //importação global do modalNovidades
 import { useContext } from "react";
 import { ModalContext } from "@/providers/ModalContext";
@@ -13,6 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 
 
 const BoxPrincipal = () => {
+  const { t } = useTranslation();
   const {handleModalVisible} = useContext(ModalContext);
 
   const handleOpenModal= ()=>{
@@ -28,13 +29,13 @@ const BoxPrincipal = () => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular lineTitle-45">
-              <span>8 E 9 DE NOVEMBRO</span>
+              <span>{t('data')}</span>
                 <br />
                
-                <h1>MAIOR EVENTO 100% BITCOIN DO BRASIL</h1>
+                <h1>{t('titles.itWorks')}</h1>
                 <p className="pLocal"> <FiMapPin />
                 
-                AUDIO | SÃO PAULO
+                {t('location.address')}
                 </p>
                 {/* gap de 16 com container de botão */}
                 <div className="sc-gap-16 container-btn">
@@ -45,10 +46,11 @@ const BoxPrincipal = () => {
               sameSite: 'strict'
             })
           }}>
+            {t('buttons.purchase')}
                   
-                  COMPRAR INGRESSO</BtnIngresso>
+                  </BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades onClick={handleOpenModal}>RECEBER NOVIDADES</BtnNovidades>
+                  <BtnNovidades onClick={handleOpenModal}> {t('buttons.news')}</BtnNovidades>
                 </div>
               </div>
 

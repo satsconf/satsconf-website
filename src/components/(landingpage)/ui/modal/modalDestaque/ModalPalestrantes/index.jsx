@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
+
 import {
   RiTwitterXFill,
   RiLinkedinFill,
@@ -12,6 +14,7 @@ import { FiX } from "react-icons/fi";
 
 //modal conteúdo -itens p. modal
 const ModalPalestrantes = ({
+  
   name,
   description,
   handleClose,
@@ -24,6 +27,8 @@ const ModalPalestrantes = ({
   youtube,
   github,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="bgModalPalestrantes" id="modal">
       <div className="modalContentPalestrantes">
@@ -41,7 +46,7 @@ const ModalPalestrantes = ({
 
           <p>{description}</p>
           <Link href="https://www.satsconf.com.br/ingressos">
-            <button className="btnComprarModal">Comprar Ingresso</button>
+            <button className="btnComprarModal">{t('buttons.purchase')}</button>
           </Link>
 
           <div className="social-icons-modal">

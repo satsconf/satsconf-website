@@ -1,14 +1,18 @@
+"use client"
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import { FiCheckCircle, FiMinus } from "react-icons/fi";
 import cookie from "js-cookie";
 
 const BoxTabelaIngresso = () => {
+  const { t } = useTranslation();
   return (
     <div id="listaIngressoBox" className="backgroundTopIngresso">
        <div className="bgTabelaIngresso ">
       <div className="boxTitle krona-one-regular">
-        <h2>O QUE ESTÁ INCLUSO</h2>
+        <h2>{t('included.titleIncluded')}O QUE ESTÁ INCLUSO</h2>
       </div>
       <table className="BoxTabelaIngresso sora-regular sc-fz-18">
         <thead>
@@ -31,7 +35,7 @@ const BoxTabelaIngresso = () => {
         <tbody>
             <tr>
               <td className="bordaleft">
-                Acesso aos 2 dias de evento principal
+              {t('included.event')}
               </td>
               <td className="boxCenter">
                 {" "}
@@ -43,27 +47,8 @@ const BoxTabelaIngresso = () => {
               </td>
             </tr>
             <tr>
-              <td className="bordaleft">Acesso ao Palco Satoshi Nakamoto </td>
-              <td className="boxCenter">
-                <FiCheckCircle size={38} color="white" />
-              </td>
-              <td className="boxCenter">
-                {" "}
-                <FiCheckCircle size={38} color="white" />
-              </td>
-            </tr>
-            <tr>
-              <td className="bordaleft">Acesso às salas de Workshop</td>
-              <td className="boxCenter">
-                <FiCheckCircle size={38} color="white" />
-              </td>
-              <td className="boxCenter">
-                {" "}
-                <FiCheckCircle size={38} color="white" />
-              </td>
-            </tr>
-            <tr>
-              <td className="bordaleft">Acesso à Área de Exposição</td>
+              <td className="bordaleft">
+              {t('included.stage')}</td>
               <td className="boxCenter">
                 <FiCheckCircle size={38} color="white" />
               </td>
@@ -74,7 +59,29 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso à SatsKids, SatsGaming, SatsArte e SatsMarket
+              {t('included.rooms')}</td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+              {t('included.area')}</td>
+              <td className="boxCenter">
+                <FiCheckCircle size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+              {t('included.stasmarket')}
               </td>
               <td className="boxCenter">
                 <FiCheckCircle size={38} color="white" />
@@ -86,7 +93,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Entrada especial no evento
+              {t('included.theEvent')}
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -98,7 +105,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-              Acesso aos assentos VIP dos palcos
+              {t('included.finneyStages')}
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -110,7 +117,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso à Área VIP com comidas e bebidas{" "}
+              {t('included.vip')}
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -122,7 +129,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso privilegiado aos palestrantes
+              {t('included.vipfood')}
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -134,7 +141,7 @@ const BoxTabelaIngresso = () => {
             </tr>
             <tr>
               <td className="bordaleft">
-                Acesso a SATSPARTY (open bar e open food)
+              {t('included.privile')}
               </td>
               <td className="boxCenter">
                 <FiMinus size={38} color="white" />
@@ -154,10 +161,11 @@ const BoxTabelaIngresso = () => {
               sameSite: 'strict'
             })
           }}>
-          COMPRAR INGRESSO
+          {t('buttons.purchase')}
         </BtnIngresso>
         {/* botão do container principal */}
-        <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">COMPRAR EM GRUPO</BtnNovidades>
+        <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
+        {t('buttons.grupo')}</BtnNovidades>
       </div>
     </div>
     </div>

@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { useContext } from "react";
 import { ModalContext } from "@/providers/ModalContext";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 
 const Programacao = ({ children }) => {
+  const { t } = useTranslation();
   const { handleModalVisible } = useContext(ModalContext);
 
   const handleOpenModal = () => {
@@ -15,9 +17,11 @@ const Programacao = ({ children }) => {
     <section id="PagProgramacao">
       {/* Aqui é onde você renderiza children */} {children}
       <div className="containerPagProgramacao">
-        <h2>Em breve mais informações!</h2>
-        <p>Estamos preparando algo especial para você!</p>
-        <BtnNovidades onClick={handleOpenModal}>Seja notificado!</BtnNovidades>
+        <h2>{t("maintenance.titleMaintenance")}</h2>
+        <p>  {t("maintenance.subTitle")}</p>
+        <BtnNovidades onClick={handleOpenModal}>
+        {t("buttons.news")}
+      </BtnNovidades>
       </div>
     </section>
   );

@@ -1,21 +1,23 @@
 "use client";
 
 import Link from "next/link";
+import { Trans, useTranslation } from "react-i18next";
 import { FiCheckCircle } from "react-icons/fi";
 import MeuComponenteLogo from "../../images/MeuComponenteLogo";
 import MeuComponenteIgressoVip from "../../images/ImageLogoVip";
 import BtnCronograma from "../../ui/button/BtnCronograma";
 
 const BoxGarante = () => {
+  const { t } = useTranslation();
   return (
     <section className="backgroundTop" id="programacao">
       <div className="bgContainerGarante font-white">
         <h2 className="krona-one-regular sc-fz-36 boxTitle">
-          Garanta seu ingresso agora mesmo!
+          {t("meet.titlePrimary")}
         </h2>
         <div className="boxGarante">
           <div className="boxItem boxColorPrimary">
-            <span className="krona-one-regular ">8 e 9 de NOVEMBRO</span>
+            <span className="krona-one-regular ">{t("meet.titleMeet")}</span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteLogo />
             </div>
@@ -25,46 +27,55 @@ const BoxGarante = () => {
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso aos 2 dias de evento principal</p>
+
+                <p> {t("meet.one")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p> Acesso ao Palco Satoshi Nakamoto</p>
+                <p> {t("meet.two")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso ao Palco do Hal Finney</p>
+
+                <p>{t("meet.three")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso às Salas de Workshop</p>
+                <p>{t("meet.four")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso à Área de Exposição</p>
+                <p>{t("meet.five")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso à SatsKids, SatsGaming, SatsArte e SatsMarket</p>
+                <p>{t("meet.six")}</p>
               </li>
             </ul>
             <div className="containerbtnHome marginBottonHomeCronograma">
-              <BtnCronograma url="https://www.satsconf.com.br/ingressos"> COMPRAR INGRESSO AGORA</BtnCronograma>
+              <Trans
+                i18nKey="buttons.buttonMeet"
+                components={[
+                  <BtnCronograma url="https://www.satsconf.com.br/ingressos"></BtnCronograma>,
+                ]}
+              ></Trans>
             </div>
           </div>
 
           <div className="boxItem boxColorSecundary">
-            <span className="krona-one-regular ">8 a 10 de NOVEMBRO </span>
+            <span className="krona-one-regular ">
+              {t("meetVip.titleMeetVip")}{" "}
+            </span>
             <div className="boxLogoGarante imagensLogoConatinerSite">
               <MeuComponenteIgressoVip />
             </div>
@@ -75,47 +86,47 @@ const BoxGarante = () => {
                   <FiCheckCircle color="white" />
                 </div>
 
-                <p style={{ fontWeight: 'bold' }}>Todos os acessos do Ingresso Normal</p>
+                <p style={{ fontWeight: "bold" }}> {t("meetVip.oneVip")} </p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Entrada especial no evento</p>
+                <p>{t("meetVip.twoVip")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>
-                Acesso aos assentos VIP dos palcos
-                </p>
+                <p>{t("meetVip.threeVip")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso à Área VIP com comidas e bebidas</p>
+                <p> {t("meetVip.fourVip")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso privilegiado aos palestrantes</p>
+                <p> {t("meetVip.fiveVip")}</p>
               </li>
               <li>
                 <div className="icon-garante">
                   <FiCheckCircle color="white" />
                 </div>
-                <p>Acesso à SatsParty (open bar e open food)</p>
+                <p> {t("meetVip.sixVip")}</p>
               </li>{" "}
             </ul>
 
             <div className="containerbtnHome marginBottonHomeCronograma">
-              <BtnCronograma url="https://satsconf24.vercel.app/ingressos">
-                {" "}
-                COMPRAR INGRESSO AGORA{" "}
-              </BtnCronograma>
+              <Trans
+                i18nKey="buttons.buttonMeet"
+                components={[
+                  <BtnCronograma url="https://www.satsconf.com.br/ingressos"></BtnCronograma>,
+                ]}
+              ></Trans>
             </div>
           </div>
         </div>

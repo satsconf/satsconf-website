@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useTranslation } from 'react-i18next';
 //importação global do modalNovidades
 import { useContext } from "react";
 import { ModalContext } from "@/providers/ModalContext";
@@ -11,6 +12,7 @@ import cookie from "js-cookie";
 
 
 const Palestrantes = ({ children }) => {
+  const { t } = useTranslation();
   const { handleModalVisible } = useContext(ModalContext);
 
   const handleOpenModal = () => {
@@ -26,9 +28,9 @@ const Palestrantes = ({ children }) => {
           <div className="bgContainerConvidadosDestaque ">
             <div className="boxprincipalConvidadoDestaque font-white krona-one-regular bgImagemPgPalestrantes">
               <div className="sc-mgem-16 ">
-                <span className="sc-fz-24 ">8 e 9 de Novembro | São Paulo</span>
+                <span className="sc-fz-24 ">{t("program.titleData")}</span>
                 <h2 className="sc-fz-48 ">
-                  CONHEÇA OS PALESTRANTES DA EDIÇÃO 2024
+                {t("program.titleEdition")}
                 </h2>
               </div>
               <div className="sc-gap-8 container-btn">
@@ -39,11 +41,11 @@ const Palestrantes = ({ children }) => {
               sameSite: 'strict'
             })
           }}>
-                  COMPRAR INGRESSO
+                 {t("buttons.purchase")}
                 </BtnIngresso>
                 {/* botão do container principal */}
                 <BtnNovidades onClick={handleOpenModal}>
-                  RECEBER NOVIDADES
+                {t("buttons.news")}
                 </BtnNovidades>
               </div>
             </div>
@@ -52,7 +54,7 @@ const Palestrantes = ({ children }) => {
               
             </div>
             <div className="container-btn-palestrantes padding-bottom-60 btnContainerConvidadosPalestrantes">
-            <BtnNovidades >Mais palestrantes em breve!</BtnNovidades>
+            <BtnNovidades >{t("buttons.moreSpeakers")}</BtnNovidades>
             </div>
          
           </div>

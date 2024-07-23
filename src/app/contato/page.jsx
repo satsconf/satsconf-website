@@ -1,8 +1,13 @@
+"use client"
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import FAQcontato from "@/components/(landingpage)/containers/faq/facontato";
 import TypeformEmbed from "@/components/(landingpage)/containers/typeform";
 import ImageContato from "@/components/(landingpage)/images/ImageContato";
 
 const Contato = ({ children }) => {
+  const { t } = useTranslation();
+
   return (
     <section id="Contato">
       {/* Aqui é onde você renderiza children */}
@@ -13,7 +18,7 @@ const Contato = ({ children }) => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <h1>ENTRE EM CONTATO</h1>
+                <h1>{t('contact.titleContato')}</h1>
                 {/* gap de 16 com container de botão */}
               </div>
 
@@ -28,8 +33,7 @@ const Contato = ({ children }) => {
         <div className="boxTitle">
             {" "}
             <h2 className=" containerTitleForm">
-              Preencha o formulário abaixo para entrar em contato com um
-              representante: 
+            {t('contact.subTitleContato')}
             </h2>
 
           </div>

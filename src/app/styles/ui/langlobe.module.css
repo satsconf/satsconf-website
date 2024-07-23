@@ -14,6 +14,8 @@
     cursor: pointer;
     color: var(--white);
     margin: 0 12px;
+
+
   }
   #pSatsParty img{
     width: 300px;
@@ -37,6 +39,7 @@
     padding: 12px 16px;
     color: var(--white);
     cursor: pointer;
+ 
   }
   
   .ulLangGlobe li:hover {

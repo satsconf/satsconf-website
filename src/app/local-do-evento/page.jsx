@@ -1,7 +1,11 @@
+"use client"
+import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import ImageLocal from "@/components/(landingpage)/images/ImageContato";
 import Mapa from "@/components/(landingpage)/pages/localevento/mapa";
 
 const LocalEvento = ({ children }) => {
+  const { t } = useTranslation();
   return (
     <section id="LocalEvento">
       {/* Aqui é onde você renderiza children */}
@@ -29,7 +33,7 @@ const LocalEvento = ({ children }) => {
         <div className="boxTitle">
             {" "}
             <h2 className=" containerTitleForm">
-            Como chegar
+            {t("localEvent.titleLocal")}
             </h2>
 
           </div>

@@ -1,5 +1,6 @@
 "use client";
-
+import { i18n } from './i18n';
+import React, { Suspense } from 'react';
 import "@/app/globals.css";
 import "@/app/styles/all.css";
 import Footer from "../components/(landingpage)/footer";
@@ -42,7 +43,7 @@ export default function RootLayout({ children }) {
         {isMaintenanceMode && isHomePage ? (
           <Manutencao />
         ) : (
-          <>
+          <Suspense fallback={<div>Carregando...</div>}> 
             <DadosProvider>
               <ModalProvider>
               <CookieProvider>
@@ -53,7 +54,7 @@ export default function RootLayout({ children }) {
                 </CookieProvider>
               </ModalProvider>
             </DadosProvider>
-          </>
+            </Suspense>
         )}
       </body>
     </html>

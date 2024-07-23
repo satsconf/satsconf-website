@@ -1,3 +1,6 @@
+"use client"
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import FAQpreparese from "@/components/(landingpage)/containers/faq/faqpreparese";
 import FAQqueromeenvolver from "@/components/(landingpage)/containers/faq/faqqueromeenvolver";
 import ImageFaq from "@/components/(landingpage)/images/ImageFaq";
@@ -5,6 +8,7 @@ import FAQgeral from "@/components/(landingpage)/containers/faq/geral";
 
 
 const Faq = ({ children }) => {
+  const { t } = useTranslation();
   return (
     <div id="Faq">
             {/* Aqui é onde você renderiza children */} {children}
@@ -14,7 +18,7 @@ const Faq = ({ children }) => {
           <div className="boxprincipal">
             {/* caixa co container com fonte do titulo */}
             <div className="sc-bg-container krona-one-regular">
-              <h1>TIRE SUAS DÚVIDAS SOBRE A SATSCONF</h1>
+              <h1>{t('faqPage.titlePage')}</h1>
               {/* gap de 16 com container de botão */}
             </div>
 
@@ -36,11 +40,11 @@ const Faq = ({ children }) => {
       </div>
       <FAQpreparese />
       <div className="boxTitle containerEntrarContato">
-        <h2 className="krona-one-regular ">Não encontrou a resposta para sua pergunta?</h2>
+        <h2 className="krona-one-regular "> {t('faqPage.questionFaq')}</h2>
         <p className="">
-          Entre em contato por e-mail (info@satsconf.com.br), pelo formulário do
-          site, ou visite nossos grupos no Telegram ou Whatsapp, <br /> onde alguém da
-          organização ou mesmo outro participante do evento podem te ajudar.
+        {t('faqPage.ResponseFaq')}
+          <br /> 
+          {t('faqPage.ResponseFaqTwo')}
         </p>
       </div>
       </div>

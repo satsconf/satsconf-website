@@ -7,7 +7,9 @@ import ModalPalestrantes from "../ModalPalestrantes";
 
 
 const Card = ({ id, name, skills, description, image, twitter, linkedin, nostr, instagram, youtube, github, link, className }) => {
+  
   const [showModal, setShowModal] = useState(false);
+
 
   const handleClose = () => {
     setShowModal(false);
@@ -23,6 +25,7 @@ const Card = ({ id, name, skills, description, image, twitter, linkedin, nostr, 
           <div
             className="containerConvidadosDestaque "
             onClick={() => {
+              console.log("Clicked!");
               setShowModal(true);
             }}
           >

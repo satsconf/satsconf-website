@@ -1,0 +1,214 @@
+{
+  "translation": {},
+  "data": "8 y 9 DE NOVIEMBRE",
+  "titles": {
+    "itWorks": "MAYOR EVENTO 100% BITCOIN DE BRASIL"
+  },
+  "navHeader": {
+    "home": "Inicio",
+    "speak": "Oradores",
+    "program": "Programación",
+    "contact": "Contacto",
+    "more": "Más",
+    "ticket": "Comprar entrada",
+    "schedule": "Agenda 2024",
+    "studentTicket": "Entrada Estudiante",
+    "press": "Prensa",
+    "sponsor": "Patrocinio",
+    "Hotels": "Hoteles",
+    "location": "Lugar del Evento",
+    "faq": "Preguntas Frecuentes"
+  },
+  "buttons": {
+    "purchase": "COMPRAR ENTRADA",
+    "news": "RECIBIR NOVEDADES",
+    "seeSpeaker": "<0>VER TODOS LOS ORADORES</0>",
+    "buttonMeet": "<0>COMPRAR ENTRADA AHORA</0>",
+    "moreSpeakers" : "¡PRONTO HABRÁ MÁS ORADORES!",
+    "grupo": "GROUP PURCHASE"
+  
+  },
+  "location": {
+    "address": "Audio | São Paulo"
+  },
+  "aboutHome": {
+    "aboutTitle": "SOBRE LA SATSCONF",
+    "titleQuestionOne": "¿Qué es la Satsconf?",
+    "responseQuestionOne": "La Satsconf es un evento que reúne a las mayores referencias nacionales e internacionales de Bitcoin para compartir conocimientos sobre libertad, soberanía individual y el internet del dinero.",
+    "titleQuestionTwo": "¿Para quién es?",
+    "responseQuestionTwo": "La Satsconf es un evento hecho para todos aquellos que están interesados en aprender más sobre Bitcoin, conectar con la comunidad y explorar temas como libertad, soberanía individual y la evolución del internet del dinero. Es una oportunidad única para absorber conocimiento de expertos nacionales e internacionales, además de establecer conexiones valiosas para su crecimiento personal y profesional.",
+    "titleQuestionThree": "¿Por qué ir a la Satsconf?",
+    "responseQuestionThree": "Ir a la Satsconf es entrar en un universo vibrante de Bitcoin, con expertos y entusiastas. Allí, expandes tu conocimiento sobre el activo, exploras las tendencias más recientes y contribuyes al futuro financiero digital. Si buscas actualización, networking e inmersión en la comunidad Bitcoin, la Satsconf es el lugar."
+  },
+  "speakers": {
+    "titleSpeakers": "Oradores",
+    "alexG": "Alex Gladstein es el chief strategy officer de la Human Rights Foundation. Alex habla frecuentemente y escribe sobre por qué Bitcoin es importante como herramienta para la libertad y realiza un trabajo importante conectando activistas y ONGs de derechos humanos con la comunidad de desarrolladores y educadores de Bitcoin.",
+    "margot": "Margot Paez es becaria del Bitcoin Policy Institute y candidata a doctorado en el departamento de ingeniería civil del Georgia Institute of Technology. Ella tiene una maestría en Física por la GT y estudia temas relacionados con los cambios climáticos, incluyendo el impacto energético y ambiental de la minería de Bitcoin. Apoye el trabajo de Margot combatiendo FUD sobre minería:<0>Más información</0>",
+    "giacomo": "Giacomo es consultor/profesor del protocolo Bitcoin y del protocolo Lightning Network. Él pasa su tiempo apoyando proyectos que considera relevantes para el futuro de Bitcoin, ya sea como educador, consultor, emprendedor, maximalista o troll. Anteriormente, él estuvo involucrado en GreenAddress, AssoBIT, BlockchainLab, Bitcoin Magazine. Actualmente está promoviendo Bitcoin a través de la Red Plano B, BTCTimes, Relai, BCademy, Notarify.",
+    "carolSouza": "Co-fundadora, creadora y educadora en Area Bitcoin, la mayor escuela de Bitcoin del mundo. Sus clases y método tienen como objetivo el desarrollo de la soberanía financiera e intelectual.",
+    "raphaZa": "Actualmente, Raphael actúa como CIO y Jefe de Investigación en Swan. Antes de unirse a Swan, fundó y actuó como CFO para Open Co, donde lideró con éxito la empresa a través de varias rondas de financiamiento. Antes de Open Co, Raphael fundó One Partners, una boutique de fusiones y adquisiciones y firma de gestión de patrimonio en Brasil. Originalmente de Río de Janeiro, Brasil, Raphael obtuvo su MBA en la Yale School of Management y su diploma de Economía en el Instituto Brasileño de Mercado de Capitales (IBMEC).",
+    "Diego": "Apasionado por la tecnología y las finanzas, Diego es un prolífico educador de Bitcoin y Lightning. Además de tener un canal educacional en Youtube, gestiona la comunidad NodeRunners Brasil, orientada a la educación de operadores de nodos de la Lightning Network.",
+    "kakaFu": "Co-fundadora, creadora y educadora en Area Bitcoin, la mayor escuela de Bitcoin del mundo. Sus clases y método tienen como objetivo el desarrollo de la soberanía financiera e intelectual.",
+    "brunoGar": "Uno de los 50 desarrolladores con más contribuciones al Bitcoin Core, Bruno es también director educacional de Vinteum, un centro de investigación y desarrollo de Bitcoin sin fines de lucro dedicado a apoyar a los desarrolladores de Bitcoin en Brasil.",
+    "caioLeta": "PhD en geología económica e isotópica; bitcoin minimalista; fundador del proyecto Explica Bitcoin; autor del libro El Mundo Mágico del Bitcoin; Jefe de Investigación y Contenido en Bipa.",
+    "steven": "Importante contribuyor open-source para el ecosistema Rust-bitcoin, Ark, y para la red Liquid.",
+    "ivyGalindo": "Líder de Adquisición de Crecimiento en Swan. Con más de seis años de experiencia en empresas como Warner Bros, Swile, GetNinjas, Huobi y ZEBEDEE, ella aspira acelerar la adopción del Bitcoin en todo el mundo. Además, opera uno de los pocos nodos de Bitcoin y Lightning en el sur de Brasil.",
+    "lucasFe": "Además de ideólogo de la Satsconf, Lucas es Evangelista Lightning en Lightning Labs, empresa responsable del desarrollo de la principal implementación de la Lightning Network. También es co-fundador y director ejecutivo de Vinteum, un centro de investigación y desarrollo dedicado a formar desarrolladores de Bitcoin.",
+    "madu": "Educadora, Madu es redactora y entusiasta de Bitcoin, que busca compartir todo el aprendizaje para otras personas, en los más variados formatos digitales. Ya trabajó con empresas especializadas en el sector como: Area Bitcoin, Livecoins, Mercado Bitcoin, Arthur Mining y TC Inversiones. "
+  },
+  "meet": {
+    "titlePrimary": "Asegura tu entrada ahora mismo!",
+    "titleMeet": "8 y 9 de NOVIEMBRE",
+    "one": "Acceso a los 2 días del evento principal",
+    "two": "Acceso al Escenario Satoshi Nakamoto",
+    "three": "Acceso al Escenario de Hal Finney",
+    "four": "Acceso a las Salas de Taller",
+    "five": "Acceso a la Zona de Exposición",
+    "six": "Acceso a SatsKids, SatsGaming, SatsArte y SatsMarket"
+  },
+  "meetVip": {
+    "titleMeetVip": "8 al 10 de NOVIEMBRE",
+    "oneVip": "Todos los accesos de la Entrada Normal",
+    "twoVip": "Entrada especial en el evento",
+    "threeVip": "Acceso a los asientos VIP de los escenarios",
+    "fourVip": "Acceso a la Zona VIP con comidas y bebidas",
+    "fiveVip": "Acceso privilegiado a los oradores",
+    "sixVip": "Acceso a SatsParty (barra libre y comida libre)"
+  },
+  "faqHome": {
+    "titleFaq": "Preguntas Frecuentes",
+    "questionOneFaq": "¿Qué es la Satsconf?",
+    "responseQuestionOneFaq": "La Satsconf es una conferencia anual realizada en São Paulo que reúne a las mayores referencias nacionales e internacionales del Bitcoin. Con charlas, talleres, paneles de discusión y momentos para networking, nuestro objetivo es compartir conocimientos sobre libertad, soberanía individual y el internet del dinero. Nuestro público abarca desde principiantes que quieren aprender más sobre Bitcoin hasta veteranos en el tema. Cada año, buscamos traer oradores expertos y líderes de opinión de la comunidad Bitcoin, así como establecer asociaciones con organizaciones influyentes en la industria. Si crees en el poder de transformación del Bitcoin, la Satsconf es para ti.",
+    "questionTwoFaq": "¿Quién está detrás de la Satsconf?",
+    "responseQuestionTwoFaq": "La Satsconf fue concebida y es organizada por Lucas Ferreira, evangelista en Lightning Labs, donde ayuda a empresas, proyectos y desarrolladores a desarrollar soluciones con la Lightning Network y apoya iniciativas que fortalecen la comunidad Bitcoin. También es co-fundador y director ejecutivo de Vinteum, una organización sin fines de lucro dedicada a la investigación, desarrollo y educación de desarrolladores de Bitcoin en Brasil.",
+    "responseQuestionTwoFaqCont": "Desde la primera edición de la Satsconf, Pure Soul Eventos ha sido un socio invaluable en la organización del evento.",
+    "questionThreeFaq": "¿En qué idioma será el evento?",
+    "responseQuestionThreeFaq": "La Satsconf es un evento internacional, pero destinado principalmente al público brasileño. Las charlas y paneles se conducen principalmente en portugués, pero también pueden ser en inglés o ocasionalmente en español/portunhol. Para asegurar que todos puedan aprovechar al máximo el evento, ofrecemos traducción simultánea de inglés a portugués.",
+    "responseQuestionThreeFaqCont": "Queremos destacar que los extranjeros son absolutamente bienvenidos en la Satsconf. Muchos participantes hablan inglés o español y están ansiosos por establecer conexiones más estrechas entre las comunidades bitcoiner brasileña e internacional. Por lo tanto, si eres un hablante no nativo de portugués, no dudes en participar - la Satsconf es un evento para todos los entusiastas de Bitcoin, independientemente de su origen o idioma.",
+    "questionFourFaq": "¿Qué activos serán tratados en la Satsconf?",
+    "responseQuestionFourFaq": "Este evento es 100% sobre Bitcoin y no sobre “criptomonedas”. Solo Bitcoin. Por favor, enfócate en el tema del evento y guarda discusiones sobre “criptoactivos” para otros eventos. NFTs, DeFi, “Blockchain” no son temas de este evento."
+  },
+  "footer": {
+    "policy": "Política de Privacidad",
+    "titleRede": "¿Quieres involucrarte?",
+    "whatsApp": "Únete al grupo de Whatsapp",
+    "telegram": "Únete al grupo de Telegram",
+    "twitter": "Sigue el Twitter",
+    "instagram": "Sigue el Instagram"
+  },
+  "localEvent": {
+    "titleLocal": "Cómo llegar"
+  },
+  "program": {
+    "titleData": "8 y 9 de noviembre | São Paulo",
+    "titleEdition": "CONOCÉ A LOS ORADORES DE LA EDICIÓN 2024"
+  },
+  "maintenance": {
+    "titleMaintenance": "¡Pronto más información!",
+    "subTitle": "¡Estamos preparando algo especial para vos!"
+  },
+  "faqPage": {
+  "titlePage": "RESOLVÉ TUS DUDAS SOBRE LA SATSCONF",
+  "general": "General",
+  "questionFaq": "¿No encontraste la respuesta a tu pregunta?",
+  "ResponseFaq": "Ponete en contacto por e-mail (info@satsconf.com.br), a través del formulario del sitio web, o visitá nuestros grupos en Telegram o Whatsapp,",
+  "ResponseFaqTwo": "donde alguien de la organización o incluso otro participante del evento puede ayudarte."
+
+},
+"faqInvolved": {
+  "involed": "Quiero involucrarme",
+  "sponsor": "¿Cómo puedo patrocinar la Satsconf 2024?",
+  "responseSponsor": "Para más información sobre patrocinio, por favor ponete en contacto con info@satsconf.com.br o completá el formulario de contacto utilizando el e-mail de tu empresa.",
+  "opportunities": "¿Existen oportunidades para convertirse en afiliado o voluntario?",
+  "responseOpportunities": "¡Sí! Si tenés una gran comunidad o muchos seguidores y te gustaría ayudar a promover el evento (e incluso ganar una comisión por eso), nos encantaría saber de vos. También tenemos oportunidades para voluntarios durante el evento. Ponete en contacto con nosotros en info@satsconf.com.br o completá el formulario de contacto en nuestro sitio web.",
+  "products": "Tengo productos relacionados con Bitcoin y me gustaría venderlos en el evento",
+  "responseProducts": "¡Genial! Tendremos un área de convivencia con food trucks y tiendas donde se venderán productos con pagos en Bitcoin. Si te gustaría vender tus productos en el evento, ponete en contacto con nosotros en info@satsconf.com.br o completá el formulario de contacto en nuestro sitio web.",
+  "apply": "¿Puedo inscribirme para ser orador de la Satsconf?",
+  "responseApply": "En Satsconf, nos enorgullece presentar oradores relevantes e influyentes de la comunidad Bitcoin. Nuestro equipo de curaduría está siempre en busca de nuevas voces y perspectivas. Por lo tanto, si estás interesado en compartir tu conocimiento y experiencias, ¡nos gustaría saber de vos! Enviá un e-mail a info@satsconf.com.br con una mini-bio y el tema que te gustaría abordar. Nuestro equipo evaluará tu propuesta y, si hay espacio disponible, podrá invitarte a hablar en la Satsconf 2024.",
+  "organize": "Quiero organizar un evento SATélite de la Satsconf",
+  "responseOrganize": "¡Eso es genial! Nos encanta ver a la comunidad involucrarse y contribuir a la causa de bitcoinizar Argentina. Enviá un e-mail a info@satsconf.com.br con todos los detalles de tu evento, incluyendo nombre, temática, fecha, hora, lugar y una imagen para la divulgación. No te olvides de incluir información sobre los organizadores del evento. ¡Estamos ansiosos por ayudar a amplificar el alcance de tu evento!",
+  "journalist": "Soy periodista/productor de contenido y me gustaría hacer una cobertura del evento",
+  "responseJournalist": "Nos encanta y valoramos el trabajo de periodistas y productores de contenido, y creemos que la cobertura del evento es una excelente manera de expandir el alcance de las informaciones y discusiones que ocurren en la Satsconf. Si estás interesado en cubrir la Satsconf 2024, ponete en contacto con nosotros por e-mail info@satsconf.com.br.",
+  "responseJournalistTwo": "Por favor, incluí en el e-mail: Tu nombre completo; La publicación/empresa para la cual estás trabajando; Información sobre el tipo de cobertura que planeás hacer (por ejemplo, si es un reportaje, entrevista, live en Instagram, etc.);",
+  "responseJournalistthree": "Evaluaremos tu solicitud y nos pondremos en contacto lo más pronto posible con más información y para discutir cómo podemos facilitar tu cobertura de la Satsconf. Agradecemos tu interés y esperamos trabajar juntos para aumentar la concientización sobre Bitcoin y su impacto en el mundo."
+},
+"faqEvent": {
+  "airport": "Prepárate para el evento",
+  "responseAirport": "No soy de São Paulo, ¿a qué aeropuerto o terminal de ómnibus debo comprar mi pasaje?",
+  "responseAirportTwo": "Si venís en avión, el Aeropuerto Internacional de Guarulhos (GRU) y el Aeropuerto de Congonhas (CGH) son las principales opciones para vuelos domésticos e internacionales. La preferencia por uno u otro aeropuerto depende de la disponibilidad y precio de los pasajes desde tu lugar de origen. El Aeropuerto Internacional de Guarulhos está más alejado del centro de São Paulo, pero hay opciones de transporte por tren/metro desde allí. El Aeropuerto de Congonhas es más central, pero para moverse desde allí es necesario usar Uber, taxi o autobús, lo que puede implicar tráfico dependiendo de la hora.",
+  "responseAirportThree": "Si preferís viajar en ómnibus, la Terminal de Ómnibus Tietê es la más grande y concurrida del país. La Terminal de Ómnibus Barra Funda está más cerca del lugar del evento. Planificá tu viaje según tu conveniencia y disponibilidad de transporte.",
+  "recommendations": "¿Tienen recomendaciones de hoteles para hospedarse en São Paulo durante la Satsconf?",
+  "responserecommendations": "São Paulo ofrece una amplia variedad de alojamientos, desde hoteles hasta hostales y alquileres temporarios, adecuados para diferentes necesidades y presupuestos. Te recomendamos que verifiques en sitios de reservas para encontrar la opción que mejor se adapte a tus necesidades.",
+  "responserecommendationsTwo": "Los hoteles más cercanos al lugar del evento incluyen Bê Hotel, Plaza Inn, Panamby y Transamérica Executive Perdizes. La elección del hotel dependerá de tu presupuesto y del nivel de comodidad deseado.",
+  "responserecommendationsThree": "Sin embargo, no es necesario limitarse a hoteles cercanos al lugar del evento. También te recomendamos considerar alojamientos cerca de una estación de metro para facilitar el desplazamiento. El lugar principal del evento está ubicado cerca de la estación de metro Barra Funda, accesible por varias líneas de metro. Los meetups y eventos paralelos se llevarán a cabo en diferentes lugares, pero generalmente también estarán cerca de estaciones de metro.",
+  "laptop": "¿Debo llevar mi laptop o una mochila? ¿El lugar del evento tiene guarda-volúmenes?",
+  "responseLaptop": "El evento proporcionará oportunidades para networking y aprendizaje, pero no es necesario traer tu laptop a menos que planees participar en el hackathon o en talleres técnicos. El lugar del evento cuenta con guarda-volúmenes, pero el espacio es limitado, por lo que te recomendamos traer solo lo esencial.",
+  "camera": "¿Puedo llevar una cámara fotográfica?",
+  "responseCameraOne": "Sí, se permiten cámaras fotográficas, pero ten en cuenta que el evento tendrá participantes de todas las edades. ¡Por favor, sé respetuoso con los que están a tu alrededor! Además, ten cuidado al tomar fotografías y usar la cámara del celular, ya que no todos los bitcoiners desean ser incluidos en fotos.",
+  "responseCameraTwo": "Si estás extremadamente preocupado por la privacidad, considera usar una máscara de privacidad.",
+  "available": "¿Se venderá alcohol y comida durante el evento? ¿Puedo llevar mi propia comida?",
+  "responseAvailable": "El evento contará con áreas de alimentación con una variedad de opciones de comida y bebida, incluyendo opciones alcohólicas. No se permitirá la entrada al lugar del evento con alimentos o bebidas adquiridos externamente.",
+  "bitcoin": "¿Necesito llevar Bitcoin al evento? ¿Cuánto?",
+  "responseBitcoin": "Las áreas de alimentación y tiendas del evento solo aceptarán pagos en Bitcoin a través de la Lightning Network. Si no tenés Bitcoin, también tendremos opciones para comprar Bitcoin durante el evento a través de socios. La cantidad a traer depende de cuánto planees gastar durante el evento. Cargá una billetera Lightning solo con la cantidad suficiente para los gastos durante el evento, no traigas tu hardware wallet y no traigas grandes cantidades de Bitcoin al evento.",
+  "bring": "¿Puedo llevar mi mascota al evento?",
+  "responseBring": "Lamentablemente, no se permite la entrada de mascotas al evento, con excepción de perros guía para personas con discapacidad visual.",
+  "answer": "¿No encontraste la respuesta a tu pregunta?",
+  "responseAnswer": "Ponete en contacto con info@satsconf.com.br o visitá nuestro grupo en Telegram, donde alguien de la organización o incluso otro participante del evento puede ayudarte."
+},
+
+"contact": {
+  "titleContato": "PONETE EN CONTACTO",
+  "subTitleContato": "Completá el formulario a continuación para ponerte en contacto con un representante:",
+  "faq": "FAQ",
+  "how": "¿Cómo puedo patrocinar la Satsconf 2024?",
+  "responseHow": "Para más información sobre patrocinio, por favor ponete en contacto con info@satsconf.com.br o completá el formulario de contacto utilizando el e-mail de tu empresa.",
+  "organize": "Quiero organizar un evento SATélite de la Satsconf",
+  "responseOrgabize": "¡Eso es genial! Nos encanta ver a la comunidad involucrarse y contribuir a la causa de bitcoinizar Argentina. Enviá un e-mail a info@satsconf.com.br con todos los detalles de tu evento, incluyendo nombre, temática, fecha, hora, lugar y una imagen para la divulgación. No te olvides de incluir información sobre los organizadores del evento. ¡Estamos ansiosos por ayudar a amplificar el alcance de tu evento!",
+  "Didnt": "¿No encontraste la respuesta a tu pregunta?",
+  "responseDidnt": "Ponete en contacto con info@satsconf.com.br o visitá nuestro grupo en Telegram, donde alguien de la organización o incluso otro participante del evento puede ayudarte."
+},
+"tickets": {
+  "title": "ENTRADAS SATSCONF",
+  "titleTickets": "ENTRADAS",
+  "subTitle": "Asegurá tu entrada para la tercera edición del mayor evento 100% Bitcoin de Brasil",
+  "choose": "ELEGÍ CÓMO VAS A PAGAR.",
+  "attention": "¡ATENCIÓN! 21% de descuento pagando en Bitcoin!",
+  "buy": "Comprar"
+},
+"included": {
+  "titleIncluded": "QUÉ ESTÁ INCLUIDO",
+  "event": "Acceso a los 2 días del evento principal",
+  "stage": "Acceso al Escenario Satoshi Nakamoto",
+  "rooms": "Acceso a las salas de Talleres",
+  "area": "Acceso al Área de Exposición",
+  "stasmarket": "Acceso al Área de Exposición",
+  "theEvent": "Acceso a SatsKids, SatsGaming, SatsArte y SatsMarket",
+  "finneyStages": "Entrada especial al evento",
+  "vip": "Acceso a los asientos VIP de los escenarios",
+  "vipfood": "Acceso al Área VIP con comidas y bebidas",
+  "privile": "Acceso privilegiado a los oradores",
+  "openbar": "Acceso a SATSPARTY (barra libre y comida libre)"
+},
+"faqIngresso": {
+  "received": "Compré mi entrada con Bitcoin y aún no la he recibido",
+  "respondeReceived": "Más información próximamente.",
+  "upgrade": "Compré una entrada general y me gustaría actualizar a una entrada VIP.",
+  "responseUpgrade": "Para actualizar tu entrada, simplemente enviá un e-mail a info@satsconf.com.br y te enviaremos una nueva factura con la diferencia de precio.",
+  "discount": "Quiero comprar varias entradas, ¿puedo obtener un descuento?",
+  "responseDiscount": "Si estás planeando comprar entradas para un grupo de 5 o más personas, ¡tenemos buenas noticias! Enviá un e-mail a info@satsconf.com.br para conocer nuestras ofertas de descuento para grupos.",
+  "student": "Soy estudiante, ¿cómo obtengo una entrada a mitad de precio?",
+  "response": "Los estudiantes tienen derecho a una entrada a mitad de precio para la admisión general a la Satsconf. Contactanos en info@satsconf.com.br usando tu e-mail de estudiante para más información. Si eres parte de un club universitario o conocés a un gran grupo de compañeros interesados en asistir, podemos discutir una asociación para distribuir algunas entradas gratuitas.",
+  "someone": "¿Puedo transferir mi entrada a otra persona?",
+  "responsesomeone": "Más información próximamente.",
+  "difference": "¿Cuál es la diferencia con la entrada VIP?",
+  "differenceResponse": "La entrada VIP ofrece una experiencia exclusiva en el evento, incluyendo acceso al SatsParty. Más información próximamente.",
+  "allowed": "¿Se permiten menores en el evento?",
+  "responseallowed": "Sí, se permiten menores siempre que estén acompañados por un padre o tutor legal. Los niños hasta 12 años no necesitan entrada."
+},
+"satsparty": {
+  "titleParty": "EVENTO EXCLUSIVO PARA VIPS"
+}
+
+
+
+}

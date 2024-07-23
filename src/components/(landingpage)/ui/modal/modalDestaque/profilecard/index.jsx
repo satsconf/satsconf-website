@@ -1,14 +1,16 @@
 "use client";
 import { useState } from "react";
+import { Trans, useTranslation } from 'react-i18next';
 import Card from "../Card";
+
 //conteudo do modal
 const ConvidadosSats = () => {
-
+  const { t } = useTranslation();
   const [profiles, updateProfiles] = useState([
     {
       id: 1,
       name: "Alex Gladstein",
-      description: "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
+      description: t('speakers.alexG'),
       image: "./alex-gladstein.jpeg",
       skills: "Human Rights Foundation",
       socialMedia: {
@@ -25,13 +27,11 @@ const ConvidadosSats = () => {
     {
       id: 2,
       name: "Margot Paez",
-      description:  (
-        <>
-          Margot Paez é bolsista do Bitcoin Policy Institute e candidata a doutorado no departamento de engenharia civil do Georgia Institute of Technology. Ela tem mestrado em Física pela GT e estuda tópicos relacionados às mudanças climáticas, incluindo o impacto energético e ambiental da mineração de Bitcoin. Apoie o trabalho da Margot combatendo FUD sobre mineração: {" "}
-          <a href="https://geyser.fund/project/miningfudbuster" target="_blank" rel="noopener noreferrer">
-            Saiba mais
-          </a>
-        </>
+      description: (
+        <Trans i18nKey="speakers.margot">
+          {/* Este texto padrão será substituído pelo texto no arquivo de localização */}
+          <a href="https://geyser.fund/project/minter"></a>
+        </Trans>
       ),
       image: "./margot-paez.jpg",
       skills: "Bitcoin Policy Institute",
@@ -48,7 +48,7 @@ const ConvidadosSats = () => {
     {
       id: 3,
       name: "Giacomo Zucco",
-      description: "Giacomo é consultor/professor do protocolo Bitcoin e do protocolo Lightning Network. Ele passa seu tempo apoiando projetos que considera relevantes para o futuro do Bitcoin, seja como educador, consultor, empreendedor, maximalista ou troll. Anteriormente, ele esteve envolvido na GreenAddress, AssoBIT, BlockchainLab, Bitcoin Magazine. Atualmente ele está promovendo Bitcoin através da Rede Plano B, BTCTimes, Relai, BCademy, Notarify.",
+      description: t('speakers.giacomo'),
       image: "./giacomo-zucco.webp",
       skills: "Plan B Network",
       socialMedia: {
@@ -64,7 +64,7 @@ const ConvidadosSats = () => {
     {
       id: 4,
       name: "Carol Souza",
-      description: "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.",
+      description: t('speakers.carolSouza'),
       image: "./selfie-carol.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
@@ -80,7 +80,7 @@ const ConvidadosSats = () => {
     {
       id: 5,
       name: "Rapha Zagury",
-      description: "Atualmente, Raphael atua como CIO e Head of Research na Swan. Antes de ingressar na Swan, ele fundou e atuou como CFO para Open Co, onde liderou com sucesso a empresa através de várias rodadas de financiamento. Antes da Open Co, Raphael fundou a One Partners, uma boutique de fusões e aquisições e firma de gestão de patrimônio no Brasil. Originalmente do Rio de Janeiro, Brasil, Raphael obteve seu MBA na Yale School of Management e seu diploma de Economia no Instituto Brasileiro de Mercado de Capitais (IBMEC).      ",
+      description:  t('speakers.raphaZa'),
       image: "./rapha.png",
       skills: "Swan",
       socialMedia: {
@@ -96,7 +96,7 @@ const ConvidadosSats = () => {
     {
       id: 6,
       name: "Diego Kolling",
-      description: "Apaixonado por tecnologia e finanças, Diego é um prolífico educador de Bitcoin e Lightning. Além de ter um canal educacional no Youtube, gere a comunidade NodeRunners Brasil, voltada à educação de operadores de nodes da Lightning Network.",
+      description: t('speakers.Diego'),
       image: "./diego-Kolling.png",
       skills: "NodeRunners Brasil",
       socialMedia: {
@@ -112,7 +112,7 @@ const ConvidadosSats = () => {
     {
       id: 7,
       name: "Kaká Furlan",
-      description: "Co-founder, creator e educadora na Area Bitcoin, a maior escola de Bitcoin do mundo. Suas aulas e método têm como objetivo o desenvolvimento da soberania financeira e intelectual.    ",
+      description: t('speakers.kakaFu'),
       image: "./selfie-kaka.jpg",
       skills: "Area Bitcoin",
       socialMedia: {
@@ -128,7 +128,7 @@ const ConvidadosSats = () => {
     {
       id: 8,
       name: "Bruno Garcia",
-      description: "Um dos 50 desenvolvedores com mais contribuições do Bitcoin Core, Bruno é também diretor educacional da Vinteum, um centro de pesquisa e desenvolvimento de Bitcoin sem fins lucrativos dedicado a apoiar os desenvolvedores de Bitcoin no Brasil.",
+      description:  t('speakers.brunoGar'),
       image: "./bruno-garcia.jpeg",
       skills: "Bitcoin Core Dev",
       socialMedia: {
@@ -144,7 +144,7 @@ const ConvidadosSats = () => {
     {
       id: 9,
       name: "Caio Leta ",
-      description: "PhD em geologia econômica e isotópica; bitcoin minimalista; fundador do projeto Explica Bitcoin; autor do livro O Mundo Mágico do Bitcoin; Head de Pesquisa e Conteúdo na Bipa.      ",
+      description:  t('speakers.caioLeta'),
       image: "./caio-leta.jpg",
       skills: "Bipa",
       socialMedia: {
@@ -160,7 +160,7 @@ const ConvidadosSats = () => {
     {
       id: 10,
       name: "Steven Roose",
-      description: "Importante contribuidor open-source para o ecossistema Rust-bitcoin, Ark, e para a rede Liquid.      ",
+      description: t('speakers.steven'),
       image: "./steven-roose.jpeg",
       skills: "Ark",
       socialMedia: {
@@ -176,7 +176,7 @@ const ConvidadosSats = () => {
     {
       id: 11,
       name: "Ivy Galindo",
-      description: "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além disso, roda um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
+      description: t('speakers.ivyGalindo'),
       image: "./ivy-galindo.jpg",
       skills: "Swan",
       socialMedia: {
@@ -193,7 +193,7 @@ const ConvidadosSats = () => {
     {
       id: 12,
       name: "Lucas Ferreira",
-      description: "Além de idealizador da Satsconf, Lucas é Lightning Evangelist na Lightning Labs, empresa responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
+      description: t('speakers.lucasFe'),
       image: "./lucas-ferreira.jpg",
       skills: "Lightning Labs / Vinteum",
       socialMedia: {
@@ -211,7 +211,7 @@ const ConvidadosSats = () => {
     {
       id: 13,
       name: "Madu",
-      description: "Educadora, Madu é redatora e entusiasta de Bitcoin, que busca compartilhar todo o aprendizado para outras pessoas, nos mais variados formatos digitais. Já trabalhou com empresas especializadas no setor como: Area Bitcoin, Livecoins, Mercado Bitcoin, Arthur Mining e TC Investimentos.      ",
+      description: t('speakers.madu'),
       image: "./madulobato.jpg",
       skills: "Blink",
       socialMedia: {

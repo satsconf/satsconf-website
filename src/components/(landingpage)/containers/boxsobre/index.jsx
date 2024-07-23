@@ -1,12 +1,15 @@
 "use client";
 
 import "animate.css";
+import { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import { FiPlusCircle, FiMinusCircle } from "react-icons/fi";
 
-import { useState, useEffect } from "react";
+
 import PlaySatsconf from "../../ui/videos";
 
 const BoxSobre = () => {
+  const { t } = useTranslation();
   const [selectedIcon, setSelectedIcon] = useState(null);
 
   useEffect(() => {
@@ -18,11 +21,26 @@ const BoxSobre = () => {
     setSelectedIcon(selectedIcon === i ? null : i);
   };
 
+  const data = [
+    {
+      question: t('aboutHome.titleQuestionOne'),
+      answer: t('aboutHome.responseQuestionOne'),
+    },
+    {
+      question: t('aboutHome.titleQuestionTwo'),
+      answer:t('aboutHome.responseQuestionTwo'),
+    },
+    {
+      question: t('aboutHome.titleQuestionThree'),
+      answer: t('aboutHome.responseQuestionThree'),
+    },
+  ];  
+
   return (
     <section className="bgContainerSobre">
       <div className="font-white boxprincipalSobre">
         <div className="block animate__animated animate__fadeInLeftBig">
-          <h2 className="sc-fz-18">SOBRE A SATSCONF</h2>
+          <h2 className="sc-fz-18">{t('aboutHome.aboutTitle')}</h2>
 
           {data.map((item, i) => {
             return (
@@ -56,22 +74,5 @@ const BoxSobre = () => {
   );
 };
 
-const data = [
-  {
-    question: "O que é a Satsconf?",
-    answer:
-      "A Satsconf é um evento que reúne as maiores referências nacionais e internacionais do Bitcoin para compartilhar conhecimento sobre liberdade, soberania individual e a internet do dinheiro.",
-  },
-  {
-    question: "Pra quem é?",
-    answer:
-      "A Satsconf é um evento feito para todos aqueles que têm interesse em aprender mais sobre o Bitcoin, se conectar com a comunidade e explorar temas como liberdade, soberania individual e a evolução da internet do dinheiro. É uma oportunidade única de absorver conhecimento de especialistas nacionais e internacionais, além de estabelecer conexões valiosas para o seu crescimento pessoal e profissional.",
-  },
-  {
-    question: "Por que ir à Satsconf?",
-    answer:
-      "Ir à Satsconf é entrar em um universo vibrante do Bitcoin, com especialistas e entusiastas. Lá, você expande seu conhecimento sobre o ativo, explora as tendências mais recentes e contribui para o futuro financeiro digital. É o ponto de encontro ideal para networking, conexões valiosas e inspiração em finanças descentralizadas. Se quer atualização, networking e imersão na comunidade Bitcoin, a Satsconf é o lugar.",
-  },
-];
 
 export default BoxSobre;

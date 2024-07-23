@@ -110,10 +110,19 @@
 
 
 .bgContainerComprarIngresso {
-  padding-top: 10rem;
+  padding-top: 15rem;
 
 }
 
+}
+
+.boxprincipal .satsWeekSpan {
+  padding: 1rem 2rem 1rem 0;
+  font-size: 14px;
+}
+
+.imgSatsWeek {
+  width: 300px;
 }
 
 @media screen and (min-width: 768px) {

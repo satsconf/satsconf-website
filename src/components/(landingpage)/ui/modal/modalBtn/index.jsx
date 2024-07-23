@@ -1,9 +1,12 @@
 "use client"
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import CompraReal from '../../button/Comprar/ingressoReal';
 import CompraBtc from '../../button/Comprar/ingressoBtc';
 
 const IngressoBtn = () => {
+  const { t } = useTranslation();
     const [mostrarBTC, setMostrarBTC] = useState(true);
 
     useState(() => {
@@ -26,7 +29,7 @@ const IngressoBtn = () => {
 
     return (
     <div className="boxIngressoComprar" id='comprarqui'>
-      <span>ESCOLHA COMO VAI PAGAR.</span>
+      <span>{t('tickets.choose')}</span>
       <div className="botaoContainerBtcRl" >
         <button id='btnBtc' className={mostrarBTC ? 'active' : ''} onClick={handleSelecionarBTC}>BTC(21% OFF)</button>
         <button id='btnReal' className={!mostrarBTC ? 'active' : ''} onClick={handleSelecionarReal}>Reais(R$)</button>

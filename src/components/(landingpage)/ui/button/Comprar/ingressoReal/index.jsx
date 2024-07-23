@@ -1,6 +1,11 @@
+"use client"
 import Link from "next/link";
 
+import React from "react";
+import { useTranslation } from 'react-i18next';
+
 const CompraReal = () => {
+  const { t } = useTranslation();
   return (
     <div id="btnComprarReal" className="containerComprarIngressoReal">
       <ul>
@@ -13,7 +18,7 @@ const CompraReal = () => {
         <li>R$300</li>
         <li>
         <div className="buttonIngressoComprar">
-          <Link href="https://ingresso.satsconf.com.br/cart/41610642194567:1?storefront=true">Comprar</Link>
+          <Link href="https://ingresso.satsconf.com.br/cart/41610642194567:1?storefront=true">{t('tickets.buy')}</Link>
           </div>
         </li>
       </ul>
@@ -27,12 +32,12 @@ const CompraReal = () => {
         <li>R$800</li>
         <li>
           <div className="buttonIngressoComprar">
-          <Link href="https://ingresso.satsconf.com.br/cart/41610646388871:1?storefront=true">Comprar</Link>
+          <Link href="https://ingresso.satsconf.com.br/cart/41610646388871:1?storefront=true">{t('tickets.buy')}</Link>
           </div>
         </li>
       </ul>
       <div className="boxDescontoIngresso">
-        <h3>ATENÇÃO! 21% de desconto pagando em Bitcoin!</h3>
+        <h3>{t('tickets.attention')}</h3>
       </div>
     </div>
   );

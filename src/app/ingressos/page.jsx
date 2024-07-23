@@ -1,3 +1,6 @@
+"use client"
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import BoxTabelaIngresso from "@/components/(landingpage)/pages/ingresso/boxtabelaingresso";
@@ -8,6 +11,7 @@ import FAQ from "@/components/(landingpage)/pages/ingresso/faqingresso";
 import cookie from "js-cookie";
 
 const Ingressos = ({ children }) => {
+  const { t } = useTranslation();
   return (
     <section id="Ingressos">
       {/* Aqui é onde você renderiza children */}
@@ -19,8 +23,8 @@ const Ingressos = ({ children }) => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <span>8 e 9 DE NOVEMBRO | SÃO PAULO</span>
-                <h1>INGRESSOS SATSCONF</h1>
+                <span>{t('program.titleData')}</span>
+                <h1>{t('tickets.title')}</h1>
                 {/* gap de 8 com container de botão */}
                 <div className="sc-gap-8 container-btn">
                   <BtnIngresso url="#comprarqui"onClick={() =>{
@@ -30,10 +34,11 @@ const Ingressos = ({ children }) => {
               sameSite: 'strict'
             })
           }}>
-                    COMPRAR INGRESSO
+                    {t('buttons.purchase')}
                   </BtnIngresso>
                   {/* botão do container principal */}
-                  <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">COMPRAR EM GRUPO</BtnNovidades>
+                  <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
+                  {t('buttons.grupo')}</BtnNovidades>
                 </div>
               </div>
 
@@ -48,10 +53,9 @@ const Ingressos = ({ children }) => {
       <div className="bgContainerComprarIngresso">
         <div className=" krona-one-regular">
           <div className="boxTitle containerFixoIngresso">
-            <h2>INGRESSOS</h2>
+            <h2>{t('tickets.titleTickets')}</h2>
             <p className="sc-fz-18 sora-light ">
-              Garanta seu ingresso para a terceira edição do maior evento 100%
-              Bitcoin do Brasil
+            {t('tickets.subTitle')}
             </p>
           </div>
           <div>
