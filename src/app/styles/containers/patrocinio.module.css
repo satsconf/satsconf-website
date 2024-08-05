@@ -28,3 +28,18 @@
   height: auto;
   
 }
+
+.containerFormIngresso h2 {
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+.containerFormIngresso h2 {
+  width: 100%;
+  margin: 0 auto;
+}
+}

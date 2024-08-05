@@ -1,10 +1,13 @@
-"use client"
+"use client";
+import React from "react";
+import { useTranslation } from 'react-i18next';
 import ContainerPatrocinio from "@/components/(landingpage)/pages/patrocinio/ContainerPatrocinio";
 import ImagePatrocinio from "@/components/(landingpage)/pages/patrocinio/ImageIngresso";
 import TypeformPatrocinador from "@/components/(landingpage)/containers/typeform/tformPatrocinador";
 
 
 const Patrocinio = ({ children }) => {
+  const { t } = useTranslation();
   return (
     <section id="Patrocinio">
       {/* Aqui é onde você renderiza children */}
@@ -16,7 +19,7 @@ const Patrocinio = ({ children }) => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <h1>PATROCINA A SATSCONF</h1>
+                <h1> {t("sponsor.title")}</h1>
                 {/* gap de 8 com container de botão */}
                
               </div>
@@ -32,19 +35,20 @@ const Patrocinio = ({ children }) => {
       <div className="bgContainerComprarIngresso">
         <div className=" krona-one-regular">
           <div className="boxTitle">
-            <h2>PATROCINADORES 2022-2023</h2>
-            <p className="sc-fz-18 sora-light ">
-            Veja quem patrocinou a Satsconf em edições anteriores
+            <h2>{t("sponsor.subTitle")}</h2>
+            <p className="sc-fz-18 sora-light ">{t("sponsor.subTitleTwo")}
+            
             </p>
           </div>
           <div>
            <ContainerPatrocinio/>
           </div>
           <div className="boxTitle containerFormIngresso">
-            <h2>Quer patrocinar a edição 2024?
+            <h2>{t("sponsor.titleForm")}
             </h2>
             <p className="sc-fz-18 sora-light ">
-            Preencha o formulário abaixo!</p>
+              {t("sponsor.subTitleForm")}
+           </p>
           </div>
           <TypeformPatrocinador />
         </div>

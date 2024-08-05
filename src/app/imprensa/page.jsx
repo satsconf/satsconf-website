@@ -1,9 +1,12 @@
 "use client"
+import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import TypeformPatrocinador from "@/components/(landingpage)/containers/typeform/tformPatrocinador";
 import ImageImpreensa from "@/components/(landingpage)/images/ImageImprensa";
 
 
 const Imprensa = ({ children }) => {
+  const { t } = useTranslation();
   return (
     <section id="Imprensa">
       {/* Aqui é onde você renderiza children */}
@@ -15,7 +18,7 @@ const Imprensa = ({ children }) => {
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <h1>IMPRENSA</h1>
+                <h1>{t("imprensa.titulo")}</h1>
                 {/* gap de 8 com container de botão */}
                
               </div>
@@ -32,10 +35,10 @@ const Imprensa = ({ children }) => {
         <div className=" krona-one-regular">
           
           <div className="boxTitle containerFormIngresso">
-            <h2>Quer patrocinar a edição 2024?
+            <h2>{t("imprensa.subTitle")}
             </h2>
             <p className="sc-fz-18 sora-light ">
-            Preencha o formulário abaixo!</p>
+            {t("imprensa.subTitleForm")}</p>
           </div>
           <TypeformPatrocinador />
         </div>
