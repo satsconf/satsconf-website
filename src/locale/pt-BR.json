@@ -41,6 +41,18 @@
   },
   "speakers": {
     "titleSpeakers": "Palestrantes",
+    "niftynei": "Lisa Neigut, também conhecida como niftynei, é uma programadora profundamente dedicada ao ensino técnico do Bitcoin. Fundou a bitcoin++, uma conferência de Bitcoin voltada a desenvolvedores de software, assim como a Base58, uma escola de engenharia de software voltada ao Bitcoin. Trabalha com o protocolo Lightning desde 2018 na Blockstream. Fala português fluentemente.",
+    "obi":"Obi Nwosu é CEO da Fedi, uma empresa que tem como objetivo tornar o uso do Bitcoin acessível para bilhões de pessoas de forma segura, privada e escalável. Foi o CEO e co-fundador da primeira corretora Bitcoin-only do Reino Unido, Coinfloor. Proponente do Bitcoin em tempo integral. ",
+    "gloriaz": "Cientista da computação formada pela UC Berkeley, Gloria Zhao é contribuidora do Bitcoin Core desde 2020 e mantenedora desde 2022. Além disso, é grantee e membro do conselho de grants da Brink, entidade sem fins lucrativos que promove o desenvolvimento de software open source para o Bitcoin. ",
+    "preston":"Engenheiro e empreendedor, Preston Pysh fundou o The Investor’s Podcast, um dos mais populares podcasts de investimento do mundo, e o site BuffetsBooks.com, que disponibiliza diversos materiais que ensinam a investir como o lendário investidor Warren Buffet. Também é GP da ego death capital, fundo de venture capital que atua no ecossistema do Bitcoin.",
+    "efrat": "Amante da liberdade e alérgica a tirania, Efrat Fenigson é host do podcast You’re The Voice, jornalista no portal Bereshit News e também escreve no seu <0>Substack<0>.",
+    "matt" : "Matt Odell é o host do Citadel Dispatch, co-host do Rabbit Hole Recap, sócio-gerente da Ten31 e co-fundador do OpenSats e do Bitcoin Park. ",
+    "andreneves": "Founder e CTO da ZBD, uma das empresas mais tradicionais do ecossistema Lightning, Andre Neves também é co-fundador da Vinteum, um centro de pesquisa e desenvolvimento de Bitcoin sem fins lucrativos dedicado a apoiar os desenvolvedores de Bitcoin no Brasil e em toda a América Latina.",
+    "amiti": "Uma das primeiras mulheres a trabalhar no Bitcoin Core, Amiti Uttarwar atua principalmente na sua camada p2p, dedicando-se a melhorar sua privacidade e robustez. Apaixonada pelo Bitcoin por seu potencial inclusivo e global, ela valoriza a educação técnica e o envolvimento comunitário. Participante frequente de podcasts e palestras.",
+    "ben":"Ben Arc é um promotor de software de código aberto livre conhecido por seu engajamento nos meios Bitcoin e nostr. É o criador do LNbits, um projeto que oferece gratuitamente diversas ferramentas para o uso da Lightning Network. ",
+    "erik":"Erik Hersman é co-fundador da Gridless Compute, uma empresa que utiliza a energia gerada por pequenos geradores sustentáveis em zonas rurais da África para minerar Bitcoin, viabilizando economicamente a criação e funcionamento dos geradores, o que permite que a energia seja mais acessível e estável para as populações locais.",
+    "jorgej": "Jorge Jraissati é o presidente do <0>EIG</0>, um grupo de políticas públicas que promove a inclusão econômica e financeira global. Ele é conhecido por defender reformas financeiras nos países do G7 para garantir o “direito a serviços bancários” a imigrantes e defensores dos direitos humanos. Na Venezuela, Jorge é uma voz importante na defesa de liberdades políticas e econômicas.",
+    "shinobi": "Shinobi é um educador autodidata e pseudônimo no meio Bitcoin. Ele é editor técnico na Bitcoin Magazine. Foi co-apresentador do Block Digest, um podcast sobre Bitcoin, assim como do What Bitcoin Did Tech Show com Peter McCormack, que se concentra em explicar conceitos técnicos para usuários não técnicos.",
     "alexG": "Alex Gladstein é o chief strategy officer da Human Rights Foundation. Alex frequentemente fala e escreve sobre por que o Bitcoin é importante como ferramenta para a liberdade e faz um trabalho importante conectando ativistas e ONGs de direitos humanos com a comunidade de desenvolvedores e educadores do Bitcoin.",
     "margot": "Margot Paez é bolsista do Bitcoin Policy Institute e candidata a doutorado no departamento de engenharia civil do Georgia Institute of Technology. Ela tem mestrado em Física pela GT e estuda tópicos relacionados às mudanças climáticas, incluindo o impacto energético e ambiental da mineração de Bitcoin. Apoie o trabalho da Margot combatendo FUD sobre mineração:<0>Saiba mais</0>",
     "giacomo": "Giacomo é consultor/professor do protocolo Bitcoin e do protocolo Lightning Network. Ele passa seu tempo apoiando projetos que considera relevantes para o futuro do Bitcoin, seja como educador, consultor, empreendedor, maximalista ou troll. Anteriormente, ele esteve envolvido na GreenAddress, AssoBIT, BlockchainLab, Bitcoin Magazine. Atualmente ele está promovendo Bitcoin através da Rede Plano B, BTCTimes, Relai, BCademy, Notarify.",
@@ -53,6 +65,10 @@
     "steven": "Importante contribuidor open-source para o ecossistema Rust-bitcoin, Ark, e para a rede Liquid.",
     "ivyGalindo": "Growth Acquisition Lead na Swan. Com seus mais de seis anos de experiência em empresas como Warner Bros, Swile, GetNinjas, Huobi e ZEBEDEE, ela almeja acelerar a adoção do Bitcoin em todo o mundo. Além disso, roda um dos poucos nodes de Bitcoin e Lightning no sul do Brasil.",
     "lucasFe": "Além de idealizador da Satsconf, Lucas é Lightning Evangelist na Lightning Labs, empresa responsável pelo desenvolvimento da principal implementação da Lightning Network. É também co-fundador e diretor executivo da Vinteum, um centro de pesquisa e desenvolvimento dedicado a formar desenvolvedores de Bitcoin.",
+    "adam":"Adam Nili é um empreendedor, investidor e filantropo que atua como COO da Mi Primer Bitcoin, uma organização educacional sem fins lucrativos baseada em El Salvador responsável por ensinar dezenas de milhares de alunos sobre Bitcoin. A organização disponibiliza todos os seus materiais em código aberto e planeja ensinar milhões de estudantes no mundo inteiro. ",
+    "alexleishman": "Alexander Leishman é founder, CEO e CTO da River, uma exchange Bitcoin-only que foi uma das primeiras empresas do mundo a implementar suporte à Lightning Network.",
+    "javier": "Javier Bastardo atua com serviços de marketing e public relations na América Latina para a Tether, empresa por trás da stablecoin mais popular do mundo. Além disso, é embaixador do Bitcoin na Bitfinex, uma das exchanges mais tradicionais do mundo, e fundador do <0>Satoshi en Venezuela</0>, um projeto educacional sobre bitcoin voltado ao seu país.",
+    "roger": "Roger Huang foi um dos primeiros autores, em 2014, a escrever sobre a interseção do Bitcoin com pagamentos de remessas e política de drogas. Desde então, ele se tornou um HODLer de Bitcoin e construiu vários mini-projetos com eles por diversão. Ele é o autor de um livro sobre Bitcoin e China (Would Mao Hold Bitcoin) e já escreveu para Forbes e TechCrunch.",
     "madu": "Educadora, Madu é redatora e entusiasta de Bitcoin, que busca compartilhar todo o aprendizado para outras pessoas, nos mais variados formatos digitais. Já trabalhou com empresas especializadas no setor como: Area Bitcoin, Livecoins, Mercado Bitcoin, Arthur Mining e TC Investimentos. "
   },
   "meet": {
@@ -209,6 +225,20 @@
 },
 "satsparty": {
   "titleParty": "EVENTO EXCLUSIVO PARA VIPS"
+},
+
+"imprensa": {
+  "titulo": "IMPRENSA",
+  "subTitle": "Quer fazer uma cobertura do evento e receber um ingresso de imprensa?",
+  "subTitleForm": "Preencha o formulário abaixo!"
+},
+
+"sponsor": {
+  "title": "PATROCINE A SATSCONF",
+  "subTitle": "PATROCINADORES 2022-2023",
+  "subTitleTwo": "Veja quem patrocinou a Satsconf em edições anteriores",
+  "titleForm": "Quer patrocinar a edição 2024?",
+  "subTitleForm": "Preencha o formulário abaixo!"
 }
 
   
