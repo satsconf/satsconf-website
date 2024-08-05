@@ -24,7 +24,7 @@ const TypeformPatrocinador = () => {
     <div
       style={containerStyle}
       dangerouslySetInnerHTML={{
-        __html: `<div data-tf-live="01J2EE9WMQTF21J1FVEM199CNB"></div>`,
+        __html: `<div data-tf-live="01J2EE8J9G7ARSF34XP3F5RDAF"></div>`,
       }}
     />
   );
