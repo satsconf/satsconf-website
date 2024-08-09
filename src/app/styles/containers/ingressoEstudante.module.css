@@ -34,6 +34,7 @@
     justify-content: center;
     color: var(--white);
     margin: 0 auto;
+    cursor: pointer;
   }
 
 .textEstudante a{
