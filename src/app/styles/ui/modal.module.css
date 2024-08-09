@@ -222,7 +222,7 @@ align-items: center;
 @media screen and (min-width: 768px) {
   .modalContentPalestrantes {
     width: 900px;
-    height: 580px;
+    height: 602px;
   }
  .modal-header p{
     font-size: 1rem;
