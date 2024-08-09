@@ -25,7 +25,8 @@
     "seeSpeaker": "<0>VEJA TODOS OS PALESTRANTES</0>",
     "buttonMeet": "<0>COMPRAR INGRESSO AGORA</0>",
     "moreSpeakers" : "MAIS PALESTRANTES EM BREVE!",
-    "grupo": "COMPRAR EM GRUPO"
+    "grupo": "COMPRAR EM GRUPO",
+    "purchaseNow": "COMPRAR"
   },
   "location": {
     "address": "Audio | São Paulo"
@@ -239,6 +240,15 @@
   "subTitleTwo": "Veja quem patrocinou a Satsconf em edições anteriores",
   "titleForm": "Quer patrocinar a edição 2024?",
   "subTitleForm": "Preencha o formulário abaixo!"
+},
+"student": {
+  "title": "INGRESSO ESTUDANTE",
+  "textOne": "A Satsconf quer investir nos estudantes que estão dedicando seu tempo a aprender sobre o Bitcoin. Vocês são o futuro e merecem aprender com as melhores mentes construindo o protocolo, desenvolvendo aplicações, empreendendo e educando milhares de pessoas pelo mundo.",
+  "textTwo": "Em parceria com",
+  "textThree": "A Bitcoin Students Network é um projeto da <0>Generation Bitcoin</0> e tem como objetivo conectar os estudantes a recursos (logísticos, educacionais e financeiros), oportunidades (educacionais, de emprego, etc) e, o mais importante, uns aos outros.",
+  "textFour": "O ingresso de estudante é equivalente ao ingresso normal do evento e custa apenas R$50!",
+  "textFive": "P.S.: Na entrada do evento, será solicitada a sua carteirinha de estudante.",
+   "ticket": "Ingresso Estudante"
 }
 
   

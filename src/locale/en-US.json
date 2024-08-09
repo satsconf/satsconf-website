@@ -25,7 +25,8 @@
     "seeSpeaker": "<0>MEET ALL THE SPEAKERS</0>",
     "buttonMeet": "<0>BUY TICKET NOW</0>",
     "moreSpeakers" : "MORE SPEAKERS TO BE SOON!",
-    "grupo": "COMPRA EN GRUPO"
+    "grupo": "COMPRA EN GRUPO",
+     "purchaseNow": "BUY"
   },
   "location": {
     "address": "Audio | São Paulo"
@@ -234,6 +235,17 @@
 "subTitleTwo": "See who sponsored Satsconf in previous editions",
 "titleForm": "Want to sponsor the 2024 edition?",
 "subTitleForm": "Fill out the form below!"
+
+},
+"student": {
+  "title": "STUDENT TICKET",
+  "textOne": "Satsconf wants to invest in students who are dedicating their time to learning about Bitcoin. You are the future and deserve to learn from the best minds building the protocol, developing applications, entrepreneuring, and educating thousands of people around the world.",
+  "textTwo": "In partnership with",
+  "textThree": "The Bitcoin Students Network is a project of <0>Generation Bitcoin</0> and aims to connect students to resources (logistical, educational, and financial), opportunities (educational, employment, etc.), and most importantly, to each other.",
+  "textFour": "The student ticket is equivalent to the regular event ticket and costs only R$50!",
+  "textFive": "P.S.: At the event entrance, your student ID will be requested.",
+  "ticket": "Student Ticket"
 }
+
 
 }

@@ -150,7 +150,7 @@ const Navbar = () => {
               <div
                 className={`dropdown-content ${showDropdownT ? "show" : ""}`}
               >
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/ingresso-estudante" onClick={handleLinkClickHome}>
                   {t("navHeader.studentTicket")}
                 </Link>
                 <Link href="/imprensa" onClick={handleLinkClickHome}>

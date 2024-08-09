@@ -1,0 +1,99 @@
+.textEstudante p{
+    font-size: 1.3rem;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.containerEstudante {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.containerEstudante img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.textEstudante h3 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+.buttonIngressoComprar {
+    width: 156px;
+    height: 40px;
+    background: linear-gradient(90deg, #b32fe0 6.67%, #ffb126 95.83%);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin: 0 auto;
+  }
+
+.textEstudante a{
+    color: #b32fe0;
+}
+
+.containerComprarIngressoestudante ul li img {
+    width: 68px;
+    height: 38px;
+}
+
+.containerComprarIngressoestudante span {
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: Sora, sans-serif;
+}
+
+.containerComprarIngressoestudante {
+    color: var(--white);
+}
+
+.containerComprarIngressoestudante a {
+color: var(--white);
+   
+}
+
+.containerComprarIngressoestudante ul {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.degraderBlack {
+    width: 100%;
+    height: auto;
+   
+background: rgb(20,8,30);
+background: linear-gradient(0deg, rgba(20,8,30,1) 0%, rgba(20,8,30,0.8799894957983193) 35%, rgba(20,8,30,0.8435749299719888) 37%, rgba(20,8,30,0.773546918767507) 40%, rgba(20,8,30,0.6446953781512605) 46%, rgba(20,8,30,0.4962359943977591) 54%, rgba(20,8,30,0.4654236694677871) 55%, rgba(20,8,30,0) 100%);
+
+   z-index: 5;
+}
+
+@media screen and (max-width: 768px) {
+    #pIEstudante .bgContainerComprarIngresso {
+        padding-top: 6rem;
+    }
+    .textEstudante p{
+        font-size: 1.2rem;
+        color: var(--white);
+        font-weight: 400;
+    }
+    .containerEstudante {
+        width: 100%;
+    }
+    .containerEstudante img {
+        width: 100%;
+    }
+    .containerComprarIngressoestudante ul {
+        width: 100%;
+        flex-direction: column;
+    }
+}
