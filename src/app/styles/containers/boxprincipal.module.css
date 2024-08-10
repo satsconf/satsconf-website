@@ -11,6 +11,16 @@
   background-position: cover; /* Posicionamento central da imagem */
   background-repeat: no-repeat;
   z-index: 1;
+
+}
+.bgLinear {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(rgba(20, 8, 30, 0.5), rgba(20, 8, 30, 0.5)), url("/bg.png");
+  background-size: cover; /* Cobertura total da área do elemento */
+  background-position: cover; /* Posicionamento central da imagem */
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .bgContainerMargin {
@@ -97,6 +107,7 @@
     background-size: cover; /* Cobertura total da área do elemento */
     background-position: center; /* Posicionamento central da imagem */
     overflow-x: hidden;
+
     
   }
 
