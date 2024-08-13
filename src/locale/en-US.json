@@ -198,7 +198,7 @@
   "rooms": "Access to the Workshop Rooms",
   "area": "Access to the Exhibition Area",
   "stasmarket": "Access to the Exhibition Area",
-  "theEvent": "Access to SatsKids, SatsGaming, SatsArte, and SatsMarket",
+  "theEvent": "Access to SatsKids, SatsGaming, SatsGallery, and SatsMarket",
   "finneyStages": "Special entry to the event",
   "vip": "Access to VIP seating at the stages",
   "vipfood": "Access to the VIP Area with food and drinks",
@@ -245,7 +245,27 @@
   "textFour": "The student ticket is equivalent to the regular event ticket and costs only R$50!",
   "textFive": "P.S.: At the event entrance, your student ID will be requested.",
   "ticket": "Student Ticket"
+},
+"satsMarket": {
+  "title": "SATSMARKET",
+  "subtitle": "Buy and Sell everything using Sats!",
+  "containerTitle": "What can you sell/buy on SatsMarket?",
+  "contaiinerSubTitler": "SatsMarket is the space for you to showcase or discover the best bitcoiners' gifts and souvenirs, including the following categories:",
+  "art": "Small works of art",
+  "books": "Books",
+  "shirts": "T-shirts",
+  "bones": "Caps",
+  "Craftsmanship": "Handicrafts",
+  "Electronics": "Electronics",
+  "wallet": "Hardware Wallet",
+  "Metals": "Precious Metals",
+  "Souvenirs": "Souvenirs, gifts",
+  "walletMetals": "Metal wallets",
+  "Pictures": "Paintings",
+  "more": "and much more!",
+  "titleForm": "Want to sell something on SatsMarket? Get in touch!"
 }
+
 
 
 }

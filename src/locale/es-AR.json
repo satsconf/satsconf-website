@@ -199,7 +199,7 @@
   "rooms": "Acceso a las salas de Talleres",
   "area": "Acceso al Área de Exposición",
   "stasmarket": "Acceso al Área de Exposición",
-  "theEvent": "Acceso a SatsKids, SatsGaming, SatsArte y SatsMarket",
+  "theEvent": "Acceso a SatsKids, SatsGaming, SatsGallery y SatsMarket",
   "finneyStages": "Entrada especial al evento",
   "vip": "Acceso a los asientos VIP de los escenarios",
   "vipfood": "Acceso al Área VIP con comidas y bebidas",
@@ -247,8 +247,25 @@
   "textFour": "¡La entrada estudiantil es equivalente a la entrada normal del evento y cuesta solo R$50!",
   "textFive": "P.D.: En la entrada del evento, se solicitará tu credencial de estudiante.",
   "ticket": "Entrada de Estudiante"
+},
+"satsMarket": {
+  "title": "SATSMARKET",
+  "subtitle": "¡Compra y vende de todo usando Sats!",
+  "containerTitle": "¿Qué podés vender/comprar en SatsMarket?",
+  "contaiinerSubTitler": "SatsMarket es el espacio para que expongas o descubras los mejores regalos y souvenirs bitcoiners, incluyendo las siguientes categorías:",
+  "art": "Pequeñas obras de arte",
+  "books": "Libros",
+  "shirts": "Remeras",
+  "bones": "Gorras",
+  "Craftsmanship": "Artesanías",
+  "Electronics": "Electrónica",
+  "wallet": "Carteras Hardware",
+  "Metals": "Metales preciosos",
+  "Souvenirs": "Souvenirs, regalos",
+  "walletMetals": "Carteras de metal",
+  "Pictures": "Cuadros",
+  "more": "¡y mucho más!",
+  "titleForm": "¿Querés vender algo en SatsMarket? ¡Ponete en contacto!"
 }
-
-
 
 }

@@ -96,7 +96,7 @@ const BoxTabelaIngresso = () => {
               {t('included.theEvent')}
               </td>
               <td className="boxCenter">
-                <FiMinus size={38} color="white" />
+              <FiCheckCircle size={38} color="white" />
               </td>
               <td className="boxCenter">
                 {" "}

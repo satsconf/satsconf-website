@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import BtnIngresso from "@/components/(landingpage)/ui/button/BtnIngresso";
 import BtnNovidades from "@/components/(landingpage)/ui/button/BtnNovidades";
 import BoxTabelaIngresso from "@/components/(landingpage)/pages/ingresso/boxtabelaingresso";
@@ -17,28 +17,33 @@ const Ingressos = ({ children }) => {
       {/* Aqui é onde você renderiza children */}
       {children}
 
-      <div className="bgContainerImg displayNone">
-        <div className="bgContainerPrincipal">
+
+      <div className="bgContainerImg displayNone ">
+        <div className="bgContainerPrincipal bgLinear">
           <div className=" bgContainerMargin">
             <div className="boxprincipal">
               {/* caixa co container com fonte do titulo */}
               <div className="sc-bg-container krona-one-regular ">
-                <span>{t('program.titleData')}</span>
-                <h1>{t('tickets.title')}</h1>
+                <span>{t("program.titleData")}</span>
+                <h1>{t("tickets.title")}</h1>
                 {/* gap de 8 com container de botão */}
                 <div className="sc-gap-8 container-btn">
-                  <BtnIngresso url="#comprarqui"onClick={() =>{
-            cookie.set("btn_lp_global-buy", "btn_55117878", {
-              httpOnly: true,
-              secure: process.env.NODE_ENV === 'production',
-              sameSite: 'strict'
-            })
-          }}>
-                    {t('buttons.purchase')}
+                  <BtnIngresso
+                    url="#comprarqui"
+                    onClick={() => {
+                      cookie.set("btn_lp_global-buy", "btn_55117878", {
+                        httpOnly: true,
+                        secure: process.env.NODE_ENV === "production",
+                        sameSite: "strict",
+                      });
+                    }}
+                  >
+                    {t("buttons.purchase")}
                   </BtnIngresso>
                   {/* botão do container principal */}
                   <BtnNovidades url="https://chat.whatsapp.com/JLDl4QZwwXb1htqScSJXgq">
-                  {t('buttons.grupo')}</BtnNovidades>
+                    {t("buttons.grupo")}
+                  </BtnNovidades>
                 </div>
               </div>
 
@@ -50,19 +55,19 @@ const Ingressos = ({ children }) => {
           </div>
         </div>
       </div>
-      <div className="bgContainerComprarIngresso">
+    
+      <div className="bgContainerComprarIngresso ">
         <div className=" krona-one-regular">
           <div className="boxTitle containerFixoIngresso">
-            <h2>{t('tickets.titleTickets')}</h2>
-            <p className="sc-fz-18 sora-light ">
-            {t('tickets.subTitle')}
-            </p>
+            <h2>{t("tickets.titleTickets")}</h2>
+            <p className="sc-fz-18 sora-light ">{t("tickets.subTitle")}</p>
           </div>
           <div>
             <IngressoBtn />
           </div>
         </div>
       </div>
+      
       <div>
         <BoxTabelaIngresso />
       </div>
