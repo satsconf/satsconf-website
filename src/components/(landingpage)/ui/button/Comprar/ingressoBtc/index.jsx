@@ -1,7 +1,11 @@
+"use client"
+import React from "react";
+import { Trans, useTranslation } from 'react-i18next';
 import Link from "next/link";
 import cookie from "js-cookie";
 
 const CompraBtc = () => {
+  const { t } = useTranslation();
   return (
     <div id="btnComprarReal" className="containerComprarIngressoReal">
       <ul>
@@ -17,6 +21,7 @@ const CompraBtc = () => {
         <li>R$237</li>
         <li>
           <div className="buttonIngressoComprar">
+          <Trans i18nKey="buttons.purchaseNow">
             <Link href="https://ingresso.satsconf.com.br/cart/41678531788935:1?storefront=true" onClick={() =>{
             cookie.set("btn_normal_pass", "button_buy_785846", {
               httpOnly: true,
@@ -24,8 +29,9 @@ const CompraBtc = () => {
               sameSite: 'strict'
             })
           }}>
-              Comprar
+             
             </Link>
+            </Trans>
           </div>
         </li>
       </ul>
@@ -39,6 +45,7 @@ const CompraBtc = () => {
         <li>R$632</li>
         <li>
           <div className="buttonIngressoComprar">
+          <Trans i18nKey="buttons.purchaseNow">
             <Link href="https://ingresso.satsconf.com.br/cart/41678547320967:1?storefront=true" onClick={() =>{
             cookie.set("btn_vip_pass", "button_buy_584581", {
               httpOnly: true,
@@ -46,8 +53,9 @@ const CompraBtc = () => {
               sameSite: 'strict'
             })
           }}>
-              Comprar
+              
             </Link>
+            </Trans>
           </div>
         </li>
       </ul>

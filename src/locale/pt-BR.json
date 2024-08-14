@@ -191,7 +191,9 @@
     "subTitle": "Garanta seu ingresso para a terceira edição do maior evento 100% Bitcoin do Brasil",
     "choose": "ESCOLHA COMO VAI PAGAR.",
     "attention": "ATENÇÃO! 21% de desconto pagando em Bitcoin!",
-    "buy": "Comprar"
+    "buy": "Comprar",
+    "student":"Esta procurando o ingresso para estudantes?",
+    "studentLink":"<0>Clique aqui!</0>"
   },
   "included": {
     "titleIncluded": "O QUE ESTÁ INCLUSO",

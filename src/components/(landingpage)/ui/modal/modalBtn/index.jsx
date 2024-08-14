@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import CompraReal from '../../button/Comprar/ingressoReal';
 import CompraBtc from '../../button/Comprar/ingressoBtc';
@@ -44,7 +44,21 @@ const IngressoBtn = () => {
           <CompraReal />
           </div>
         )}
+       
       </div>
+      <div className="containerIngressoStudent">
+      <p>
+      {t('tickets.student')}
+      <br />
+      </p>
+      <p>
+      <Trans i18nKey="tickets.studentLink">
+                    <a href="https://www.satsconf.com.br/ingresso-estudante"></a>
+       </Trans>
+      </p>
+      </div>
+  
+    
     </div>
     );
   };

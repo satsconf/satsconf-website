@@ -189,7 +189,9 @@
   "subTitle": "Get your ticket for the third edition of the largest 100% Bitcoin event in Brazil",
   "choose": "CHOOSE YOUR PAYMENT METHOD.",
   "attention": "ATTENTION! 21% discount when paying with Bitcoin!",
-  "buy": "Buy"
+  "buy": "Buy",
+   "student":"Are you looking for the student ticket?",
+  "studentLink":"<0>Click here!</0>"
 },
 "included": {
   "titleIncluded": "WHAT'S INCLUDED",

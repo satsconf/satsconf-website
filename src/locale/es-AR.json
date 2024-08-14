@@ -190,7 +190,9 @@
   "subTitle": "Asegurá tu entrada para la tercera edición del mayor evento 100% Bitcoin de Brasil",
   "choose": "ELEGÍ CÓMO VAS A PAGAR.",
   "attention": "¡ATENCIÓN! 21% de descuento pagando en Bitcoin!",
-  "buy": "Comprar"
+  "buy": "Comprar",
+   "student":"¿Estás buscando el boleto para estudiantes?",
+   "studentLink":"<0>¡Haz clic aquí!</0>"
 },
 "included": {
   "titleIncluded": "QUÉ ESTÁ INCLUIDO",
