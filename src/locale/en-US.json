@@ -265,7 +265,8 @@
   "walletMetals": "Metal wallets",
   "Pictures": "Paintings",
   "more": "and much more!",
-  "titleForm": "Want to sell something on SatsMarket? Get in touch!"
+  "titleForm": "Want to sell something on SatsMarket? ",
+  "subtitleForm":"Get in touch!"
 }
 
 

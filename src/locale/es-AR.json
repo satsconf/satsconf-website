@@ -267,7 +267,8 @@
   "walletMetals": "Carteras de metal",
   "Pictures": "Cuadros",
   "more": "¡y mucho más!",
-  "titleForm": "¿Querés vender algo en SatsMarket? ¡Ponete en contacto!"
+  "titleForm": "¿Querés vender algo en SatsMarket? ",
+  "subtitleForm": "¡Ponete en contacto!"
 }
 
 }

@@ -1,0 +1,80 @@
+#PagSatsMarket .SMbgContainerPrincipal h2 {
+    color: var(--white);
+
+}
+.SMbgContainerPrincipal {
+    width: 110rem 0;
+    height: auto;
+    padding: 15rem 0 6rem 0;
+  }
+
+  .containerSMcenter {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .containerSMcenter h3 {
+    color: var(  --white);
+    font-family: krona-one-medium;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .containerSMcenter h4 {
+    width: 580px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: var(  --white);
+    font-weight: 300;
+  }
+
+  .containerSMlist {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+
+  .containerSMlist ul li {
+    margin: 6px;
+  }
+
+  .sm-bg-container {
+    width: 20.62rem; /* Usando a largura total para dispositivos móveis */
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .containerImgSatsMarket{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+ 
+  }
+
+  .containerImgSatsMarket img {
+    border-radius: 25px;
+  }
+
+  .containerFormSatsMarket {
+    padding-top: 24px;
+  }
+  @media screen and (max-width: 767px) {
+    .sm-bg-container {
+        height: 16rem;
+    }
+    .containerSMcenter h4 {
+        width: 100%;
+        text-align: center;
+    
+      }
+    
+    .containerSMlist{
+        flex-direction: column;
+    }
+
+  .containerImgSatsMarket{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  }
