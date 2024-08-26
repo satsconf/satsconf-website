@@ -25,7 +25,7 @@
     margin: 0 auto;
     font-size: 16px;
     color: var(  --white);
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .containerSMlist {
@@ -36,6 +36,7 @@
 
   .containerSMlist ul li {
     margin: 6px;
+    font-weight: 300;
   }
 
   .sm-bg-container {
@@ -57,6 +58,11 @@
 
   .containerFormSatsMarket {
     padding-top: 24px;
+
+  }
+
+  .containerFormSatsMarket h4, li {
+    font-family: "Sora", sans-serif;
   }
   @media screen and (max-width: 767px) {
     .sm-bg-container {
