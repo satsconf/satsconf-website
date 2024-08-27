@@ -17,8 +17,9 @@ const CompraReal = () => {
         </li>
         <li>R$300</li>
         <li>
-        <div className="buttonIngressoComprar">
-          <Link href="https://ingresso.satsconf.com.br/cart/41610642194567:1?storefront=true">{t('tickets.buy')}</Link>
+        <div >
+          <Link className="buttonIngressoComprar" href="https://ingresso.satsconf.com.br/cart/41610642194567:1?storefront=true">
+          {t('tickets.buy')}</Link>
           </div>
         </li>
       </ul>
@@ -31,8 +32,8 @@ const CompraReal = () => {
         </li>
         <li>R$800</li>
         <li>
-          <div className="buttonIngressoComprar">
-          <Link href="https://ingresso.satsconf.com.br/cart/41610646388871:1?storefront=true">{t('tickets.buy')}</Link>
+          <div >
+          <Link className="buttonIngressoComprar" href="https://ingresso.satsconf.com.br/cart/41610646388871:1?storefront=true">{t('tickets.buy')}</Link>
           </div>
         </li>
       </ul>
