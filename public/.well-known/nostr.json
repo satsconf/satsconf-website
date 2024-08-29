@@ -1,0 +1,14 @@
+{
+  "names": {
+    "_": "164b1e3f91f72267a2694a506fc636d3d9e5c7a986ab24093530a7d08ea3ed39"
+  },
+  "relays": {
+    "164b1e3f91f72267a2694a506fc636d3d9e5c7a986ab24093530a7d08ea3ed39": [
+      "wss://relay.damus.io",
+      "wss://relay.f7z.io",
+      "wss://relay.nsec.app",
+      "wss://relay.primal.net",
+      "wss://relay.snort.social"
+    ]
+  }
+}
