@@ -24,7 +24,7 @@ const TypeformSatsGallery = () => {
     <div
       style={containerStyle}
       dangerouslySetInnerHTML={{
-        __html: `<div data-tf-live="01J3DEJWXNZC94KMP2C1J6QD9R"></div>`,
+        __html: `<div data-tf-live="01J3DDC6M8HBGA0NSZ8N5F7PV9"></div>`,
       }}
     />
   );

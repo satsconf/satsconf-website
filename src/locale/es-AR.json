@@ -269,6 +269,12 @@
   "more": "¡y mucho más!",
   "titleForm": "¿Querés vender algo en SatsMarket? ",
   "subtitleForm": "¡Ponete en contacto!"
+},
+"satsgallery": {
+  "title": "Exposición de arte bitcoiner",
+  "titleForm": "MUESTRA TU ARTE",
+  "subTitle": "Regístrate y exhibe tu arte en SatsConf 2024",
+  "buttonGallery": "MUESTRA TU ARTE"
 }
 
 }

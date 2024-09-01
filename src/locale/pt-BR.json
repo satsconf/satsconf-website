@@ -46,7 +46,7 @@
     "obi":"Obi Nwosu é CEO da Fedi, uma empresa que tem como objetivo tornar o uso do Bitcoin acessível para bilhões de pessoas de forma segura, privada e escalável. Foi o CEO e co-fundador da primeira corretora Bitcoin-only do Reino Unido, Coinfloor. Proponente do Bitcoin em tempo integral. ",
     "gloriaz": "Cientista da computação formada pela UC Berkeley, Gloria Zhao é contribuidora do Bitcoin Core desde 2020 e mantenedora desde 2022. Além disso, é grantee e membro do conselho de grants da Brink, entidade sem fins lucrativos que promove o desenvolvimento de software open source para o Bitcoin. ",
     "preston":"Engenheiro e empreendedor, Preston Pysh fundou o The Investor’s Podcast, um dos mais populares podcasts de investimento do mundo, e o site BuffetsBooks.com, que disponibiliza diversos materiais que ensinam a investir como o lendário investidor Warren Buffet. Também é GP da ego death capital, fundo de venture capital que atua no ecossistema do Bitcoin.",
-    "efrat": "Amante da liberdade e alérgica a tirania, Efrat Fenigson é host do podcast You’re The Voice, jornalista no portal Bereshit News e também escreve no seu <0>Substack<0>.",
+    "efrat": "Amante da liberdade e alérgica a tirania, Efrat Fenigson é host do podcast You’re The Voice, jornalista no portal Bereshit News e também escreve no seu <0>Substack<>.",
     "matt" : "Matt Odell é o host do Citadel Dispatch, co-host do Rabbit Hole Recap, sócio-gerente da Ten31 e co-fundador do OpenSats e do Bitcoin Park. ",
     "andreneves": "Founder e CTO da ZBD, uma das empresas mais tradicionais do ecossistema Lightning, Andre Neves também é co-fundador da Vinteum, um centro de pesquisa e desenvolvimento de Bitcoin sem fins lucrativos dedicado a apoiar os desenvolvedores de Bitcoin no Brasil e em toda a América Latina.",
     "amiti": "Uma das primeiras mulheres a trabalhar no Bitcoin Core, Amiti Uttarwar atua principalmente na sua camada p2p, dedicando-se a melhorar sua privacidade e robustez. Apaixonada pelo Bitcoin por seu potencial inclusivo e global, ela valoriza a educação técnica e o envolvimento comunitário. Participante frequente de podcasts e palestras.",
@@ -271,7 +271,15 @@
   "more":"e muito mais!",
   "titleForm": "Quer vender alguma coisa no SatsMarket? ",
   "subtitleForm": "Entra em contato!"
+},
+
+"satsgallery": {
+  "title": "Exposição de arte bitcoiner",
+  "titleForm": "EXPONHA SUA ARTE",
+  "subTitle": "Faça seu cadastro e coloque sua arte na SatsConf 2024",
+  "buttonGallery": "EXPONHA A SUA ARTE"
 }
+
 
   
 }

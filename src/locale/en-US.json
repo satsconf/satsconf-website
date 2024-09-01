@@ -267,8 +267,13 @@
   "more": "and much more!",
   "titleForm": "Want to sell something on SatsMarket? ",
   "subtitleForm":"Get in touch!"
+},
+"satsgallery": {
+  "title": "Bitcoin Art Exhibition",
+  "titleForm": "SHOW YOUR ART",
+  "subTitle": "Register and showcase your art at SatsConf 2024",
+  "buttonGallery": "SHOW YOUR ART"
 }
-
 
 
 }
