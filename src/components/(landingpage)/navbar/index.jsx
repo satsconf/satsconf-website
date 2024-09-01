@@ -108,7 +108,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                   SatsWeek
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/satsgallery" onClick={handleLinkClickHome}>
                 SatsGallery
                 </Link>
                 <Link href="/programacao" onClick={handleLinkClickHome}>
