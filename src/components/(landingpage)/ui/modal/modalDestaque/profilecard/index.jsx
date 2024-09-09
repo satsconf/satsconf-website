@@ -511,7 +511,125 @@ const ConvidadosSats = () => {
        
       },
     },
-  
+    {
+      id: 30,
+      name: "Hannah Rosenberg",
+      description: t('speakers.hannah'),
+      image: "./Hannah.jpg",
+      skills: "Lightning Labs",
+      socialMedia: {
+        twitter: "https://x.com/hmichellerose",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/hannahmr/ ",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 31,
+      name: "Josef Tětek ",
+      description: t('speakers.josefT'),
+      image: "./Josef.jpg",
+      skills: "Trezor Academy",
+      socialMedia: {
+        twitter: "https://x.com/JosefTetek",
+        link:"https://braiins.com/books/bitcoin-separation-of-money-and-state",
+        linkedin: " ",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 32,
+      name: "Kgothatso Ngako ",
+      description: t('speakers.kgothatso'),
+      image: "./Kgothatso.jpeg",
+      skills: "Machankura",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: " ",
+        nostr: "https://nostr.com/npub1773r2y5zl3sa7xufmye96un3hf02rse8j82hkd45ps0wvk2hrkasslesjt",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 33,
+      name: "Fernando Motolese",
+      description: t('speakers.fernandoMotolese'),
+      image: "./FernandoMotolese.jpeg",
+      skills: "Praia Bitcoin / Bitcoinize",
+      socialMedia: {
+        twitter: "https://x.com/motoleseoficial ",
+        link:"https://Bitcoinize.com",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 34,
+      name: "André Loja",
+      description: t('speakers.freeMadeira'),
+      image: "./andreLoja.jpg",
+      skills: "Free Madeira",
+      socialMedia: {
+        twitter: "https://x.com/andreloja",
+        link:"",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1tdc9um9kqfp9cqvjqtwswzsvqzdsgzkpn9swamed3286kfwpaljsrr8r0y",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 35,
+      name: "Ayelen Osorio",
+      description: t('speakers.AyelenHRF'),
+      image: "./Ayelenphoto.jpg",
+      skills: "HRF",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 36,
+      name: "Lorena Almada",
+      description: t('speakers.LorenaAlmada'),
+      image: "./lorenaAlmada.png",
+      skills: "Bitcoin Beach / OnchainSchool",
+      socialMedia: {
+        twitter: "https://x.com/lorenaalmadag",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "https://www.instagram.com/galmadalorena/",
+        youtube: "https://www.youtube.com/@bitlorena",
+        github: "",
+       
+      },
+    },
    
     
   ]);
