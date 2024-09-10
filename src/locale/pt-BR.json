@@ -214,7 +214,8 @@
     "vip":"Acesso aos assentos VIP dos palcos",
     "vipfood": "Acesso à Área VIP com comidas e bebidas",
     "privile": "Acesso privilegiado aos palestrantes",
-    "openbar": "Acesso a SATSPARTY (open bar e open food)"
+    "openbar": "Acesso a SATSPARTY (open bar e open food)",
+    "SatsParty" : "Acesso à SatsParty no domingo, dia 10/11 (open bar e open food)"
     
   },
   "faqIngresso": {

@@ -212,7 +212,8 @@
   "vip": "Access to VIP seating at the stages",
   "vipfood": "Access to the VIP Area with food and drinks",
   "privile": "Privileged access to the speakers",
-  "openbar": "Access to SATSPARTY (open bar and open food)"
+  "openbar": "Access to SATSPARTY (open bar and open food)",
+  "SatsParty" : "Access to SatsParty on Sunday, 11/10 (open bar and open food)"
 },
 "faqIngresso": {
   "received": "I bought my ticket with Bitcoin and haven't received it yet",

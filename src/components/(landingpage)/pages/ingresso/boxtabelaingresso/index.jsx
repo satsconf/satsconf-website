@@ -97,12 +97,14 @@ const BoxTabelaIngresso = () => {
               </td>
               <td className="boxCenter">
               <FiCheckCircle size={38} color="white" />
+              
               </td>
               <td className="boxCenter">
                 {" "}
                 <FiCheckCircle size={38} color="white" />
               </td>
             </tr>
+           
             <tr>
               <td className="bordaleft">
               {t('included.finneyStages')}
@@ -113,6 +115,7 @@ const BoxTabelaIngresso = () => {
               <td className="boxCenter">
                 {" "}
                 <FiCheckCircle size={38} color="white" />
+                
               </td>
             </tr>
             <tr>
@@ -149,6 +152,19 @@ const BoxTabelaIngresso = () => {
               <td className="boxCenter">
                 {" "}
                 <FiCheckCircle size={38} color="white" />
+              </td>
+            </tr>
+            <tr>
+              <td className="bordaleft">
+              {t('included.SatsParty')}
+              </td>
+              <td className="boxCenter">
+                <FiMinus size={38} color="white" />
+              </td>
+              <td className="boxCenter">
+                {" "}
+                <FiCheckCircle size={38} color="white" />
+                
               </td>
             </tr>
           </tbody>
