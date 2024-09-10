@@ -630,6 +630,91 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 37,
+      name: "Agustin Kassis",
+      description: t('speakers.Agustin'),
+      image: "./agustinKassis.jpeg",
+      skills: "La Crypta",
+      socialMedia: {
+        twitter: "https://x.com/agustin_kassis",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/agustinkassis",
+       
+      },
+    },
+    {
+      id: 38,
+      name: "Mariano Perez Rodriguez",
+      description: t('speakers.marianoPerez'),
+      image: "./marianoPerez.jpg",
+      skills: "La Crypta",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/mariano-perez-rodriguez",
+       
+      },
+    },
+    {
+      id: 39,
+      name: "Juan José Ramirez ",
+      description: t('speakers.juanJose'),
+      image: "./juanJoseRamirez.jpg",
+      skills: "La Crypta",
+      socialMedia: {
+        twitter: "https://x.com/JuanJoseBTC",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/jramireznieves/",
+        nostr: "https://nostr.com/npub1kce2jpe7svm6y2yknart4k4vd6cqxh22fcy06d7gyd2ayc64nggsw5r9z7",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/jjramirezn",
+       
+      },
+    },
+    {
+      id: 40,
+      name: "Bernardo Braga",
+      description: t('speakers.bernadoBraga'),
+      image: "./BernardoBraga.jpg",
+      skills: "BetterMoney",
+      socialMedia: {
+        twitter: "https://www.x.com/eubernardobraga/",
+        link:"https://www.bettermoney.life/bitcoin360/",
+        linkedin: "",
+        nostr: "",
+        instagram: "https://www.instagram.com/eubernardobraga/",
+        youtube: "https://www.youtube.com/@canalbettermoney/",
+        github: "",
+       
+      },
+    },
+    {
+      id: 41,
+      name: "Lorena Ortiz ",
+      description: t('speakers.lorenaOrtiz'),
+      image: "./lorenaOrtiz.jpg",
+      skills: "Fedi",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
    
     
   ]);
