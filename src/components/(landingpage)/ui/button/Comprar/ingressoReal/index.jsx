@@ -15,7 +15,7 @@ const CompraReal = () => {
         <li>
           <span>Normal Pass</span>
         </li>
-        <li>R$300</li>
+        <li>R$350</li>
         <li>
         <div >
           <Link className="buttonIngressoComprar" href="https://ingresso.satsconf.com.br/cart/41610642194567:1?storefront=true">
@@ -30,7 +30,7 @@ const CompraReal = () => {
         <li>
           <span>VIP Pass</span>
         </li>
-        <li>R$800</li>
+        <li>R$900</li>
         <li>
           <div >
           <Link className="buttonIngressoComprar" href="https://ingresso.satsconf.com.br/cart/41610646388871:1?storefront=true">{t('tickets.buy')}</Link>
