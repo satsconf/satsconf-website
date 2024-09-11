@@ -83,8 +83,14 @@
     "juanJose":"Juan José Ramírez, also known as Jota is a developer with +7 years of experience, pushing for hyperbitcoinization from La Crypta. Right now is building with Lightning and Nostr. You can talk to him in Portuguese, Spanish or English!",
     "bernadoBraga": "Bernardo, a content creator exclusively focused on Bitcoin, is the founder of BetterMoney. Passionate about Bitcoin since 2017, Bernardo dedicates his time and energy to promoting individual sovereignty through financial education. His mission is to spread knowledge about Bitcoin, the best money humanity has ever known.",
     "lorenaOrtiz": "Community Master of Fedi for Latin America. Consultant, workshop leader, and Bitcoin speaker. Content creator, YouTuber, and writer at Forbes Crypto.",
-    "aleksSvetski" : "",
-    "joseStoropoli": ""
+    "aleksSvetski" : "Author of the best selling ‘UnCommunist Manifesto’ and up-coming the ‘Bushido of Bitcoin’. In 2018, he launched the world’s first Bitcoin-only savings app: Amber. In early 2024 he open sourced the first Bitcoin-centric LLM (The Spirit of Satoshi) and he has since been working on the Nostr-enabled Travel & Nomading Social Network: Satlantis.",
+    "joseStoropoli": "José is a software developer with a PhD in Computational Statistics, specializing in high-performance, reliable software. Passionate about Bitcoin, he contributes to the Rust Bitcoin ecosystem, including rust-bitcoin and BDK. He works at Alpen Labs on Bitcoin-native zero-knowledge rollups and is a faculty member at the Computer Science Department at UNINOVE.",
+    "nickolasGoline":"Nickolas Goline is a software developer with 15 years of experience, working on projects in traditional finance and Bitcoin, like Zebedee and Foxbit. Creator of NLightning, a C# implementation of the Lightning Network, he recently received a grant from OpenSats to work full-time on NLightning, boosting his contributions to the Bitcoin and Lightning communities.",
+    "ellaHought":"Ella Hough is a senior at Cornell University, studying Bitcoin through the Robert S. Harrison College Scholar Program. Outside the classroom, she’s a Junior Fellow at the Tech Policy Institute, founder of the Cornell Bitcoin Club, Project Lead at Generation Bitcoin, and co-founder of the Bitcoin Students Network. She’s excited to dive into Bitcoin mining with Gridless and Galaxy Mining.",
+    "davisonSouza":"Bitcoin FOSS developer working on Utreexo and floresta, supported by Vinteum.",
+    "odudex": "Maker, Bitcoin enthusiast, and DIY movement advocate. Developer and maintainer of the Krux self-custody device projects.",
+    "rudaPellini":""
+
 
   },
   "meet": {

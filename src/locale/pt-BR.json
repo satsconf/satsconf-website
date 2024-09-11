@@ -83,8 +83,13 @@
     "juanJose":"Juan José Ramírez, também conhecido como Jota, é um desenvolvedor com mais de 7 anos de experiência, promovendo a hiperbitcoinização pela La Crypta. Atualmente, está trabalhando com Lightning e Nostr. Você pode falar com ele em português, espanhol ou inglês!",
     "bernadoBraga": "Bernardo, um produtor de conteúdo focado exclusivamente em Bitcoin, é o criador da BetterMoney. Apaixonado por Bitcoin desde 2017, Bernardo dedica seu tempo e energia a promover a soberania individual através da educação financeira. Sua missão é disseminar o conhecimento sobre o Bitcoin, o melhor dinheiro que a humanidade já conheceu.",
     "lorenaOrtiz": "Community Master da Fedi para a América Latina. Consultora, palestrante e conferencista de Bitcoin. Criadora de conteúdo, youtuber e redatora na Forbes Crypto.",
-    "aleksSvetski" : "",
-    "joseStoropoli": ""
+    "aleksSvetski" : "Autor do best-seller 'UnCommunist Manifesto' e prestes a publicar 'Bushido of Bitcoin'. Em 2018, lançou Amber, o primeiro app de poupança exclusivamente em Bitcoin. No início de 2024, tornou open source o primeiro LLM centrado em Bitcoin (The Spirit of Satoshi) e, desde então, trabalha na rede social para viagens e nômades habilitada pelo Nostr: Satlantis.",
+    "joseStoropoli": "José é desenvolvedor de software com PhD em Estatística Computacional, especializado em software de alto desempenho e confiável. Apaixonado por Bitcoin, contribui para o ecossistema Rust Bitcoin, incluindo rust-bitcoin e BDK. Trabalha na Alpen Labs em rollups de conhecimento zero para Bitcoin e é docente no Departamento de Ciência da Computação da UNINOVE.",
+    "nickolasGoline":"Nickolas Goline é desenvolvedor de software com 15 anos de experiência, atuando no mercado financeiro tradicional e Bitcoin, como Zebedee e Foxbit. Criador do NLightning, uma implementação da Lightning Network em C#, ele recebeu uma bolsa da OpenSats para trabalhar em tempo integral no projeto, reforçando suas contribuições ao Bitcoin e Lightning.",
+    "ellaHought":"Ella Hough é aluna do último ano da Universidade de Cornell, onde estuda Bitcoin pelo Programa College Scholar Robert S. Harrison. Fora da sala de aula, é Junior Fellow no Instituto de Política Tecnológica da Cornell, fundadora do Cornell Bitcoin Club, líder de projeto na Generation Bitcoin e cofundadora da Bitcoin Students Network. Ela está animada para entrar na mineração de Bitcoin na Gridless e Galaxy Mining.",
+    "davisonSouza":"Desenvolvedor FOSS de Bitcoin trabalhando no Utreexo e na floresta, com o apoio da Vinteum.",
+    "odudex": "Maker, entusiasta de Bitcoin e do movimento faça você mesmo. Desenvolvedor e mantenedor dos projetos de dispositivos de auto-custódia Krux.",
+    "rudaPellini":""
 
   },
   "meet": {

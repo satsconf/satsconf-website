@@ -715,6 +715,109 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 42,
+      name: "Aleks Svetski",
+      description: t('speakers.aleksSvetski'),
+      image: "./aleksSvetski.jpeg",
+      skills: "Satlantis",
+      socialMedia: {
+        twitter: "http://x.com/svetskiwrites",
+        link:"https://satlantis.io/",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1dtgg8yk3h23ldlm6jsy79tz723p4sun9mz62tqwxqe7c363szkzqm8up6mal",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 43,
+      name: "José Storopoli ",
+      description: t('speakers.joseStoropoli'),
+      image: "./joseStoropoli.jpeg",
+      skills: "Alpen Labs",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/storopoli",
+       
+      },
+    },
+    {
+      id: 44,
+      name: "Níckolas Goline ",
+      description: t('speakers.nickolasGoline'),
+      image: "./nickolasGoline.png",
+      skills: "NLightning",
+      socialMedia: {
+        twitter: "https://x.com/nGoline",
+        link:"",
+        linkedin: "https://linkedin.com/in/nGoline",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/nGoline",
+       
+      },
+    },
+    {
+      id: 45,
+      name: "Ella Hough",
+      description: t('speakers.ellaHought'),
+      image: "./EllaCroppedHeadshot.png",
+      skills: "Bitcoin Students Network",
+      socialMedia: {
+        twitter: "https://x.com/21MMforthe21st",
+        link:"https://www.bitcoinstudentsnetwork.org/",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1z5umqa38xfv94y3fpver2khw2qar2v54jetl24939j4f0yyhggdqrh5lwd",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 46,
+      name: "Davidson Souza ",
+      description: t('speakers.davisonSouza'),
+      image: "./davidsonSouza.png",
+      skills: "Floresta/Utreexo",
+      socialMedia: {
+        twitter: "",
+        link:"https://blog.dlsouza.lol/",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1ur8m24ya8nmakn38xmuwr0yy7cjgdtm6gy54mpnudgcngkgyy55qxc58yl",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/Davidson-Souza",
+       
+      },
+    },
+    {
+      id: 47,
+      name: "Odudex ",
+      description: t('speakers.odudex'),
+      image: "./odudex.jpeg",
+      skills: "Krux",
+      socialMedia: {
+        twitter: "https://x.com/odudex",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/odudex",
+       
+      },
+    },
+    
    
     
   ]);
