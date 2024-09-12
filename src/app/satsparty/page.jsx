@@ -28,6 +28,10 @@ const pSatsParty = ({ children }) => {
             })
           }}>
               {t('buttons.purchase')}</BtnIngresso>
+              <div className="spanSatsparty">
+              <p >  {t('satsparty.obs')}</p>
+              </div>
+             
               </div>
         
               {/* gap de 16 com container de botão */}

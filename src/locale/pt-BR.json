@@ -89,7 +89,10 @@
     "ellaHought":"Ella Hough é aluna do último ano da Universidade de Cornell, onde estuda Bitcoin pelo Programa College Scholar Robert S. Harrison. Fora da sala de aula, é Junior Fellow no Instituto de Política Tecnológica da Cornell, fundadora do Cornell Bitcoin Club, líder de projeto na Generation Bitcoin e cofundadora da Bitcoin Students Network. Ela está animada para entrar na mineração de Bitcoin na Gridless e Galaxy Mining.",
     "davisonSouza":"Desenvolvedor FOSS de Bitcoin trabalhando no Utreexo e na floresta, com o apoio da Vinteum.",
     "odudex": "Maker, entusiasta de Bitcoin e do movimento faça você mesmo. Desenvolvedor e mantenedor dos projetos de dispositivos de auto-custódia Krux.",
-    "rudaPellini":""
+    "rudaPellini":"Rudá Pellini é fundador da Arthur Inc, uma Mineradora de Bitcoins sediada nos Estados Unidos que otimiza operações ociosas de energia como fonte primária para suas operações e Autor do best seller “O Futuro do Dinheiro”, com mais de 40 mil cópias vendidas.",
+    "AlexandreCrypto":"Sócio-fundador da B2V Crypto, atua com Criptoativos desde 2017 e possui 30 anos de experiência na indústria financeira, com passagens por Banco Indosuez, Credit Suisse, Deustche Asset Management, ING Bank e Banco Pine. Formado em Engenharia pela USP e pós-graduado pela FGV, com MBA pelo IBMEC, operou renda fixa e variável, moedas, opções e commodities.",
+    "joaoNoctus":"Software Engineer na ZBD, Cypherpunk, contribuidor de inúmeros projetos open source e RPA Pilot nas horas vagas",
+    "superTestnet": ""
 
   },
   "meet": {
@@ -248,7 +251,8 @@
   "responseallowed": "Sim, menores de 18 anos são permitidos, desde que estejam acompanhados pelos pais ou responsáveis legais. Crianças de até 12 anos não pagam ingresso."
 },
 "satsparty": {
-  "titleParty": "EVENTO EXCLUSIVO PARA VIPS"
+  "titleParty": "DOMINGO, 10 DE NOVEMBRO DAS 12 ÀS 18H",
+  "obs":"EXCLUSIVO PARA VIPS"
 },
 
 "imprensa": {

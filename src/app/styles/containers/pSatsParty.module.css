@@ -3,10 +3,19 @@
   overflow-x: hidden;
 }
 
+ 
 #pSatsParty .sc-bg-container {
   width: 478px;
 }
 
+.spanSatsparty {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 8px;
+  font-size: 12px;
+}
 .bgContainerPrincipalImg {
   width: 100%;
   background-image: url("/vector-satsconf.png");
@@ -66,6 +75,7 @@
   border-radius: 34px;
   text-transform: uppercase;
 }
+
 
 @media screen and (max-width: 368px){
   .galleryImg {

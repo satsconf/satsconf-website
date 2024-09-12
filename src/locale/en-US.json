@@ -89,7 +89,10 @@
     "ellaHought":"Ella Hough is a senior at Cornell University, studying Bitcoin through the Robert S. Harrison College Scholar Program. Outside the classroom, she’s a Junior Fellow at the Tech Policy Institute, founder of the Cornell Bitcoin Club, Project Lead at Generation Bitcoin, and co-founder of the Bitcoin Students Network. She’s excited to dive into Bitcoin mining with Gridless and Galaxy Mining.",
     "davisonSouza":"Bitcoin FOSS developer working on Utreexo and floresta, supported by Vinteum.",
     "odudex": "Maker, Bitcoin enthusiast, and DIY movement advocate. Developer and maintainer of the Krux self-custody device projects.",
-    "rudaPellini":""
+    "rudaPellini":"Rudá Pellini is the founder of Arthur Inc, a Bitcoin mining company based in the United States that optimizes idle energy operations as the primary source for its activities, and the author of the bestseller 'The Future of Money,' with over 40,000 copies sold.",
+    "AlexandreCrypto":"Co-founder of B2V Crypto, active in Cryptoassets since 2017 with 23 years of experience in the financial industry, having worked at Banco Indosuez, Credit Suisse, Deustche Asset Management, ING Bank, and Banco Pine. He holds a degree in Engineering from USP, a postgraduate degree from FGV, and an MBA from IBMEC, having traded fixed and variable income, currencies, options, and commodities.",
+    "joaoNoctus":"Software Engineer at ZBD, Cypherpunk, contributor to numerous open source projects, and RPA Pilot in his spare time.",
+    "superTestnet": ""
 
 
   },
@@ -246,7 +249,8 @@
   "responseallowed": "Yes, minors are allowed as long as they are accompanied by a parent or legal guardian. Children up to 12 years old do not need a ticket."
 },
 "satsparty": {
-  "titleParty": "EXCLUSIVE EVENT FOR VIPS"
+  "titleParty": "SUNDAY, NOVEMBER 10 FROM 12 PM TO 6 PM",
+  "obs": "EXCLUSIVE FOR VIPS"
 },
 "imprensa": {
   "titulo": "PRESS",

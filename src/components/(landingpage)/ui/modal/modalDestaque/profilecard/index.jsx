@@ -817,6 +817,57 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 48,
+      name: "Rudá Pellini ",
+      description: t('speakers.rudaPellini'),
+      image: "./rudaPellini.jpeg",
+      skills: "Arthur Inc.",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/rudapellini/",
+        nostr: "",
+        instagram: "https://www.instagram.com/rudapellini/",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 49,
+      name: "Alexandre Vasarhelyi  ",
+      description: t('speakers.AlexandreCrypto'),
+      image: "./AlexandreCrypto.jpeg",
+      skills: "B2V Crypto",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 50,
+      name: "Jão Noctus ",
+      description: t('speakers.odudex'),
+      image: "./joaonoctus.jpg",
+      skills: "ZEBEDEE",
+      socialMedia: {
+        twitter: "",
+        link:"http://jaonoctus.dev",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
     
    
     
