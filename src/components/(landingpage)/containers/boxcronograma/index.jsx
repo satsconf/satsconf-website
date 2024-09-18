@@ -1,50 +1,54 @@
+"use client"
+import React from "react";
+import { useTranslation } from "react-i18next"; 
 import "animate.css";
 import SatsConf from "../../images/MeuComponenteSatsConf";
 import SatsParty from "../../images/Satsparty/logoSatsParty";
 import SatsWeek from "../../images/satsweek";
 
 const BoxCronograma = () => {
+  const { t } = useTranslation();
   return (
     <section className="bgContainerCronograma">
       {/* componente cronograma */}
       <h3 className="krona-one-regular sc-fz-36 boxTitle">
-        Cronograma SATSCONF 2024
+    {t('ScheduleSats.titleSchedule')}
       </h3>
       <div className="boxCronograma">
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>8 e 9 de NOVEMBRO</h4>
+          <h4>   {t('ScheduleSats.dataOne')}</h4>
           <div className="imageCronograma ">
             <SatsConf />
           </div>
           <p>
-            Palestras, painéis, workshops, competições, jogos, networking,
-            comidas, bebidas, lojas e mais.
+          {t('ScheduleSats.textOne')}
+       
           </p>
-          <span className="krona-one-regular ">Audio | São Paulo</span>
+          <span className="krona-one-regular ">  {t('ScheduleSats.DataBottomOne')}</span>
         </div>
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>10 de NOVEMBRO</h4>
+          <h4>{t('ScheduleSats.dataTwo')}</h4>
           <div className="imageCronograma">
             <SatsParty />
           </div>
 
           <p>
-            Uma festa exclusiva para os VIPs com ótima comida e networking com
-            palestrantes e influenciadores.
+          {t('ScheduleSats.textTwo')}
+        
           </p>
-          <span className="krona-one-regular ">Local Secreto </span>
+          <span className="krona-one-regular ">  {t('ScheduleSats.dataBottonTwo')} </span>
         </div>
         <div className="boxItemCronograma animate__animated animate__zoomIn">
-          <h4>Durante toda a semana</h4>
+          <h4>{t('ScheduleSats.datathree')}</h4>
           <div className="imageCronograma">
             <SatsWeek />
           </div>
 
           <p>
-            Uma semana inteira com vários tipos de eventos, encontros, festas e
-            celebrações da comunidade bitcoiner.
+          {t('ScheduleSats.textthree')}
+          
           </p>
-          <span className="krona-one-regular ">Por toda São Paulo</span>
+          <span className="krona-one-regular ">  {t('ScheduleSats.dataBottomthree')}</span>
         </div>
       </div>
     </section>
