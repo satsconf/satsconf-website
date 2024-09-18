@@ -854,7 +854,7 @@ const ConvidadosSats = () => {
     {
       id: 50,
       name: "Jão Noctus ",
-      description: t('speakers.odudex'),
+      description: t('speakers.joaoNoctus'),
       image: "./joaonoctus.jpg",
       skills: "ZEBEDEE",
       socialMedia: {
