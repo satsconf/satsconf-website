@@ -299,6 +299,25 @@
   "titleForm": "SHOW YOUR ART",
   "subTitle": "Register and showcase your art at SatsConf 2024",
   "buttonGallery": "SHOW YOUR ART"
+},
+"Sponsors": {
+  "title": "Sponsors",
+  "one":"Platinum",
+  "two": "Gold",
+  "for":"Silver",
+  "five": "Bronze"
+},
+"ScheduleSats": {
+  "titleSchedule": "SATSCONF 2024 Schedule",
+  "dataOne":"NOVEMBER 8th and 9th",
+  "textOne": "Lectures, panels, workshops, competitions, games, networking, food, drinks, shops, and more.",
+  "DataBottomOne": "Audio | São Paulo",
+  "dataTwo": "NOVEMBER 10th",
+  "textTwo":"An exclusive VIP party with great food and networking with speakers and influencers.",
+  "dataBottonTwo":"Secret Location",
+  "datathree":"November 7th to 10th",
+  "textthree":"A full week with various types of events, meetups, parties, and celebrations of the Bitcoin community.",
+  "dataBottomthree":"Throughout São Paulo"
 }
 
 
