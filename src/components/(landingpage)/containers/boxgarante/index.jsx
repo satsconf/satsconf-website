@@ -6,6 +6,8 @@ import { FiCheckCircle } from "react-icons/fi";
 import MeuComponenteLogo from "../../images/MeuComponenteLogo";
 import MeuComponenteIgressoVip from "../../images/ImageLogoVip";
 import BtnCronograma from "../../ui/button/BtnCronograma";
+import BoxCronograma from "../boxcronograma";
+import BoxPatrocinadores from "../boxpatrocinadores";
 
 const BoxGarante = () => {
   const { t } = useTranslation();
@@ -130,7 +132,10 @@ const BoxGarante = () => {
             </div>
           </div>
         </div>
+        <BoxCronograma />
+        <BoxPatrocinadores />
       </div>
+
     </section>
   );
 };
