@@ -9,6 +9,7 @@ import BoxGarante from "../components/(landingpage)/containers/boxgarante";
 import BoxSobre from "../components/(landingpage)/containers/boxsobre";
 
 import FAQComponent from "../components/(landingpage)/containers/faq";
+import Patrocinio from "./patrocinio/page";
 
 // const I18N_STORAGE_KEY = 'i18nextLng';
 
@@ -35,7 +36,7 @@ const Home = () => {
           <BoxBeneficios />
           <BoxSobre />
           <BoxConvidados />
-          <BoxGarante />
+          <BoxGarante /> 
           <FAQComponent />
         </section>
       </main>

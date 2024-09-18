@@ -30,7 +30,7 @@
 
 .boxItemCronograma {
   width: 324px;
-  height: auto;
+  height: 480px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: rgba(255, 255, 255, 0.2); /* Cor de fundo */
   padding: 16px;
@@ -39,7 +39,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -48,7 +48,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 12px;
   padding-bottom: 16px;
 }
 
@@ -165,7 +165,7 @@
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .boxItemCronograma {
     width: 306px;
-    height: auto;
+    height: 480px;
     padding: 28px;
   }
 
@@ -202,7 +202,7 @@
   }
 
   .bgContainerGarante {
-    height: 252rem;
+    height: 350rem;
   }
 }
 
@@ -228,6 +228,7 @@
   .bgContainerGarante {
     height: auto;
     margin-bottom: 50px;
+
 
   }
 }
@@ -268,6 +269,7 @@
 
   .bgContainerGarante {
     height: 100%;
+
   }
 }
 
