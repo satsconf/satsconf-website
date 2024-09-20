@@ -25,7 +25,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <head>
-
+         {/* Google Tag Manager - Carregar o script externamente */}
+         <script src="/gtm.js" async></script>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description}></meta>
         <meta name="keywords" content={metadata.keywords}></meta>
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
         ))}
       </head>
       <body>
-
+        {/* Google Tag Manager (noscript) */}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ6K67B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {isMaintenanceMode && isHomePage ? (
           <Manutencao />
         ) : (
