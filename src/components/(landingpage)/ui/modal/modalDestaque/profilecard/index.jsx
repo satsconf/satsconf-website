@@ -868,6 +868,125 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 51,
+      name: "Super Testnet ",
+      description: t('speakers.superTestnet'),
+      image: "./SuperTestnet.png",
+      skills: "PlebLab",
+      socialMedia: {
+        twitter: "https://twitter.com/super_testnet/",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/supertestnet",
+       
+      },
+    },
+    {
+      id: 52,
+      name: "Marcel Pechman",
+      description: t('speakers.marcelPechman'),
+      image: "./MarcelPechman.jpg",
+      skills: "Cointelegraph US",
+      socialMedia: {
+        twitter: "https://x.com/radarbtc",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "https://www.youtube.com/@RadarBTC",
+        github: "",
+       
+      },
+    },
+    {
+      id: 53,
+      name: "Matyáš Kuchař ",
+      description: t('speakers.pragueBTC'),
+      image: "./pragueBTC.jpeg",
+      skills: "BTC Prague/Chaincamp",
+      socialMedia: {
+        twitter: "https://x.com/Matyas44Cook",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 54,
+      name: "Nicolas Cabrera",
+      description: t('speakers.NicolasCabrera'),
+      image: "./NicolasCabrera.jpg",
+      skills: "Lightspark",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 55,
+      name: "Lizzy Eisenberg",
+      description: t('speakers.lizzyEisenberg'),
+      image: "./LizzyEisenberg.jpg",
+      skills: "Ligthspark",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 56,
+      name: "Namcios",
+      description: t('speakers.namcios'),
+      image: "./Namcios.png",
+      skills: "UTXO Management",
+      socialMedia: {
+        twitter: "https://twitter.com/namcios",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 57,
+      name: "Lorenzo Maturano",
+      description: t('speakers.lorenzo'),
+      image: "./lorenzoMaturano.jpg",
+      skills: "Bipa",
+      socialMedia: {
+        twitter: "https://twitter.com/lorenzo_lfm",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/lorenzo-maturano-55429b181/",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
     
    
     
