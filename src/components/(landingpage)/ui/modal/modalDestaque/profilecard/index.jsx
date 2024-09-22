@@ -987,7 +987,161 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 58,
+      name: "Conor Okus",
+      description: t('speakers.conorOkus'),
+      image: "./conorOkus.png",
+      skills: "Spiral",
+      socialMedia: {
+        twitter: "https://twitter.com/ConorOkus",
+        link:"https://www.bitcoindevelopers.xyz/",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 59,
+      name: "Francisco Litvay",
+      description: t('speakers.franciscoLitvay'),
+      image: "./Francisco-Headshot.jpg",
+      skills: "Settee",
+      socialMedia: {
+        twitter: "https://x.com/franlitvay",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/franlitvay/",
+        nostr: "",
+        instagram: "https://www.instagram.com/franlitvay",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 60,
+      name: "Raphaël Lima	",
+      description: t('speakers.raphaelLima'),
+      image: "./raphael-lima.png",
+      skills: "Ideias Radicais",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 61,
+      name: "Max Kei",
+      description: t('speakers.maxKei'),
+      image: "./Max-kei.jpg",
+      skills: "Debifi",
+      socialMedia: {
+        twitter: "https://x.com/keidunm",
+        link:"",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1797h37mc98f6363m5nysxd0t2swuz7nxq4z83saw77em3czld6xqvuar68",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 62,
+      name: "Anna",
+      description: t('speakers.anaaHold'),
+      image: "./Anna.jpeg",
+      skills: "Hodl Hodl",
+      socialMedia: {
+        twitter: "https://x.com/annahhodl",
+        link:"",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1zu5tdnq7w63fgmsfz85te7e6zeg7y2lt8q8r9jp5zcg68jfy73jqraqtgz",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 63,
+      name: "Femi Longe",
+      description: t('speakers.femiLonge'),
+      image: "./femiLonge.jpeg",
+      skills: "HRF",
+      socialMedia: {
+        twitter: "https://twitter.com/femilonge",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/femi-longe/",
+        nostr: "https://nostr.com/npub18yr27qkhaz05785zkjsxlnyu3lg0p22tjsje7ep229qyftc4e86qk88czq",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 64,
+      name: "Felippe Hermes",
+      description: t('speakers.felippeHermes'),
+      image: "./felippeHermes.jpeg",
+      skills: "BlockTrends",
+      socialMedia: {
+        twitter: "https://x.com/Felippe_Hermes",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 65,
+      name: "Plebhash",
+      description: t('speakers.Plebhash'),
+      image: "./miner_plebhash.png",
+      skills: "StratumV2",
+      socialMedia: {
+        twitter: "https://x.com/plebhash",
+        link:"",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1rqx9zlmy7k2mre2t6t880rxv9fttzyl95jc5ym2tpfpepqcppkcs3ss548",
+        instagram: "",
+        youtube: "",
+        github: "https://github.com/plebhash",
+       
+      },
+    },
+    {
+      id: 66,
+      name: "Eduardo Meyer",
+      description: t('speakers.eduardoMeyer'),
+      image: "./eduardoMayer.jpeg",
+      skills: "FMI Mining",
+      socialMedia: {
+        twitter: "https://x.com/meyercafe",
+        link:"",
+        linkedin: "https://www.linkedin.com/in/eduardomeyerr/",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
     
+   
    
     
   ]);
