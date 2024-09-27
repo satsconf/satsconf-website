@@ -123,9 +123,10 @@ const Navbar = () => {
                 <Link href="/SatsMarket" onClick={handleLinkClickHome}>
                   SatsMarket
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="https://eventornado.com/event/satshack" onClick={handleLinkClickHome}>
                 SatsHack
                 </Link>
+              
               </div>
             </div>
             <li>
