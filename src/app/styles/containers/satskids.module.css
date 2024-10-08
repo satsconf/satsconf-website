@@ -1,0 +1,217 @@
+#pSatskids .boxprincipal span {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#pSatskids .boxCadatreEvento {
+    position: relative;
+    width: 100%;
+    height: 868px;
+    background: #BA5AFF;
+    background: linear-gradient(-168deg, #BA5AFF, rgba(20, 8, 30, 0) 65%);
+    border-radius: 121px;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+#pSatskids .boxCadatreEventokids {
+  position: relative;
+  width: 100%;
+  height: 868px;
+  background: #270D38;
+  background: linear-gradient(-168deg, #270D38, rgba(20, 8, 30, 0.889) 65%);
+  border-radius: 121px;
+  padding: 62px 0;
+  margin: 40px 0;
+
+}
+
+#pSatskids .boxCadatreEventokids h4{
+  margin-bottom: 82px;
+}
+.boxKids {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+
+}
+#pSatskids .boxCadatreEvento h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+
+
+  .bgSatskids {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.bgSatskids h4 {
+  font-size: 32px;
+}
+.bgSatskids .boxKids img {
+  width: 100%;
+  max-width: 68px;
+  height: 54px;
+}
+
+.bgSatskids .boxKids ul li {
+  display: flex;
+align-items: center;
+width: 300px;
+max-width: 100%;
+height: auto;
+gap: 5px;
+padding-bottom: 102px;
+font-size: 20px;
+text-align: left; 
+;
+
+}
+
+.boxTitlekidsParceiros {
+  width: 620px;
+  max-width: 100%;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+display: flex;
+margin: 0 auto;
+
+}
+
+
+
+.boxTitlekids {
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+
+.boxparceirossatskids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+
+}
+
+.boxparceirossatskids img{
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+margin-bottom: 34px;
+}
+
+#pSatskids .boxprincipal h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.bgBoxParceirosKids {
+  width: 100%;
+  height: auto;
+
+
+}
+/**/
+
+.boxCronogramaImg {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.iconFormSatskids {
+  width: 132px;
+  height: 198px;
+  position: absolute;
+  top: -54px;
+  left: auto;
+  margin-bottom: 38px;
+  z-index: 20;
+}
+@media (max-width: 600px){
+
+#pSatskids .boxCadatreEventokids h4{
+  margin-bottom: 82px;
+}
+
+  #pSatskids .boxCadatreEventokids{
+    height: 942px;
+  }
+  
+    #pSatskids .boxCadatreEvento {
+        padding: 78px 10px;
+}
+
+#pSatskids .boxCadatreEvento h4 {
+ font-size: 16px;
+}
+
+.boxTitlekids {
+  height: 8rem;
+}
+
+
+
+.bgSatskids {
+  width: 100%;
+}
+
+.bgSatskids .boxKids ul li {
+  width: 220px;
+  font-size: 18px;
+padding-bottom: 32px;
+
+}
+
+.boxKids {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.boxTitlekidsParceiros {
+  width: 228px;
+  font-size: 16px;
+
+
+}
+.boxparceirossatskids {
+gap: 16px;
+}
+
+.boxparceirossatskids img {
+  width: 98px;
+
+}
+
+#pSatskids .boxprincipal h1{
+  font-size: 18px;
+}
+
+
+.bgSatskids h4 {
+  font-size: 18px;
+}
+
+  }

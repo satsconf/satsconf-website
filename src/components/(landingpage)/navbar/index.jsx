@@ -111,10 +111,7 @@ const Navbar = () => {
                 <Link href="/satsgallery" onClick={handleLinkClickHome}>
                 SatsGallery
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
-                  SatsGaming
-                </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/satskids" onClick={handleLinkClickHome}>
                   SatsKids
                 </Link>
                 <Link href="/satsparty" onClick={handleLinkClickHome}>

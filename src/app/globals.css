@@ -41,6 +41,19 @@ img {
   width: 100%;
 }
 
+
+.lineTitle-24 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  text-transform: uppercase;
+
+}
+
+
+
 .lineTitle-45 {
   line-height: 45px;
   text-transform: uppercase;
@@ -51,6 +64,7 @@ img {
   line-height: 50px;
   text-transform: uppercase;
 }
+
 
 .animate__fadeInLeftBig {
   --animate-duration: 1000ms;
