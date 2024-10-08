@@ -1,3 +1,7 @@
+#pSatsKids {
+  width: 100%;
+  overflow: hidden;
+}
 #pSatskids .boxprincipal span {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
