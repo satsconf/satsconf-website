@@ -17,7 +17,7 @@
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.5.2",
     "js-cookie": "^3.0.5",
-    "next": "14.2.1",
+    "next": "14.2.14",
     "next-i18next": "^15.3.0",
     "next-intl": "^3.14.1",
     "prop-types": "^15.8.1",
