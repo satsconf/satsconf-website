@@ -94,7 +94,7 @@ const BoxConvidados = () => {
       name: "Rapha Zagury",
       description:  t('speakers.raphaZa'),
       image: "./rapha.png",
-      skills: "Swan",
+      skills: "Proton",
       socialMedia: {
         twitter: "https://twitter.com/alphaazeta",
         linkedin: "https://www.linkedin.com/in/rzagury",
