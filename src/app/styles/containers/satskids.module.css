@@ -142,10 +142,11 @@ margin-bottom: 34px;
   width: 80%;
   height: auto;
   margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .iconFormSatskids {
-  width: 132px;
+  width: 126px;
   height: 198px;
   position: absolute;
   top: -54px;
