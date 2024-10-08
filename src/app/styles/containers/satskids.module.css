@@ -103,8 +103,8 @@ margin: 0 auto;
   color: var(--white);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   margin-bottom: 20px;
+ 
 }
 
 
