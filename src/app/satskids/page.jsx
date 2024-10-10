@@ -22,7 +22,7 @@ const SatsKids = ({ children }) => {
                 </h1>
                 <div className="container-btn-satsparty margem-top-20">
                   <BtnIngresso
-                    url="#boxCadatreEventoKids"
+                    url="https://yzlsd4aiaj9.typeform.com/to/gIYSURmg?typeform-source=t.co"
                    
                   >
                     PARTICIPAR DA SATSKIDS
