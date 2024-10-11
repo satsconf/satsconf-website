@@ -53,6 +53,10 @@ const BoxPatrocinadores = () => {
                   {" "}
                   <img className="cotaBase" src="/patrocinio/Lightspark.svg" alt="Lightspark" />
                 </li>
+                <li>
+                  {" "}
+                  <img className="cotaBase" src="/patrocinio/logo-ripio.png" alt="ripio" />
+                </li>
                
               </ul>
             </div>
