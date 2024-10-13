@@ -1,0 +1,186 @@
+#pSatsWeek {
+  width: 100%;
+  overflow: hidden;
+}
+
+#pSatsWeek .sc-bg-container {
+  width: 478px;
+}
+
+.bgContainerPrincipalImgSatsWeek {
+  width: 100%;
+  height: auto;
+  background-image: url("/vector-bg-satsconf.png");
+  background-size: cover; /* Cobertura total da área do elemento */
+  background-position: center; /* Posicionamento central da imagem */
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+.bgSatsWeek {
+  width: 100%;
+  height: auto;
+  background: rgb(20, 8, 30);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 8, 30, 1) 70%,
+    rgba(20, 8, 30, 0) 100%
+  );
+}
+
+.bgEventosSatsWeek {
+  width: 100%;
+  margin: 84px 0;
+}
+
+.boxSatsweek {
+  max-width: 992px;
+  width: 100%;
+  height: 228px;
+  max-height: 100%;
+  border: 1px solid #a53ad8;
+  border-radius: 25px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: var(--white);
+}
+
+.boxSatsweek span {
+  position: relative;
+  z-index: 5;
+}
+
+.boxImageWeek img {
+  width: 278px;
+  height: 268px;
+  margin: 15px 24px 0 -40px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.dateSpan {
+  position: absolute;
+  top: 177px; /* Ajuste conforme necessário */
+  left: 64px; /* Ajuste conforme necessário */ /* Cor de fundo com transparência */
+  color: white; /* Cor do texto */
+  padding: 5px; /* Espaçamento interno */
+  z-index: 5;
+  font-size: 24px;
+}
+
+.boxSatsweek h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.boxButtonnSatsWeekBreve {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.boxButtonnSatsWeekBreve a {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.boxButtonnSatsWeek {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.boxButtonnSatsWeek a {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.boxCadatreEvento {
+  width: 100%;
+  height: 868px;
+  background: #ba5aff;
+  background: linear-gradient(-168deg, #ba5aff, rgba(20, 8, 30, 0) 65%);
+  border-radius: 121px;
+  padding: 20px 0;
+}
+.boxTitlesEventoWeek {
+  padding: 0 8px 0 8px;
+}
+
+.boxCadatreEvento h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.boxEventDataWeek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  margin: 4px 0;
+}
+
+.boxEventDataWeek svg {
+  margin: 0 8px 0 0;
+}
+
+.boxEventDataWeek span {
+  font-size: 12px;
+}
+.dataWeek {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 4px 12px;
+  border: 0.3px solid #fff;
+  border-radius: 40px;
+  display: flex;
+  align-content: center;
+}
+.dataWeekVip {
+  background: #ba5aff;
+  background: linear-gradient(90.89deg, #b32fe0 -4.27%, #ffb54a 108.88%);
+  padding: 4px 12px;
+  border: 0.3px solid #ece7ed67;
+  border-radius: 40px;
+  display: flex;
+  align-content: center;
+}
+.boxLocal {
+  display: flex;
+  align-items: center;
+  color: #ffb54a;
+  gap: 8px;
+}
+.boxLocal img {
+  width: 18px;
+  height: 18px;
+}
+@media screen and (max-width: 768px) {
+  .boxSatsweek {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 1rem;
+    text-align: center;
+  }
+  .boxImageWeek img {
+    margin: 0 auto;
+  }
+
+  .dateSpan {
+    top: 195px;
+    left: 8px;
+    font-size: 24px;
+  }
+  .boxTitlesEventoWeek {
+    width: 100%;
+    padding: 1rem;
+  }
+  .boxCadatreEvento {
+    padding: 78px 10px;
+  }
+
+  .boxEventDataWeek {
+    justify-content: space-around;
+  }
+}
