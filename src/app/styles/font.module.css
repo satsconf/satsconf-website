@@ -140,7 +140,9 @@
 }
 
 /*Tamanho de fonte*/
-
+.sc-fz-12 {
+  font-size: 12px;
+}
 .sc-fz-16 {
   font-size: 16px;
 }
