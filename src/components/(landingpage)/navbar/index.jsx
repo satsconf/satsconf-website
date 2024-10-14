@@ -105,7 +105,7 @@ const Navbar = () => {
                 <Link href="/programacao" onClick={handleLinkClickHome}>
                  {t("navHeader.schedule")}
                 </Link>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="/satsweek" onClick={handleLinkClickHome}>
                   SatsWeek
                 </Link>
                 <Link href="/satsgallery" onClick={handleLinkClickHome}>
