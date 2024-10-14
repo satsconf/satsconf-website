@@ -21,6 +21,24 @@
   padding: 2px;
 }
 
+
+.btnIngressoBreve {
+  width: 188px;
+  height: 53px;
+  border-radius: 34px;
+  background: rgba(79, 63, 86, 0.8);
+  box-shadow: 0px 0px 21.1px 0px rgba(254, 237, 255, 1);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px;
+}
+
 .container-btn {
   display: flex;
   flex-direction: row;
