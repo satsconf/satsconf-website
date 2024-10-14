@@ -104,22 +104,22 @@ const ConvidadosSats = () => {
        
       },
     },
-    {
-      id: 7,
-      name: "Giacomo Zucco",
-      description: t('speakers.giacomo'),
-      image: "./giacomo-zucco.webp",
-      skills: "Plan B Network",
-      socialMedia: {
-        twitter: "https://twitter.com/giacomozucco",
-        linkedin: "",
-        nostr: "https://nostr.com/npub1au23c73cpaq2whtazjf6cdrmvam6nkd4lg928nwmgl78374kn29sq9t53j",
-        instagram: "",
-        youtube: "",
-        github: "",
+    // {
+    //   id: 7,
+    //   name: "Giacomo Zucco",
+    //   description: t('speakers.giacomo'),
+    //   image: "./giacomo-zucco.webp",
+    //   skills: "Plan B Network",
+    //   socialMedia: {
+    //     twitter: "https://twitter.com/giacomozucco",
+    //     linkedin: "",
+    //     nostr: "https://nostr.com/npub1au23c73cpaq2whtazjf6cdrmvam6nkd4lg928nwmgl78374kn29sq9t53j",
+    //     instagram: "",
+    //     youtube: "",
+    //     github: "",
         
-      },
-    },
+    //   },
+    // },
     {
       id: 8,
       name: "Preston Pysh",
@@ -936,23 +936,23 @@ const ConvidadosSats = () => {
        
       },
     },
-    {
-      id: 55,
-      name: "Lizzy Eisenberg",
-      description: t('speakers.lizzyEisenberg'),
-      image: "./LizzyEisenberg.jpg",
-      skills: "Ligthspark",
-      socialMedia: {
-        twitter: "",
-        link:"",
-        linkedin: "",
-        nostr: "",
-        instagram: "",
-        youtube: "",
-        github: "",
+    // {
+    //   id: 55,
+    //   name: "Lizzy Eisenberg",
+    //   description: t('speakers.lizzyEisenberg'),
+    //   image: "./LizzyEisenberg.jpg",
+    //   skills: "Ligthspark",
+    //   socialMedia: {
+    //     twitter: "",
+    //     link:"",
+    //     linkedin: "",
+    //     nostr: "",
+    //     instagram: "",
+    //     youtube: "",
+    //     github: "",
        
-      },
-    },
+    //   },
+    // },
     {
       id: 56,
       name: "Namcios",

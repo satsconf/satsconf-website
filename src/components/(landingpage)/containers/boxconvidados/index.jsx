@@ -106,19 +106,20 @@ const BoxConvidados = () => {
       },
     },
     {
-      id: 7,
-      name: "Giacomo Zucco",
-      description: t('speakers.giacomo'),
-      image: "./giacomo-zucco.webp",
-      skills: "Plan B Network",
+      id: 60,
+      name: "Raphaël Lima	",
+      description: t('speakers.raphaelLima'),
+      image: "./raphael-lima.png",
+      skills: "Ideias Radicais",
       socialMedia: {
-        twitter: "https://twitter.com/giacomozucco",
+        twitter: "",
+        link:"",
         linkedin: "",
-        nostr: "https://nostr.com/npub1au23c73cpaq2whtazjf6cdrmvam6nkd4lg928nwmgl78374kn29sq9t53j",
+        nostr: "",
         instagram: "",
         youtube: "",
         github: "",
-        
+       
       },
     },
     {
