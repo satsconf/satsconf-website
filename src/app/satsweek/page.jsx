@@ -285,9 +285,7 @@ const SatsWeek = ({ children }) => {
                
                 
               </div> 
-              <div className="dataWeekVip">
-              <span>EXCLUSIVO</span>
-              </div>
+          
                           
               </div>
             
@@ -302,7 +300,7 @@ const SatsWeek = ({ children }) => {
                 </p>
             </div>
             <div className="boxButtonnSatsWeek">
-              <BtnIngressoBreve url=""> EM BREVE</BtnIngressoBreve>
+              <BtnIngresso url=" https://lu.ma/2fsh3aj2"> SE INSCREVER</BtnIngresso>
             </div>
           </div>
         </div>
@@ -474,7 +472,7 @@ const SatsWeek = ({ children }) => {
           <div className="boxSatsweek">
             <div className="boxImageWeek">
 
-              <img src="./week/satsconf-number-one.png" alt="" />
+              <img src="./week/satsparty-evento-november-sp.png" alt="" />
             </div>
             <div className="boxTitlesEventoWeek">
               <div className="boxEventDataWeek">
