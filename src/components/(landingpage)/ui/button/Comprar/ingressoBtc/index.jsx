@@ -18,7 +18,7 @@ const CompraBtc = () => {
         <li>
           <span>Normal Pass</span>
         </li>
-        <li>R$276,5</li>
+        <li>R$316</li>
         <li>
           <div >
           <Link className="buttonIngressoComprar"
@@ -43,7 +43,7 @@ const CompraBtc = () => {
         <li>
           <span>VIP Pass</span>
         </li>
-        <li>R$711</li>
+        <li>R$790</li>
         <li>
           <div>
           <Link className="buttonIngressoComprar"
