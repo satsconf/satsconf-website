@@ -85,18 +85,18 @@ const SatsWeek = ({ children }) => {
           </div>
         </div>
       
-        {/* <div className="bgEventosSatsWeek">
+        <div className="bgEventosSatsWeek">
           <div className="boxSatsweek">
             <div className="boxImageWeek">
 
-              <img src="./week/RUNNING-BITCOIN.png" alt="" />
+              <img src="./week/documentario-satsconf.png" alt="" />
             </div>
             <div className="boxTitlesEventoWeek">
               <div className="boxEventDataWeek">
                 <div className="dataWeek">
                 
                 <FaCalendarAlt />
-                <span>7 DE NOVEMBRO ÀS 8H</span>
+                <span>7 DE NOVEMBRO ÀS 10H</span>
                 <div>
                 </div>
                
@@ -106,20 +106,21 @@ const SatsWeek = ({ children }) => {
             
               </div>
             
-              <h3 className="krona-one-regular">DIRTY COIN SCREENING</h3>
+              <h3 className="krona-one-regular">DIRTY COIN - DOCUMENTÁRIO SOBRE MINERAÇÃO
+              </h3>
               <div className="boxLocal">
                 <img src="./local-icon.png" alt="" />
-                <span>Cinépolis Shopping JK ou Cine Marquise Conjunto Nacional
+                <span>Cine Marquise Conjunto Nacional
                 </span>
               </div>
              
-              <p className="sc-fz-12 sora-light ">Vem correr com outros bitcoiners em homenagem ao Hal Finney e arrecadar doações para a ALS Network, uma organização que apoia pessoas afetadas pela esclerose lateral amiotrófica (ALS). Vamos vender camisetas exclusivas, e todo o lucro será destinado à causa. Bora participar dessa ação especial?</p>
+              <p className="sc-fz-12 sora-light ">Junte-se a outros bitcoiners e assista Dirty Coin: The Bitcoin Mining Documentary na telona do cinema e descubra como a mineração de Bitcoin pode transformar a crise energética global em uma oportunidade. O filme revela os benefícios econômicos e sustentáveis que a mineração traz para comunidades ao redor do mundo. Não perca essa exibição especial! Ingresso: 21 reais</p>
             </div>
             <div className="boxButtonnSatsWeek">
-              <BtnIngresso url=""> se inscrever</BtnIngresso>
+              <BtnIngresso url="https://ingresso.satsconf.com.br/products/exibicao-dirty-coin "> se inscrever</BtnIngresso>
             </div>
           </div>
-        </div> */}
+        </div>
          {/* ENCONTRO DE ESTUDANTES*/}    
         <div className="bgEventosSatsWeek">
           <div className="boxSatsweek">
