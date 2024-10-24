@@ -1140,10 +1140,125 @@ const ConvidadosSats = () => {
        
       },
     },
-    
-   
-   
-    
+    {
+      id: 67,
+      name: "Rafaela Romano",
+      description: t('speakers.rafaelaRomano'),
+      image: "./rafaelaRomano.jpeg",
+      skills: "Disruptivas",
+      socialMedia: {
+        twitter: "https://x.com/hi_disruptivas",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 68,
+      name: "Dulce Villareal",
+      description: t('speakers.dulce'),
+      image: "./dulce.jpg",
+      skills: "Librería de Satoshi",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 69,
+      name: "Felipe Américo",
+      description: t('speakers.felipeAmerico'),
+      image: "./felipeAmerico.jpeg",
+      skills: "Beno Brendão Advogados",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 70,
+      name: "Diogo Mury",
+      description: t('speakers.diegoMury'),
+      image: "./diegoMury.jpg",
+      skills: "Go BTC",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 71,
+      name: "Isabella Rugna",
+      description: t('speakers.isabellaRugna'),
+      image: "./isabellaRugna.jpeg",
+      skills: "Azteco",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 72,
+      name: "Saulo Quinteiro",
+      description: t('speakers.sauloQuinteiro'),
+      image: "./sauloQuinteiro.jpg",
+      skills: "Sats Capital",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 73,
+      name: "Mateus Carvalho",
+      description: t('speakers.mateusCarvalho'),
+      image: "./mateusCarvalho.jpg",
+      skills: "Swan",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
   ]);
   
   return (
