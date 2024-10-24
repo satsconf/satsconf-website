@@ -464,7 +464,7 @@ const SatsWeek = ({ children }) => {
  </p>
             </div>
             <div className="boxButtonnSatsWeek">
-              <BtnIngresso url="https://www.satlantis.io/place/br/so-paulo/s%C3%A3o-paulo/R298285/events?id=naddr1qqjrwepkxqerqvrp95ukywfj956xxc3c95urgv3s956rxd3cxuukvcmyvfskvqgcwaehxw309aex2mrp0yh8xct5d3skuarfwvhxjmczyzu2nhuzrqyyujgd3zp592w53zmu7rajpvdpnwtrhmxk3mt2kh9m6qcyqqq8evc5unpwc"> SE INSCREVER</BtnIngresso>
+              <BtnIngressoBreve url="https://www.satlantis.io/place/br/so-paulo/s%C3%A3o-paulo/R298285/events?id=naddr1qqjrwepkxqerqvrp95ukywfj956xxc3c95urgv3s956rxd3cxuukvcmyvfskvqgcwaehxw309aex2mrp0yh8xct5d3skuarfwvhxjmczyzu2nhuzrqyyujgd3zp592w53zmu7rajpvdpnwtrhmxk3mt2kh9m6qcyqqq8evc5unpwc"> EM BREVE</BtnIngressoBreve>
             </div>
           </div>
         </div>
