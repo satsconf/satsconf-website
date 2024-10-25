@@ -1259,6 +1259,142 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 74,
+      name: "Mateus Nunes",
+      description: t('speakers.mateusNunes'),
+      image: "./mateusNunes.png",
+      skills: "Livecoins",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 76,
+      name: "Jhanisse Vaca Daza",
+      description: t('speakers.jhanisseVaca'),
+      image: "./jhanisseVaca.jpeg",
+      skills: "HRF",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 77,
+      name: "Gustavo Lopes",
+      description: t('speakers.gustavoLopes'),
+      image: "./gustavoLopes.jpeg",
+      skills: "Truther",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 78,
+      name: "Felipe Ojeda",
+      description: t('speakers.gustavoLopes'),
+      image: "./felipeojeda.jpg",
+      skills: "Moshe Internacionalização",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 79,
+      name: "Carlos de Biasi",
+      description: t('speakers.gustavoLopes'),
+      image: "./carlosBiasi.jpeg",
+      skills: "VPBG Advogados",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 80,
+      name: "@skot9000",
+      description: t('speakers.skot'),
+      image: "./skot.jpeg",
+      skills: "Bitaxe",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 81,
+      name: "Ian Major",
+      description: t('speakers.ianMajor'),
+      image: "./ianMajor.jpeg",
+      skills: "Joltz",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 82,
+      name: "Edil Medeiros",
+      description: t('speakers.edilMedeiros'),
+      image: "./edilMedeiros.jpeg",
+      skills: "UnB",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
   ]);
   
   return (
