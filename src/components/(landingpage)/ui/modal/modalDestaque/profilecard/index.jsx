@@ -157,7 +157,7 @@ const ConvidadosSats = () => {
       name: "Diego Kolling",
       description: t('speakers.Diego'),
       image: "./diego-Kolling.png",
-      skills: "NodeRunners Brasil",
+      skills: "Bipa",
       socialMedia: {
         twitter: "https://twitter.com/diegokolling",
         linkedin: "",
