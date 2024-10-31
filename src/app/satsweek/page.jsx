@@ -268,6 +268,46 @@ const SatsWeek = ({ children }) => {
             </div>
           </div>
         </div>
+                 {/* BITDEVS*/} 
+                 <div className="bgEventosSatsWeek">
+          <div className="boxSatsweek">
+            <div className="boxImageWeek">
+
+              <img src="./week/bitdevs.jpeg" alt="" />
+            </div>
+            <div className="boxTitlesEventoWeek">
+              <div className="boxEventDataWeek">
+                <div className="dataWeek">
+                
+                <FaCalendarAlt />
+                <span>8 DE NOVEMBRO DAS 18H30 ÀS 21H
+                </span>
+                <div>
+                </div>
+               
+                
+              </div> 
+              
+            
+              </div>
+            
+              <h3 className="krona-one-regular">SÃO PAULO BITDEVS #030
+ 
+              </h3>
+              <div className="boxLocal">
+                <img src="./local-icon.png" alt="" />
+                <span>Audio | Av. Francisco Matarazzo, 694</span>
+              </div>
+             
+              <p className="sc-fz-12 sora-light ">
+              Edição especial Satsconf 2024. BitDevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e protocolos relacionados. Apesar de as discussões serem técnicas, são abertas a interessados de todos os níveis, vem aprender com a gente!
+ </p>
+            </div>
+            <div className="boxButtonnSatsWeek">
+              <BtnIngresso url="https://www.meetup.com/pt-BR/clubebitcoinsp/events/303963950/"> se inscrever</BtnIngresso>
+            </div>
+          </div>
+        </div>
         {/* BIPA'S AFTER PARTY */} 
         <div className="bgEventosSatsWeek">
           <div className="boxSatsweek">
@@ -305,43 +345,39 @@ const SatsWeek = ({ children }) => {
             </div>
           </div>
         </div>
-         {/* BITDEVS*/} 
-        <div className="bgEventosSatsWeek">
+         {/* Ripio + Lightspark's side event */} 
+         <div className="bgEventosSatsWeek">
           <div className="boxSatsweek">
             <div className="boxImageWeek">
 
-              <img src="./week/bitdevs.jpeg" alt="" />
+              <img src="./week/ripioLight.jpeg" alt="" />
             </div>
             <div className="boxTitlesEventoWeek">
               <div className="boxEventDataWeek">
                 <div className="dataWeek">
                 
                 <FaCalendarAlt />
-                <span>8 DE NOVEMBRO DAS 18H30 ÀS 21H
-                </span>
+                <span>8 DE NOVEMBRO DAS 19h30 às 23h30</span>
                 <div>
                 </div>
                
                 
               </div> 
-              
-            
+          
+                          
               </div>
             
-              <h3 className="krona-one-regular">SÃO PAULO BITDEVS #030
- 
-              </h3>
+              <h3 className="krona-one-regular">Ripio + Lightspark's side event </h3>
               <div className="boxLocal">
                 <img src="./local-icon.png" alt="" />
-                <span>Audio | Av. Francisco Matarazzo, 694</span>
+                <span>Aragon Amauri | R. Amauri, 356</span>
               </div>
              
               <p className="sc-fz-12 sora-light ">
-              Edição especial Satsconf 2024. BitDevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e protocolos relacionados. Apesar de as discussões serem técnicas, são abertas a interessados de todos os níveis, vem aprender com a gente!
- </p>
+              A Ripio e a Lightspark convidam você para um side event incrível! Este é o momento perfeito para relaxar e fazer networking em um ambiente descontraído com open bar e open food.  Venha se conectar com outros profissionais do setor, trocar insights e compartilhar as mais recentes inovações em cripto e tecnologia ✨ Evento para convidados!                </p>
             </div>
             <div className="boxButtonnSatsWeek">
-              <BtnIngresso url="https://www.meetup.com/pt-BR/clubebitcoinsp/events/303963950/"> se inscrever</BtnIngresso>
+              <BtnIngresso url=" https://lu.ma/pkvyif86"> SE INSCREVER</BtnIngresso>
             </div>
           </div>
         </div>

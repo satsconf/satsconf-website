@@ -102,7 +102,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <div className={`dropdown-content ${showDropdown ? "show" : ""}`}>
-                <Link href="/programacao" onClick={handleLinkClickHome}>
+                <Link href="https://agenda.satsconf.com.br/satsconf2024/schedule/" onClick={handleLinkClickHome}>
                  {t("navHeader.schedule")}
                 </Link>
                 <Link href="/satsweek" onClick={handleLinkClickHome}>
