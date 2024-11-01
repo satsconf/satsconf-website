@@ -1244,7 +1244,7 @@ const ConvidadosSats = () => {
     },
     {
       id: 73,
-      name: "Mateus Carvalho",
+      name: "Matt Carvalho",
       description: t('speakers.mateusCarvalho'),
       image: "./mateusCarvalho.jpg",
       skills: "Swan",
@@ -1313,7 +1313,7 @@ const ConvidadosSats = () => {
     {
       id: 78,
       name: "Felipe Ojeda",
-      description: t('speakers.gustavoLopes'),
+      description: t('speakers.felipeojeda'),
       image: "./felipeojeda.jpg",
       skills: "Moshe Internacionalização",
       socialMedia: {
@@ -1330,7 +1330,7 @@ const ConvidadosSats = () => {
     {
       id: 79,
       name: "Carlos de Biasi",
-      description: t('speakers.gustavoLopes'),
+      description: t('speakers.carlosBiasi'),
       image: "./carlosBiasi.jpeg",
       skills: "VPBG Advogados",
       socialMedia: {
@@ -1384,6 +1384,159 @@ const ConvidadosSats = () => {
       description: t('speakers.edilMedeiros'),
       image: "./edilMedeiros.jpeg",
       skills: "UnB",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 83,
+      name: "Pablof7z",
+      description: t('speakers.Pablof7z'),
+      image: "./Pablof7z.jpg",
+      skills: "Sovereign Engineering",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "https://nostr.com/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 84,
+      name: "Pedro",
+      description: t('speakers.PedroPirate'),
+      image: "./PirateHash.jpg",
+      skills: "PirateHash",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 85,
+      name: "Guilherme Kenworthy",
+      description: t('speakers.GuilhermeKen'),
+      image: "./BipaGuilherme.jpeg",
+      skills: "Bipa",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 86,
+      name: "Kevin Hurley",
+      description: t('speakers.KevinH'),
+      image: "./Kevin-Hurley.jpg",
+      skills: "Lightspark",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 87,
+      name: "Victor Stabile",
+      description: t('speakers.VictorStabile'),
+      image: "./Victor-Stabile.jpg",
+      skills: "Refugio",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 88,
+      name: "João Grilo",
+      description: t('speakers.joaoGrilo'),
+      image: "./Trickster.jpg",
+      skills: "Trickster",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 89,
+      name: "João Abitante",
+      description: t('speakers.joaoAbitante'),
+      image: "./joaoAbitante.jpg",
+      skills: "Autista Empreende/Eulen",
+      socialMedia: {
+        twitter: "",
+        link:"https://ahoradaelisaofiscal.com.br/",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 90,
+      name: "Luis Van Der Berg",
+      description: t('speakers.luisVanDer'),
+      image: "./luisVanDer.jpeg",
+      skills: "Hash Invest",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 91,
+      name: "Eduardo Jatahy",
+      description: t('speakers.eduardoJatahy'),
+      image: "./eduardoJatahy.jpg",
+      skills: "Eulen",
       socialMedia: {
         twitter: "",
         link:"",
