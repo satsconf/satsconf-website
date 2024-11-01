@@ -94,7 +94,10 @@
 
 @media (max-width: 768px) {
 
+.boxListPatrocinadores {
+  flex-wrap: wrap
 
+}
 .cotaBase {
   width: 98px;
   max-width: 100%;
