@@ -25,6 +25,35 @@ const BoxPatrocinadores = () => {
               </ul>
             </div>
             <div className="boxPatrocinadores">
+              <h3>{t('Sponsors.three')}</h3>
+              <ul className="boxListPatrocinadores">
+              <li>
+                  {" "}
+                  <img className="cotaBase"  src="/patrocinio/Logo-Livecoins.png" alt="HRF" />
+                </li>
+                <li>
+                  {" "}
+                  <img className="cotaBase" src="/patrocinio/cointelegraph.svg" alt="Cointelegraph" />
+                  
+                </li>
+                <li>
+                  {" "}
+                  <img className="cotaBase" src="/patrocinio/exame-future.PNG" alt="Exame Future of Money" />
+                  
+                </li>
+                <li>
+                  {" "}
+                  <img className="cotaBase" src="/patrocinio/beincrypto.svg" alt="Beincrypto" />
+                  
+                </li>
+                <li>
+                  {" "}
+                  <img className="cotaBase"  src="/patrocinio/portal.svg" alt="Portal Bitcoin" />
+                </li>
+               
+              </ul>
+            </div>
+            <div className="boxPatrocinadores">
               <h3>{t('Sponsors.one')}</h3>
               <ul className="boxListPatrocinadores">
                 <li>
