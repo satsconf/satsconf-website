@@ -85,7 +85,7 @@
 
 .boxPatrocinadores h3 {
   font-size: 24px;
-  margin: 42px;
+  margin: 20px 0 15px 0;
 }
 
 .ContainerBoxPatrocinadores {
@@ -93,15 +93,21 @@
 }
 
 @media (max-width: 768px) {
-
 .boxListPatrocinadores {
-  flex-wrap: wrap
+  flex-wrap: wrap;
+
+}
+
+.boxPatrocinadores {
+  margin: 12px;
+  padding: 40px 0;
 
 }
 .cotaBase {
   width: 98px;
   max-width: 100%;
   height: auto;
+
 }
 
 .cotaPremium {
