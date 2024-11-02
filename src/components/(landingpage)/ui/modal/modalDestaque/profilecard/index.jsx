@@ -1548,6 +1548,108 @@ const ConvidadosSats = () => {
        
       },
     },
+    {
+      id: 92,
+      name: "Francis Mars",
+      description: t('speakers.francisMars'),
+      image: "./francisMars.jpg",
+      skills: "Chain Duel/Pubpay.me",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 93,
+      name: "Luiz Parreira",
+      description: t('speakers.luizParreira'),
+      image: "./luizParreira.jpeg",
+      skills: "Bipa",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 94,
+      name: "Miles Suter",
+      description: t('speakers.milesSuter'),
+      image: "./milesSuter.jpeg",
+      skills: "Cash App",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 95,
+      name: "Giovanni Rosa",
+      description: t('speakers.giovanniRosa'),
+      image: "./giovanniRosa.jpeg",
+      skills: "Convex Research",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 96,
+      name: "Álvaro Salas-Castro",
+      description: t('speakers.alvaroSalas'),
+      image: "./alvaroSalas.jpeg",
+      skills: "Reynolds Foundation",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
+    {
+      id: 97,
+      name: "Arsh Molu",
+      description: t('speakers.arshMolu'),
+      image: "./arshMolu.jpg",
+      skills: "HRF",
+      socialMedia: {
+        twitter: "",
+        link:"",
+        linkedin: "",
+        nostr: "",
+        instagram: "",
+        youtube: "",
+        github: "",
+       
+      },
+    },
   ]);
   
   return (

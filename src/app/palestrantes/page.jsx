@@ -54,7 +54,7 @@ const Palestrantes = ({ children }) => {
               
             </div>
             <div className="container-btn-palestrantes padding-bottom-60 btnContainerConvidadosPalestrantes">
-            <BtnNovidades >{t("buttons.moreSpeakers")}</BtnNovidades>
+            {/* <BtnNovidades >{t("buttons.moreSpeakers")}</BtnNovidades> */}
             </div>
          
           </div>
