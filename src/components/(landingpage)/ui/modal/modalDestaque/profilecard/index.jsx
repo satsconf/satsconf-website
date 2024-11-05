@@ -278,23 +278,23 @@ const ConvidadosSats = () => {
        
       },
     },
-    {
-      id: 17,
-      name: "Ben Arc",
-      description: t('speakers.ben'),
-      image: "./benarc.jpg",
-      skills: "LNbits",
-      socialMedia: {
-        twitter: "https://twitter.com/arcbtc",
-        link:"",
-        linkedin: "",
-        nostr: "https://nostr.com/npub1c878wu04lfqcl5avfy3p5x83ndpvedaxv0dg7pxthakq3jqdyzcs2n8avm",
-        instagram: "",
-        youtube: "",
-        github: "https://github.com/arcbtc",
+    // {
+    //   id: 17,
+    //   name: "Ben Arc",
+    //   description: t('speakers.ben'),
+    //   image: "./benarc.jpg",
+    //   skills: "LNbits",
+    //   socialMedia: {
+    //     twitter: "https://twitter.com/arcbtc",
+    //     link:"",
+    //     linkedin: "",
+    //     nostr: "https://nostr.com/npub1c878wu04lfqcl5avfy3p5x83ndpvedaxv0dg7pxthakq3jqdyzcs2n8avm",
+    //     instagram: "",
+    //     youtube: "",
+    //     github: "https://github.com/arcbtc",
        
-      },
-    },
+    //   },
+    // },
     
     {
       id: 18,
@@ -438,23 +438,23 @@ const ConvidadosSats = () => {
        
       },
     },
-    {
-      id: 26,
-      name: "Adam Nili",
-      description: t('speakers.adam'),
-      image: "./adam.jpg",
-      skills: "Mi Primer Bitcoin",
-      socialMedia: {
-        twitter: "https://x.com/adam_nili",
-        link:"",
-        linkedin: "https://www.linkedin.com/in/adam-nili-a812a8208/?originalSubdomain=pr",
-        nostr: "",
-        instagram: "",
-        youtube: "",
-        github: "",
+    // {
+    //   id: 26,
+    //   name: "Adam Nili",
+    //   description: t('speakers.adam'),
+    //   image: "./adam.jpg",
+    //   skills: "Mi Primer Bitcoin",
+    //   socialMedia: {
+    //     twitter: "https://x.com/adam_nili",
+    //     link:"",
+    //     linkedin: "https://www.linkedin.com/in/adam-nili-a812a8208/?originalSubdomain=pr",
+    //     nostr: "",
+    //     instagram: "",
+    //     youtube: "",
+    //     github: "",
        
-      },
-    },
+    //   },
+    // },
     {
       id: 27,
       name: "Alex Leishman",
