@@ -364,7 +364,9 @@
   "datathree":"NOVEMBER 7th to 10th",
   "textthree":"During Satsconf week, we encourage the Bitcoin community to organize various types of events, meetups, parties, and celebrations.",
   "dataBottomthree":"Throughout São Paulo"
-}
-
-
+},
+  "page2025": {
+    "title": "2025",
+    "subtitle": "SatsConf"
+  }
 }
